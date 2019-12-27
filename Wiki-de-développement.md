@@ -1,0 +1,1 @@
+Ce wiki contient des informations techniques destinées aux développeurs et aux contributeurs d'Archifiltre. Si vous cherchez des informations concernant l'utilisation d'archifiltre, rendez vous ici.
