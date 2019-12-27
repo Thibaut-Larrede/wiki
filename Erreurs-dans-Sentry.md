@@ -1,0 +1,1 @@
+Cette page compile les causes des erreurs classiques remontées dans Sentry, ainsi que les versions des correctifs apportés, si ils ont lieu d'être.
