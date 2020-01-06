@@ -9,7 +9,9 @@ Version : 2.0
 Cause : Une valeur inattendue est reçue à un emplacement du code. Semble être une erreur lié directement au code, à investiguer.
 
 ## Cannot read property 'progress' of undefined ([exemple](https://sentry.fabrique.social.gouv.fr/incubateur/archifiltre/issues/2177))
+
 Version: 2.0
+
 Cause : Erreur lors dans le code de gestion de la progression des empreintes. N'a peut-être aucun impact sur l'affichage, mais il faudrait quand même investiguer.
 
 ## EXCEPTION_ACCESS_VIOLATION_WRITE ([exemple](https://sentry.fabrique.social.gouv.fr/incubateur/archifiltre/issues/2218))
