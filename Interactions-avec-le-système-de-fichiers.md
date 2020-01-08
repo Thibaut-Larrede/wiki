@@ -1,0 +1,1 @@
+Descriptions des interactions avec le système de fichiers et des erreurs pouvant en résulter.
