@@ -2,4 +2,4 @@ Ce wiki contient des informations techniques destinées aux développeurs et aux
 
 ## [Erreurs dans Sentry](https://github.com/SocialGouv/archifiltre/wiki/Erreurs-dans-Sentry)
 
-## [Interaction avec le Système de fichiers]()
+## [Interactions avec le système de fichiers]()
