@@ -4,7 +4,7 @@ Archifiltre est un logiciel destiné à aider les archivistes et les producteurs
 
 ## Wiki utilisateur
 
-// En cours de création
+[[images/image1.jpg]]
 
 ## [Wiki de développement](https://github.com/SocialGouv/archifiltre/wiki/Wiki-de-d%C3%A9veloppement)
 
