@@ -36,4 +36,4 @@ Par nombre :
 
 ## [Wiki de développement](https://github.com/SocialGouv/archifiltre/wiki/Wiki-de-d%C3%A9veloppement)
 
-## [Changelog](https://github.com/SocialGouv/archifiltre/wiki/Changelog)
+## [Historique](https://github.com/SocialGouv/archifiltre/wiki/Historique)
