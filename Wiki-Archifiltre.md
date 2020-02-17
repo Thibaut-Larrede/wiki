@@ -4,6 +4,8 @@ Archifiltre est un logiciel destiné à aider les archivistes et les producteurs
 
 ## Wiki utilisateur
 
+
+
 ### Charger mon répertoire dans Archifiltre
 
 [[images/image2.png]]
@@ -83,6 +85,7 @@ La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peu
 **Attention :**  Bien qu’il soit simple et efficace, le classement chronologique ne peut être utilisé que partiellement.
 
 **Cas 4 – Visualiser l’arborescence par nombre de fichiers**
+
 Par poids :
 [[images/image10.png]]
 Par nombre : 
