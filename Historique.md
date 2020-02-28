@@ -127,7 +127,7 @@ Enfin, la taille des fichiers ou répertoires est maintenant lisible à la verti
 
 Prenez un nouveau départ : un **bouton Réinitialiser** vous permet de vous lancer dans une nouvelle partie de tri !
 Des déboires lors de l‘import ? Un **bouton Exporter les erreurs** sera là pour les détailler. N‘hésitez pas à
-[nous l‘envoyer](mailto:archifiltre@gmail.com)> !
+[nous l‘envoyer](mailto:archifiltre@gmail.com) !
 Les anglophones sont désormais les bienvenus : **l‘application a été traduite en anglais**, et la langue est détectée automatiquement.
 
 Enfin, quelques **améliorations pour l‘interface** : ces transitions agaçantes quand votre souris quitte les stalactites ont disparu, et l‘application s‘adapte un peu mieux à la taille de votre écran.
