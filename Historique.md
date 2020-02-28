@@ -1,3 +1,15 @@
+### v2.1.0
+
+Cette version améliore tout d‘abord les **performances** : **chargement plus rapide**, et **navigation plus fluide** dans l‘interface principale ! Plusieurs améliorations ont été faites pour rendre l‘interface plus claire et lisible, notamment grâce à l‘utilisation de **nouvelles icônes**.
+
+Un nouveau tag est disponible : **“A supprimer”** ! Il permet de marquer un élément comme tel dans l‘interface et tous les exports. De plus, les éléments marqués à supprimer, taggés, avec une description ou un renommage sont désormais visibles directement sur l‘arborescence grâce à un **nouveau code couleur**. Ce code couleur a par ailleurs été amélioré pour couvrir plus de types de fichiers.
+
+Le **fil d‘ariane** à droite de l‘arborescence a aussi été amélioré : on peut cliquer sur ses éléments pour **naviguer**, et même **copier le chemin** des fichiers avec une icône dédiée.
+
+De plus, l‘interface principale s‘enrichit avec plusieurs éléments : **choix de la langue**, affichage du **type d‘un fichier**, et bouton de **rechargement de session**. Chaque action est désormais enregistrée sur votre machine, ce qui permet de restaurer une session : fini les heures de travail perdues à cause d‘un plantage !
+
+Enfin, nous avons enrichi l‘**export CSV** avec de nouvelles informations : **type du fichier, nombre de fichiers d‘un dossier, et date de première modification**. Les autres exports ont par ailleurs bénéficié de corrections de bugs.
+
 ### v2.0.0
 
 Changement de numérotation, cette nouvelle version est la 2.0 ! Les versions précédentes seront précédées par 1. (ex: 1.13).
