@@ -16,7 +16,7 @@ Vous pouvez télécharger gratuitement l'outil Archifiltre en cliquant sur ce li
 
 Choisissez la version que vous désirez installer (la dernière version est automatiquement sélectionnée) et choississez votre explorateur (Windows ; Linux ou Mac). Cliquez ensuite sur "Découvrir l'application". Le téléchargement d'Archifiltre va se lancer automatiquement.
 
-Le fichier s'enregistre sous le nom "Archifiltre.exe". Double-cliquez pour lancer l'exécution du logiciel. Il n'y a pas d'installation à faire, Archifiltre s’exécute immédiatement !
+Le fichier s'enregistre sous le nom "Archifiltre.exe". Double-cliquez pour lancer l'exécution de l'outil. Il n'y a pas d'installation à faire, Archifiltre s’exécute immédiatement !
 
 > **Attention :** Il est possible que votre système d'exploitation ou votre antivirus vous demande si ce programme est sûr, il n'y a pas d'inquiétude à avoir, le logiciel est sans danger, vous pouvez forcer l'installation. 
 
