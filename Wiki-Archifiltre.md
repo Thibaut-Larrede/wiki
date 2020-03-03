@@ -18,7 +18,7 @@ Choisissez la version que vous désirez installer (la dernière version est auto
 
 Le fichier s'enregistre sous le nom "Archifiltre.exe". Double-cliquez pour lancer l'exécution du logiciel. Il n'y a pas d'installation à faire, Archifiltre s’exécute immédiatement !
 
-**Attention :** Il est possible que votre système d'exploitation ou votre antivirus vous demande si ce programme est sûr, il n'y a pas d'inquiétude à avoir, le logiciel est sans danger, vous pouvez forcer l'installation. 
+> **Attention :** Il est possible que votre système d'exploitation ou votre antivirus vous demande si ce programme est sûr, il n'y a pas d'inquiétude à avoir, le logiciel est sans danger, vous pouvez forcer l'installation. 
 
 Lorsque Archifiltre est lancé, pour visualiser votre répertoire, il suffit de réaliser un glisser-déposer.
 
@@ -28,7 +28,7 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
  
 [[images/image5.png]]
 
-**Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes. 
+> **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes. 
 ***
 
 ### 2. Utiliser les fonctionnalités d'Archifiltre
@@ -84,7 +84,7 @@ La visualisation d’Archifiltre étant pondérée par le poids des dossiers, la
 **Que faire ?** Analysez le répertoire en ayant connaissance de l’organigramme et des grandes fonctions de la structure. Par exemple, si on analyse le répertoire d’un service d’archives, il ne sera pas difficile d’y retrouver dès les premiers niveaux, ses grandes missions : collecte, classement, conservation, communication avec quelques dossiers liés à tous les services : gestion du personnel, documentation…
 La visualisation à plat et pondérée doit permettre de dégager l’organisation du service et proposer a minima, un répertoire au deuxième niveau.
 
-**Attention :** Ce cas fonctionne dans le cas où l’arborescence est essentiellement constituée de fichiers bureautique. Si un dossier comporte plusieurs fichiers volumineux (type média) alors la visualisation peut être faussée. Pour s’en assurer il est important d’essayer une visualisation pondérée selon le nombre (II.10).
+> **Attention :** Ce cas fonctionne dans le cas où l’arborescence est essentiellement constituée de fichiers bureautique. Si un dossier comporte plusieurs fichiers volumineux (type média) alors la visualisation peut être faussée. Pour s’en assurer il est important d’essayer une visualisation pondérée selon le nombre (II.10).
 
 **Cas 2 – Des doublons de répertoires au sein de l’arborescence**
 [[images/image8.png]]
@@ -93,7 +93,7 @@ Avant d’entrer plus en détail dans un répertoire, il est important d’en é
 
 **Que faire ?** Pour déterminer plus précisément la situation à laquelle on est confronté, il est inévitable de rentrer plus en profondeur dans l’analyse de ces dossiers. Dans cet exemple, des dossiers et des fichiers de mêmes noms ont été retrouvés. Pour déterminer si les dossiers sont de véritables doublons, un récolement doit être réalisé. Pour cela, chaque dossier doit être intégré, à son niveau le plus haut, dans Archifiltre. Un export csv doit être réalisé quatre fois. Par différentiel, il possible de déterminer avec exactitude quel dossier est le plus complet, quel dossier manque, quel dossiers dispose des dernières versions etc. 
 
-**Attention :** Réaliser un dé-doublonnage est plus compliqué qu’il n’y paraît. Dans cet exemple, il faut déterminer les différences entre ces quatre arborescences : Où sont les fichiers définitifs ? Est-ce qu’on retrouve l’intégralité des fichiers dans la plus grosse arborescence ? Quelle arborescence fait référence ? Un logiciel de dé-doublonnage va supprimer les fichiers sans déterminer une logique de tri. La visualisation de doublons impose donc un travail de réflexion en amont. 
+> **Attention :** Réaliser un dé-doublonnage est plus compliqué qu’il n’y paraît. Dans cet exemple, il faut déterminer les différences entre ces quatre arborescences : Où sont les fichiers définitifs ? Est-ce qu’on retrouve l’intégralité des fichiers dans la plus grosse arborescence ? Quelle arborescence fait référence ? Un logiciel de dé-doublonnage va supprimer les fichiers sans déterminer une logique de tri. La visualisation de doublons impose donc un travail de réflexion en amont. 
 
 **Cas 3 – Une arborescence chronologique**
 [[images/image7.png]]
@@ -102,7 +102,7 @@ La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peu
 
 **Que faire ?** Pour une analyse du répertoire à échelle macro, la visualisation pondérée n’apporte aucune plus-value. En revanche, il est possible de s’appuyer sur l’ensemble des métadonnées pour aborder l’arborescence d’une autre manière. Lorsqu’un répertoire à une date de dernière modification qui remonte à plusieurs années, on peut considérer alors que ce dossier est clos. A l’instar du papier, il est possible de débuter l’évaluation. 
 
-**Attention :**  Bien qu’il soit simple et efficace, le classement chronologique ne peut être utilisé que partiellement.
+> **Attention :**  Bien qu’il soit simple et efficace, le classement chronologique ne peut être utilisé que partiellement.
 
 **Cas 4 – Visualiser l’arborescence par nombre de fichiers**
 Par poids :
@@ -110,8 +110,10 @@ Par poids :
 Par nombre : 
 [[images/image9.png]]
 
+***
+## Autres wiki et documentation sur Archifiltre :
 
-## [Wiki de développement](https://github.com/SocialGouv/archifiltre/wiki/Wiki-de-d%C3%A9veloppement)
+### [Wiki de développement](https://github.com/SocialGouv/archifiltre/wiki/Wiki-de-d%C3%A9veloppement)
 
-## [Historique](https://github.com/SocialGouv/archifiltre/wiki/Historique)
+### [Historique](https://github.com/SocialGouv/archifiltre/wiki/Historique)
 ***
