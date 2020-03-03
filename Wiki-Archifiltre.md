@@ -1,12 +1,21 @@
-# Bienvenue sur le wiki Archifiltre
+# Bienvenue sur le wiki Archifiltre 📃 
 
 Archifiltre est un logiciel destiné à aider les archivistes et les producteurs de documents bureautiques à appréhender des arborescences complètes de fichiers pour les traiter.
 
 # Sommaire : 
-1. Installer Archifiltre et charger mon répertoire
-2. Utiliser les fonctionnalités d'Archifiltre
-3. Mener une opération d'audit et de collecte
-4. Traiter un fonds d'archives électroniques
+#### 1. Installer Archifiltre et charger mon répertoire
+#### 2. Utiliser les fonctionnalités d'Archifiltre    
+  Je souhaite étudier la structure d’une arborescence    
+  Je souhaite faire des recommandations techniques sur une arborescence    
+  Je souhaite faire des préconisations à partir d’Archifiltre    
+  Je souhaite trouver facilement des éliminables    
+  Je souhaite faire du tri à partir d’Archifiltre    
+  Je souhaite faire du traitement de masse
+  Je souhaite rédiger un bordereau d’élimination    
+  Je souhaite organiser un Cleaning-Day à partir d’Archifiltre    
+#### 3. Mener une opération d'audit et de collecte
+#### 4. Traiter un fonds d'archives électroniques
+2. Utiliser les fonctionnalités d'Archifiltre|Utiliser les fonctionnalités d'Archifiltre
 
 ## Wiki utilisateur
 
