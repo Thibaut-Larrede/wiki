@@ -1,26 +1,45 @@
 # Bienvenue sur le wiki Archifiltre
 
-Archifiltre est un logiciel destiné à aider les archivistes et les producteurs de documents bureautiques à appréhender des arborescences complètes de fichiers pour les traiter.
+Archifiltre est un logiciel destiné à aider les archivistes et les producteurs de documents bureautiques à appréhender des arborescences complètes de fichiers pour les traiter.    
+
+# Sommaire : 
+1. Installer Archifiltre et charger mon répertoire
+2. Utiliser les fonctionnalités d'Archifiltre
+3. Mener une opération d'audit et de collecte
+4. Traiter un fonds d'archives électroniques
 
 ## Wiki utilisateur
 
+### 1. Installer Archifiltre et charger mon répertoire
 
+Vous pouvez télécharger gratuitement l'outil Archifiltre en cliquant sur ce lien : https://archifiltre.fabrique.social.gouv.fr
 
-### Charger mon répertoire dans Archifiltre
+Choisissez la version que vous désirez installer (la dernière version est automatiquement sélectionnée) et choississez votre explorateur (Windows ; Linux ou Mac). Cliquez ensuite sur "Découvrir l'application". Le téléchargement d'Archifiltre va se lancer automatiquement.
+
+Le fichier s'enregistre sous le nom "Archifiltre.exe". Double-cliquez pour lancer l'exécution du logiciel. Il n'y a pas d'installation à faire, Archifiltre s’exécute immédiatement !
+
+**Attention :** Il est possible que votre système d'exploitation ou votre antivirus vous demande si ce programme est sûr, il n'y a pas d'inquiétude à avoir, le logiciel est sans danger, vous pouvez forcer l'installation. 
+
+Lorsque Archifiltre est lancé, pour visualiser votre répertoire, il suffit de réaliser un glisser-déposer.
 
 [[images/image2.png]]
 
-Pour visualiser votre répertoire, il suffit de réaliser un glisser-déposer.
+Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour lire les quelques astuces en bas de la page et découvrir les nouvelles fonctionnalités de la version en cliquant sur le lien "quoi de neuf ?"
+ 
+[[images/image5.png]]
 
-**Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes. Profitez-en pour lire les quelques astuces !
+**Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes. 
+***
 
-### Utiliser les fonctionnalités d'Archifiltre
+### 2. Utiliser les fonctionnalités d'Archifiltre
 
 01. Renommer un répertoire ou un fichier en cliquant dans cette zone. Le renommage n’est effectif que dans Archifiltre. En renommant, vous attribuer un nouveau nom à l’objet tout en conservant l’ancien nom (visible entre parenthèse en dessous). 
 L’icône de dossier ou de fichier avec une loupe permet d’ouvrir directement l’objet pour pouvoir le consulter (il faut que le lien entre Archifiltre et le répertoire ne soit pas rompu). 
 Peut être utile dans le cadre d’une proposition de modification de l’arborescence ou bien lors du traitement d’un fonds électronique.
+
 02. Le tag permet d’appliquer à un dossier ou à un fichier une information. Cette information s’ajoute à la bibliothèque des tags (voir n°5). Attention, lorsque l’on applique un tag sur un dossier, le tag s’applique à l’ensemble des dossiers et fichiers contenu dans ce dossier. Lorsqu’un tag est appliqué il se visualise par un liseré bleu sur le haut du dossier (ex : au-dessus du numéro 11)
 Peut être utile dans le cadre d’un audit en appliquant des actions à réaliser (à éliminer, à archiver, à transférer…) ou dans le cadre du traitement en appliquant une action à un dossier (ISAD-G)
+
 03. La description permet d’ajouter à un dossier ou à un fichier des informations.
 Peut être utile dans le cadre d’un audit, pour justifier un sort final. La description peut être utilisée dans le cadre du traitement en tant que « présentation du contenu » (ISAD-G) ou « scope content » (Balise de la Description Archivistique Encodée).
 04. La zone des métadonnées permet de connaître pour un dossier ou pour un fichier son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous. L’Explication du hash se retrouve dans la partie III. 4.
@@ -51,19 +70,20 @@ Peut être utilisé comme outil de dialogue avec un service (proposition
 15. La carte vous permet de savoir où vous êtes dans l’arborescence lorsque vous naviguez au sein de celle-ci. Lorsque l’on descend à plusieurs sous-niveaux, la carte vous permet de vous resituer dans l’arborescence. 
 Peut-être utile lors de l’audit ou du traitement afin d’orienter son niveau d’analyse. Lorsqu’on étudie une partie infinitésimale de l’arborescence, mieux vaut ne pas s’y attarder.  
 
-[[images/image5.png]]
-
-### Mener une opération d’audit et de collecte
+***
+### 3. Mener une opération d’audit et de collecte
 Le génie d’Archifiltre vous permet de réaliser tous vos souhaits, il ne reste plus qu’à le choisir !
 
 #### Je souhaite étudier la structure d’une arborescence
 
 **Cas 1 – Une arborescence mal pensée**
 [[images/image4.png]]
+
 La visualisation d’Archifiltre étant pondérée par le poids des dossiers, la visualisation du répertoire peut permettre en quelque secondes de constater que le répertoire n’est pas construit dans une logique fonctionnelle ni organisationnelle. Ici, on peut constater un dysfonctionnement dès le deuxième niveau du répertoire.
 
 **Que faire ?** Analysez le répertoire en ayant connaissance de l’organigramme et des grandes fonctions de la structure. Par exemple, si on analyse le répertoire d’un service d’archives, il ne sera pas difficile d’y retrouver dès les premiers niveaux, ses grandes missions : collecte, classement, conservation, communication avec quelques dossiers liés à tous les services : gestion du personnel, documentation…
 La visualisation à plat et pondérée doit permettre de dégager l’organisation du service et proposer a minima, un répertoire au deuxième niveau.
+
 **Attention :** Ce cas fonctionne dans le cas où l’arborescence est essentiellement constituée de fichiers bureautique. Si un dossier comporte plusieurs fichiers volumineux (type média) alors la visualisation peut être faussée. Pour s’en assurer il est important d’essayer une visualisation pondérée selon le nombre (II.10).
 
 **Cas 2 – Des doublons de répertoires au sein de l’arborescence**
@@ -85,7 +105,6 @@ La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peu
 **Attention :**  Bien qu’il soit simple et efficace, le classement chronologique ne peut être utilisé que partiellement.
 
 **Cas 4 – Visualiser l’arborescence par nombre de fichiers**
-
 Par poids :
 [[images/image10.png]]
 Par nombre : 
@@ -95,3 +114,4 @@ Par nombre :
 ## [Wiki de développement](https://github.com/SocialGouv/archifiltre/wiki/Wiki-de-d%C3%A9veloppement)
 
 ## [Historique](https://github.com/SocialGouv/archifiltre/wiki/Historique)
+***
