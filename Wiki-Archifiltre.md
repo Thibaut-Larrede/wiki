@@ -1,25 +1,24 @@
 # Bienvenue sur le wiki Archifiltre 📃 
 
-Archifiltre est un logiciel destiné à aider les archivistes et les producteurs de documents bureautiques à appréhender des arborescences complètes de fichiers pour les traiter.
+L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bureautiques un outil de visualisation d’arborescences complètes afin de pouvoir les appréhender rapidement en vue de les décrire, les organiser, les trier et aussi les enrichir en apportant de la contextualisation et de la qualification aux documents.
 
 # Sommaire : 
 #### 1. Installer Archifiltre et charger mon répertoire
 #### 2. Utiliser les fonctionnalités d'Archifiltre    
-  Repérer les données sur le répertoire étudié    
-  Visualiser et naviguer dans un répertoire    
-  Utiliser les fonctionnalités    
-  Utiliser les exports    
+  2.1 Repérer les données sur le répertoire étudié    
+  2.2 Visualiser et naviguer dans un répertoire    
+  2.3 Utiliser les fonctionnalités    
+  2.4 Utiliser les exports    
 #### 3. Mener une opération d'audit et de collecte
-  Je souhaite étudier la structure d’une arborescence    
-  Je souhaite faire des recommandations techniques sur une arborescence    
-  Je souhaite faire des préconisations à partir d’Archifiltre    
-  Je souhaite trouver facilement des éliminables    
-  Je souhaite faire du tri à partir d’Archifiltre    
-  Je souhaite faire du traitement de masse
-  Je souhaite rédiger un bordereau d’élimination    
-  Je souhaite organiser un Cleaning-Day à partir d’Archifiltre 
+  3.1 Je souhaite étudier la structure d’une arborescence _(en cours)_    
+  3.2 Je souhaite faire des recommandations techniques sur une arborescence _(à venir)_    
+  3.3 Je souhaite faire des préconisations à partir d’Archifiltre _(à venir)_    
+  3.4 Je souhaite trouver facilement des éliminables _(à venir)_    
+  3.5 Je souhaite faire du tri à partir d’Archifiltre _(à venir)_     
+  3.6 Je souhaite faire du traitement de masse _(à venir)_    
+  3.7 Je souhaite rédiger un bordereau d’élimination _(à venir)_        
+  3.8 Je souhaite organiser un Cleaning-Day à partir d’Archifiltre _(à venir)_ 
 #### 4. Traiter un fonds d'archives électroniques
-2. Utiliser les fonctionnalités d'Archifiltre|Utiliser les fonctionnalités d'Archifiltre
 
 ## Wiki utilisateur
 
@@ -105,31 +104,11 @@ Il est également possible de générer un rapport d’audit automatique
 
 > _Le bouton « Fermer » permet de quitter l’analyse en cours et de revenir à l’écran d’accueil d’Archifiltre afin de charger un nouveau répertoire. En cas d'erreur, il est possible d'ouvrir à nouveau Archifiltre et de charger le répertoire sur lequel on travaillait et de restaurer l'ensemble de son travail._
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ***
 ### 3. Mener une opération d’audit et de collecte
 Le génie d’Archifiltre vous permet de réaliser tous vos souhaits, il ne reste plus qu’à le choisir !
 
-#### Je souhaite étudier la structure d’une arborescence
+#### 3.1 Je souhaite étudier la structure d’une arborescence
 
 **Cas 1 – Une arborescence mal pensée**
 [[images/image4.png]]
