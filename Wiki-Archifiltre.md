@@ -5,6 +5,11 @@ Archifiltre est un logiciel destiné à aider les archivistes et les producteurs
 # Sommaire : 
 #### 1. Installer Archifiltre et charger mon répertoire
 #### 2. Utiliser les fonctionnalités d'Archifiltre    
+  Repérer les données sur le répertoire étudié    
+  Visualiser et naviguer dans un répertoire    
+  Utiliser les fonctionnalités    
+  Utiliser les exports    
+#### 3. Mener une opération d'audit et de collecte
   Je souhaite étudier la structure d’une arborescence    
   Je souhaite faire des recommandations techniques sur une arborescence    
   Je souhaite faire des préconisations à partir d’Archifiltre    
@@ -12,8 +17,7 @@ Archifiltre est un logiciel destiné à aider les archivistes et les producteurs
   Je souhaite faire du tri à partir d’Archifiltre    
   Je souhaite faire du traitement de masse
   Je souhaite rédiger un bordereau d’élimination    
-  Je souhaite organiser un Cleaning-Day à partir d’Archifiltre    
-#### 3. Mener une opération d'audit et de collecte
+  Je souhaite organiser un Cleaning-Day à partir d’Archifiltre 
 #### 4. Traiter un fonds d'archives électroniques
 2. Utiliser les fonctionnalités d'Archifiltre|Utiliser les fonctionnalités d'Archifiltre
 
@@ -41,43 +45,85 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
 ***
 
 ### 2. Utiliser les fonctionnalités d'Archifiltre
+#### 2.1 Repérer les données sur l'arborescence
 
-01. Renommer un répertoire ou un fichier en cliquant dans cette zone. Le renommage n’est effectif que dans Archifiltre. En renommant, vous attribuer un nouveau nom à l’objet tout en conservant l’ancien nom (visible entre parenthèse en dessous). 
-L’icône de dossier ou de fichier avec une loupe permet d’ouvrir directement l’objet pour pouvoir le consulter (il faut que le lien entre Archifiltre et le répertoire ne soit pas rompu). 
-Peut être utile dans le cadre d’une proposition de modification de l’arborescence ou bien lors du traitement d’un fonds électronique.
+* La zone des métadonnées permet de connaître pour un dossier (ou pour un fichier), son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous.    
+_Peut être utile comme critère de recherche dans un audit (recherche des dossiers clos et anciens)._
 
-02. Le tag permet d’appliquer à un dossier ou à un fichier une information. Cette information s’ajoute à la bibliothèque des tags (voir n°5). Attention, lorsque l’on applique un tag sur un dossier, le tag s’applique à l’ensemble des dossiers et fichiers contenu dans ce dossier. Lorsqu’un tag est appliqué il se visualise par un liseré bleu sur le haut du dossier (ex : au-dessus du numéro 11)
-Peut être utile dans le cadre d’un audit en appliquant des actions à réaliser (à éliminer, à archiver, à transférer…) ou dans le cadre du traitement en appliquant une action à un dossier (ISAD-G)
+* La zone d’informations sur le répertoire permet de connaître le nombre de dossiers, de fichiers et la volumétrie totale. Il est également possible de donner un nom à l’analyse Archifiltre en cliquant sur « Nom du projet ».    
+_Peut-être utile pour appréhender, dans un premier temps, l’aborescence._
 
-03. La description permet d’ajouter à un dossier ou à un fichier des informations.
-Peut être utile dans le cadre d’un audit, pour justifier un sort final. La description peut être utilisée dans le cadre du traitement en tant que « présentation du contenu » (ISAD-G) ou « scope content » (Balise de la Description Archivistique Encodée).
-04. La zone des métadonnées permet de connaître pour un dossier ou pour un fichier son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous. L’Explication du hash se retrouve dans la partie III. 4.
-Peut être utile comme critère de recherche dans un audit (recherche des dossiers clos et anciens).
-05. La bibliothèque de tags permet de retrouver l’ensemble des tags qui ont été appliqués dans le répertoire. Cette bibliothèque permet de réutiliser les tags et de les appliquer en appuyant sur le « + » mais aussi de les comptabiliser en nombre et en volumétrie concernée. Il possible également de supprimer un tag appliqué en cliquant sur la corbeille.
-Peut être utile pour un retour d’audit sur le nombre de dossier éliminable, la volumétrie…
-06. La zone d’informations sur le répertoire permet de connaître le nombre de dossiers, de fichiers et la volumétrie totale. Il est également possible de donner un nom à l’analyse Archifiltre en cliquant sur « Nom du projet ».
-Peut-être utile pour appréhender, dans un premier temps, l’aborescence.
-07. Le bouton enregistrer permet de sauvegarder le travail réalisé dans Archifiltre. L’enregistrement génère un fichier à l’extension JSON. Ce fichier peut être chargé dans Archifiltre en faisant le glisser-déposer. Le chargement du fichier est très rapide, quelle que soit la taille de l’arborescence.
-Peut être utilisé comme outil de dialogue avec un service (proposition 
-08. Le bouton « Exporter » permet de regrouper les métadonnées récupérées et générées dans Archifiltre sous un autre format. Il est d’exporter :
-* Au format csv (Voir III.4)
-* Au format csv avec calcul d’empreintes (colonne en plus dans l’export, voir III.4)
-* Au format exploitable par le logiciel RESIP (voir IV.)
-* Au format METS (Metadata Encoding and Transmission Standard)
-* Il est également possible de générer un rapport d’audit (voir III. 2)
-09. Le bouton « Fermer » permet de quitter l’analyse en cours et de revenir à l’écran d’accueil d’Archifiltre afin de charger un nouveau répertoire.
-10. La barre d’outils de visualisation dispose de plusieurs fonctionnalités :
-* Retour à la racine : permet de revenir à la visualisation initiale du répertoire. 
-* Type : l’affichage du répertoire se fait selon le volume. La visualisation n’est plus celle de Windows mais une visualisation pondérée selon le poids des dossiers.
-* Dates : l’affichage du répertoire est toujours pondéré selon le poids des dossiers. En revanche le classement des fichiers et les couleurs attribuées aux fichiers et aux dossiers sont réalisés selon les métadonnées de dates. Le classement se fait du plus ancien (à gauche et en foncé) au plus récent (à droite, en clair). 
-* Volume : c’est l’option de visualisation qui est activée par défaut. Elle permet de voir votre arborescence selon une pondération par volume/poids de vos dossiers.
-* Nombre : C’est une solution alternative pour visualiser votre arborescence. L’ordre affiché du répertoire reste le même, mais la pondération se fait selon le nombre de fichiers. Un dossier avec de nombreux fichiers, même peu volumineux, apparaîtra plus grand qu’un dossier contenant peu de fichiers mais volumineux.
-11. Vous pouvez naviguer dans le répertoire avec votre souris. En cliquant sur un dossier ou sur un fichier, les données propres à l’objet s’affichent dans la zone des métadonnées (01, 02,03, 04) mais aussi en bas de la visualisation avec la taille de l’objet mais aussi le pourcentage de l’espace qu’il occupe au sein du répertoire total. Si vous souhaitez naviguez plus profondément dans l’arborescence, il suffit de double-cliquer sur le dossier et un zoom en pondérant à nouveau selon la nouvelle visualisation. Si vous souhaitez analyser plus en détail l’objet, il est possible d’ouvrir le dossier ou le fichier sélectionné en cliquant sur la loupe à côté du nom de l’objet (01).
-12. Au plus bas de votre répertoire, vous visualiser les fichiers. Des codes couleurs ont été attribués aux fichiers selon leur nature. Ils reprennent en partie  les couleurs utilisés par les logiciels de bureautique : vert (tableurs), bleu (traitement de texte), rouge (présentation ou pdf), bleu indigo (messagerie), violet (multimédia), gris (dossiers compressés, format particulier…) 
-13. Cette zone permet de suivre le chemin d’accès jusqu’au dossier ou fichier que l’on étudie.
-14. La barre de chargement permet de savoir l’avancé du calcul d’empreinte. Plus le répertoire comporte un nombre élevé de fichier plus le calcul est long. Lorsque le calcul est disponible, l’export csv et le rapport d’audit peuvent être générés (08)
-15. La carte vous permet de savoir où vous êtes dans l’arborescence lorsque vous naviguez au sein de celle-ci. Lorsque l’on descend à plusieurs sous-niveaux, la carte vous permet de vous resituer dans l’arborescence. 
-Peut-être utile lors de l’audit ou du traitement afin d’orienter son niveau d’analyse. Lorsqu’on étudie une partie infinitésimale de l’arborescence, mieux vaut ne pas s’y attarder.  
+#### 2.2 Visualiser et naviguer dans un répertoire
+
+* La barre d’outils de visualisation dispose de plusieurs fonctionnalités :    
+**Retour à la racine** : permet de revenir à la visualisation initiale du répertoire.    
+**Code couleur** :   
+_Type_ : l’affichage du répertoire se fait selon le volume. La visualisation n’est plus celle de Windows mais une visualisation pondérée selon le poids des dossiers.    
+_Dates_ : l’affichage du répertoire est toujours pondéré selon le poids des dossiers. En revanche le classement des fichiers et les couleurs attribuées aux fichiers et aux dossiers sont réalisés selon les métadonnées de dates. Le classement se fait du plus ancien (en foncé) au plus récent (en clair).        
+**Affichage** :     
+_Volume_ : c’est l’option de visualisation qui est activée par défaut. Elle permet de voir votre arborescence selon une pondération par volume/poids de vos dossiers.    
+*_Nombre_* : C’est une solution alternative pour visualiser votre arborescence. L’ordre affiché du répertoire reste le même, mais la pondération se fait selon le nombre de fichiers. Un dossier avec de nombreux fichiers, même peu volumineux, apparaîtra plus grand qu’un dossier contenant peu de fichiers mais volumineux.    
+
+* Vous pouvez naviguer dans le répertoire avec votre souris. En cliquant sur un dossier ou sur un fichier, les données propres à l’objet s’affichent dans la zone des métadonnées, mais aussi en bas de la visualisation avec la taille de l’objet mais aussi le pourcentage de l’espace qu’il occupe au sein du répertoire total. Si vous souhaitez naviguez plus profondément dans l’arborescence, il suffit de double-cliquer sur le dossier et un zoom en pondérant à nouveau selon la nouvelle visualisation. Si vous souhaitez analyser plus en détail l’objet, il est possible d’ouvrir le dossier ou le fichier sélectionné en cliquant sur la loupe à côté du nom de l’objet.
+
+* Au plus bas de votre répertoire, vous visualiser les fichiers. Des codes couleurs ont été attribués aux fichiers selon leur nature. Ils reprennent en partie  les couleurs utilisés par les logiciels de bureautique : rouge foncé (pdf), rouge clair (présentation), vert (tableurs), bleu clair (messageries), bleu foncé (traitement de texte), violet clair (images), violet foncé (vidéo), rose (musiques) et gris (dossiers compressés, formats particuliers)
+
+* Le fil d'Ariane permet de suivre le chemin d’accès jusqu’au dossier ou fichier que l’on étudie. On peut copier le chemin d'accès en sélectionnant le niveau du chemin d'accès désiré et en cliquant sur le petit icône apparaissant. 
+
+* La carte vous permet de savoir où vous êtes dans l’arborescence lorsque vous naviguez au sein de celle-ci. Lorsque l’on descend à plusieurs sous-niveaux, la carte vous permet de vous resituer dans l’arborescence.     
+_Peut-être utile lors de l’audit ou du traitement afin d’orienter son niveau d’analyse. Lorsqu’on étudie une partie infinitésimale de l’arborescence, mieux vaut ne pas s’y attarder._  
+
+#### 2.3 Utiliser les fonctionnalités
+
+* La barre de chargement permet de savoir l’avancé du calcul d’empreinte.    
+_Plus le répertoire comporte un nombre élevé de fichier plus le calcul est long. Lorsque le calcul est disponible, l’export csv et le rapport d’audit peuvent être générés_
+
+* Renommer un répertoire ou un fichier en cliquant dans cette zone. Le renommage n’est effectif que dans Archifiltre. En renommant, vous attribuer un nouveau nom à l’objet tout en conservant l’ancien nom (visible entre parenthèse en dessous). 
+L’icône de dossier ou de fichier avec une loupe permet d’ouvrir directement l’objet pour pouvoir le consulter (il faut que le lien entre Archifiltre et le répertoire ne soit pas rompu).    
+_Peut être utile dans le cadre d’une proposition de modification de l’arborescence ou bien lors du traitement d’un fonds électronique._
+
+* Le tag permet d’appliquer à un dossier ou à un fichier une information. Cette information s’ajoute à la bibliothèque des tags. **Attention**, lorsque l’on applique un tag sur un dossier, le tag s’applique à l’ensemble des dossiers et fichiers contenu dans ce dossier. Lorsqu’un tag est appliqué il se visualise par un liseré bleu foncé sur le haut de l'item.    
+_Peut être utile dans le cadre d’un audit en appliquant des actions à réaliser (à éliminer, à archiver, à transférer…) ou dans le cadre du traitement en appliquant une action à un dossier (ISAD-G) ou faire un rapprochement intellectuel (type répertoire méthodique)_
+
+* La bibliothèque de tags permet de retrouver l’ensemble des tags qui ont été appliqués dans le répertoire. Cette bibliothèque permet de réutiliser les tags et de les appliquer en appuyant sur le « + » mais aussi de les comptabiliser en nombre et en volumétrie concernée. Il possible également de supprimer un tag appliqué en cliquant sur la corbeille.    
+_Peut être utile pour un retour d’audit sur le nombre de dossier éliminable, la volumétrie…_
+
+* La description permet d’ajouter à un dossier ou à un fichier des informations.    
+_Peut être utile dans le cadre d’un audit, pour justifier un sort final. La description peut être utilisée dans le cadre du traitement en tant que « présentation du contenu » (ISAD-G) ou « scope content » (Balise de la Description Archivistique Encodée)._
+
+#### 2.4 Utiliser les exports
+
+* Le bouton enregistrer permet de sauvegarder le travail réalisé dans Archifiltre. L’enregistrement génère un fichier à l’extension JSON. Ce fichier peut être chargé dans Archifiltre en faisant le glisser-déposer. Le chargement du fichier est très rapide, quelle que soit la taille de l’arborescence.    
+_Peut être utilisé comme outil de dialogue avec un service pour faire des propositions de tri_ 
+
+* Le bouton « Exporter » permet de regrouper les métadonnées récupérées et générées dans Archifiltre sous un autre format. Il est d’exporter :    
+Au format csv.
+Au format csv avec calcul d’empreintes    
+Au format exploitable par le logiciel RESIP    
+Au format METS (Metadata Encoding and Transmission Standard)    
+Il est également possible de générer un rapport d’audit automatique    
+
+> _Le bouton « Fermer » permet de quitter l’analyse en cours et de revenir à l’écran d’accueil d’Archifiltre afin de charger un nouveau répertoire. En cas d'erreur, il est possible d'ouvrir à nouveau Archifiltre et de charger le répertoire sur lequel on travaillait et de restaurer l'ensemble de son travail._
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ***
 ### 3. Mener une opération d’audit et de collecte
