@@ -38,7 +38,7 @@ Lorsque Archifiltre est lancé, pour visualiser votre répertoire, il suffit de 
 
 Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour lire les quelques astuces en bas de la page et découvrir les nouvelles fonctionnalités de la version en cliquant sur le lien "quoi de neuf ?"
  
-[[images/image5.png]]
+[[images/image_2.JPG]]
 
 > **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes. 
 ***
