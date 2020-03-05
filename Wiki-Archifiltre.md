@@ -34,11 +34,11 @@ Le fichier s'enregistre sous le nom "Archifiltre.exe". Double-cliquez pour lance
 
 Lorsque Archifiltre est lancé, pour visualiser votre répertoire, il suffit de réaliser un glisser-déposer.
 
-[[images/image2.png]]
+[[images/1.1_glisser-deposer.png]]
 
 Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour lire les quelques astuces en bas de la page et découvrir les nouvelles fonctionnalités de la version en cliquant sur le lien "quoi de neuf ?"
  
-[[images/image_2.JPG]]
+[[images/1.2_chargement.png]]
 
 > **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes. 
 ***
@@ -114,7 +114,7 @@ Le génie d’Archifiltre vous permet de réaliser tous vos souhaits, il ne rest
 #### 3.1 Je souhaite étudier la structure d’une arborescence
 
 **Cas 1 – Une arborescence mal pensée**
-[[images/image4.png]]
+[[images/3.1.1.1_structure-volumine.png]]
 
 La visualisation d’Archifiltre étant pondérée par le poids des dossiers, la visualisation du répertoire peut permettre en quelque secondes de constater que le répertoire n’est pas construit dans une logique fonctionnelle ni organisationnelle. Ici, on peut constater un dysfonctionnement dès le deuxième niveau du répertoire.
 
@@ -124,7 +124,7 @@ La visualisation à plat et pondérée doit permettre de dégager l’organisati
 > **Attention :** Ce cas fonctionne dans le cas où l’arborescence est essentiellement constituée de fichiers bureautique. Si un dossier comporte plusieurs fichiers volumineux (type média) alors la visualisation peut être faussée. Pour s’en assurer il est important d’essayer une visualisation pondérée selon le nombre (II.10).
 
 **Cas 2 – Des doublons de répertoires au sein de l’arborescence**
-[[images/image8.png]]
+[[images/3.1.1.2_structure-redondante.png]]
 
 Avant d’entrer plus en détail dans un répertoire, il est important d’en étudier sa structure par sa visualisation. Ici, il n’est pas difficile de voir que l’arborescence présente quatre fois une structuration similaire. Pour qu’un tel résultat apparaisse dans la visualisation globale du répertoire, il y a deux possibilités : soit il y a un classement sériel (type chronologique, géographique…) soit il y a des dossiers similaires créés à des endroits différents et qui comportent plus ou moins les mêmes fichiers (puisque la visualisation est pondérée par poids).
 
@@ -133,7 +133,7 @@ Avant d’entrer plus en détail dans un répertoire, il est important d’en é
 > **Attention :** Réaliser un dé-doublonnage est plus compliqué qu’il n’y paraît. Dans cet exemple, il faut déterminer les différences entre ces quatre arborescences : Où sont les fichiers définitifs ? Est-ce qu’on retrouve l’intégralité des fichiers dans la plus grosse arborescence ? Quelle arborescence fait référence ? Un logiciel de dé-doublonnage va supprimer les fichiers sans déterminer une logique de tri. La visualisation de doublons impose donc un travail de réflexion en amont. 
 
 **Cas 3 – Une arborescence chronologique**
-[[images/image7.png]]
+[[images/3.1.1.3_structure-chrono.png]]
 
 La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peut donner les premières clefs d’analyse et d’audit. Toutefois, certains bureaux peuvent être amenés à avoir une production sérielle, qui peut être classée de façon chronologique. A plus ou moins grande échelle, tous les bureaux ont une partie d’arborescence sérielle. Le chrono-courrier d’un secrétariat, les dossiers de gestion annuelle d’un bureau des ressources humaines, le registre d’entrée ou d’élimination du bureau des archives etc. 
 
@@ -141,11 +141,21 @@ La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peu
 
 > **Attention :**  Bien qu’il soit simple et efficace, le classement chronologique ne peut être utilisé que partiellement.
 
-**Cas 4 – Visualiser l’arborescence par nombre de fichiers**
-Par poids :
-[[images/image10.png]]
-Par nombre : 
-[[images/image9.png]]
+**Cas 4 – Visualiser l’arborescence par nombre de fichiers**    
+
+_Visualisation par poids :_    
+[[images/3.1.1.4_structure-volume.png]]
+
+Étudier une arborescence contenant des fichiers volumineux n’est pas pertinente avec la pondération par poids. De fait, plus un fichier est volumineux, plus sa visualisation au sein de l’arborescence est importante. Si le volume par poids peut être un indicateur de tri, il n’y n’est pas forcément un bon indicateur dans un audit ou une opération de collecte. Avec la pondération par poids, notre arborescence ci-dessous, nous oriente vers une priorisation du tri du premier et du deuxième dossier au premier niveau. 
+
+**Que faire ?**
+
+_Visualisation par nombre :_     
+[[images/3.1.1.4_structure-nombre.png]]
+
+Si l’on utilise la visualisation par nombre (exemple ci-dessus), les indicateurs sont totalement différents. Ce changement de visualisation offre une nouvelle grille d’analyse de l’arborescence. Dans ce deuxième exemple, on constate que le troisième dossier dispose d’une arborescence complexe et d’une profondeur dépassant les 15 niveaux.
+
+> **Attention :** Ces indicateurs ne sont que des éléments d'analyse pour appréhender le répertoire. Lorsque nous sommes confronté à un archivage à réaliser, nous quantifions toujours ce qu'il y a à traiter pour définir notre plan d'action et adapter nos méthodes de travail selon le volume. Nous n'allons pas traiter de la même manière l'archivage d'une armoire, d'un local ou d'un service entier. Cette capacité d'adaptation de l'archiviste, se transpose ici, en électronique, avec la visualisation par poids et par volume. 
 
 ***
 ## Autres wiki et documentation sur Archifiltre :
