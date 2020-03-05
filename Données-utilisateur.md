@@ -1,0 +1,14 @@
+Archifiltre n'exploite pas les données personnelles des utilisateurs. Cependant, nous utilisons [Matomo](https://fr.matomo.org/), un outil open-source pour avoir des statistiques d'utilisation sur notre outil. Lorsque vous utilisez Archifiltre, voici les informations auxquelles nous avons accès :
+- Au dépôt de fichiers 
+  - le nombre de fichiers déposés
+  - leur répartition par extension
+  - le temps total du chargement
+- Export en CSV (mais pas son contenu)
+- Export en RESIP (mais pas son contenu)
+- Export en METS (mais pas son contenu)
+- Export d'un rapport d'audit (mais pas son contenu)
+- Ajout d'une description à un élément
+- Ajout d'un tag à un élément
+- Changement entre vue par nombre et par volume
+- Changement entre vue par type et par date
+- Double-clic sur un élément pour zoomer dessus
