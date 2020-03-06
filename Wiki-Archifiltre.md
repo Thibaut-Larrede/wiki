@@ -46,15 +46,20 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
 ### 2. Utiliser les fonctionnalités d'Archifiltre
 #### 2.1 Repérer les données sur l'arborescence
 
-* La zone des métadonnées permet de connaître pour un dossier (ou pour un fichier), son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous.    
+* La zone des métadonnées :     
+Elle permet de connaître pour un dossier (ou pour un fichier), son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous.    
 _Peut être utile comme critère de recherche dans un audit (recherche des dossiers clos et anciens)._
 
-* La zone d’informations sur le répertoire permet de connaître le nombre de dossiers, de fichiers et la volumétrie totale. Il est également possible de donner un nom à l’analyse Archifiltre en cliquant sur « Nom du projet ».    
+
+* La zone d’informations sur le répertoire :        
+[[images/2.1_entete.png]]     
+Elle permet de connaître le nombre de dossiers, de fichiers et la volumétrie totale. Il est également possible de donner un nom à l’analyse Archifiltre en cliquant sur « Nom du projet ».    
 _Peut-être utile pour appréhender, dans un premier temps, l’aborescence._
 
 #### 2.2 Visualiser et naviguer dans un répertoire
 
-* La barre d’outils de visualisation dispose de plusieurs fonctionnalités :    
+* La barre d’outils de visualisation :      
+[[images/2.2_boutons.png]]    
 **Retour à la racine** : permet de revenir à la visualisation initiale du répertoire.    
 **Code couleur** :   
 _Type_ : l’affichage du répertoire se fait selon le volume. La visualisation n’est plus celle de Windows mais une visualisation pondérée selon le poids des dossiers.    
@@ -63,34 +68,48 @@ _Dates_ : l’affichage du répertoire est toujours pondéré selon le poids des
 _Volume_ : c’est l’option de visualisation qui est activée par défaut. Elle permet de voir votre arborescence selon une pondération par volume/poids de vos dossiers.    
 *_Nombre_* : C’est une solution alternative pour visualiser votre arborescence. L’ordre affiché du répertoire reste le même, mais la pondération se fait selon le nombre de fichiers. Un dossier avec de nombreux fichiers, même peu volumineux, apparaîtra plus grand qu’un dossier contenant peu de fichiers mais volumineux.    
 
-* Vous pouvez naviguer dans le répertoire avec votre souris. En cliquant sur un dossier ou sur un fichier, les données propres à l’objet s’affichent dans la zone des métadonnées, mais aussi en bas de la visualisation avec la taille de l’objet mais aussi le pourcentage de l’espace qu’il occupe au sein du répertoire total. Si vous souhaitez naviguez plus profondément dans l’arborescence, il suffit de double-cliquer sur le dossier et un zoom en pondérant à nouveau selon la nouvelle visualisation. Si vous souhaitez analyser plus en détail l’objet, il est possible d’ouvrir le dossier ou le fichier sélectionné en cliquant sur la loupe à côté du nom de l’objet.
+* La navigation dans le répertoire :     
+Vous pouvez naviguer dans le répertoire avec votre souris. En cliquant sur un dossier ou sur un fichier, les données propres à l’objet s’affichent dans la zone des métadonnées, mais aussi en bas de la visualisation avec la taille de l’objet mais aussi le pourcentage de l’espace qu’il occupe au sein du répertoire total. Si vous souhaitez naviguez plus profondément dans l’arborescence, il suffit de double-cliquer sur le dossier et un zoom en pondérant à nouveau selon la nouvelle visualisation. Si vous souhaitez analyser plus en détail l’objet, il est possible d’ouvrir le dossier ou le fichier sélectionné en cliquant sur la loupe à côté du nom de l’objet.
 
-* Au plus bas de votre répertoire, vous visualiser les fichiers. Des codes couleurs ont été attribués aux fichiers selon leur nature. Ils reprennent en partie  les couleurs utilisés par les logiciels de bureautique : rouge foncé (pdf), rouge clair (présentation), vert (tableurs), bleu clair (messageries), bleu foncé (traitement de texte), violet clair (images), violet foncé (vidéo), rose (musiques) et gris (dossiers compressés, formats particuliers)
+* La visualisation des fichiers et typologies :     
+[[images/2.2_couleursfichiers.png]]     
+Au plus bas de votre répertoire, vous visualiser les fichiers. Des codes couleurs ont été attribués aux fichiers selon leur nature. Ils reprennent en partie  les couleurs utilisés par les logiciels de bureautique : rouge foncé (pdf), rouge clair (présentation), vert (tableurs), bleu clair (messageries), bleu foncé (traitement de texte), violet clair (images), violet foncé (vidéo), rose (musiques) et gris (dossiers compressés, formats particuliers)
 
-* Le fil d'Ariane permet de suivre le chemin d’accès jusqu’au dossier ou fichier que l’on étudie. On peut copier le chemin d'accès en sélectionnant le niveau du chemin d'accès désiré et en cliquant sur le petit icône apparaissant. 
+* Le fil d'Ariane    
+[[images/2.2_filariane.png]]    
+Il permet de suivre le chemin d’accès jusqu’au dossier ou fichier que l’on étudie. On peut copier le chemin d'accès en sélectionnant le niveau du chemin d'accès désiré et en cliquant sur le petit icône apparaissant. 
 
-* La carte vous permet de savoir où vous êtes dans l’arborescence lorsque vous naviguez au sein de celle-ci. Lorsque l’on descend à plusieurs sous-niveaux, la carte vous permet de vous resituer dans l’arborescence.     
+* La carte :     
+Elle vous permet de savoir où vous êtes dans l’arborescence lorsque vous naviguez au sein de celle-ci. Lorsque l’on descend à plusieurs sous-niveaux, la carte vous permet de vous resituer dans l’arborescence.     
 _Peut-être utile lors de l’audit ou du traitement afin d’orienter son niveau d’analyse. Lorsqu’on étudie une partie infinitésimale de l’arborescence, mieux vaut ne pas s’y attarder._  
 
 #### 2.3 Utiliser les fonctionnalités
 
-* La barre de chargement permet de savoir l’avancé du calcul d’empreinte.    
+* La barre de chargement du calcul d’empreinte :        
 _Plus le répertoire comporte un nombre élevé de fichier plus le calcul est long. Lorsque le calcul est disponible, l’export csv et le rapport d’audit peuvent être générés_
 
-* Renommer un répertoire ou un fichier en cliquant dans cette zone. Le renommage n’est effectif que dans Archifiltre. En renommant, vous attribuer un nouveau nom à l’objet tout en conservant l’ancien nom (visible entre parenthèse en dessous). La visualisation d'un renommage dans Archifiltre est notifié par un liseré bleu clair. 
+* Renommer un répertoire ou un fichier :      
+Vous pouvez le réaliser en cliquant dans cette zone. Le renommage n’est effectif que dans Archifiltre. En renommant, vous attribuer un nouveau nom à l’objet tout en conservant l’ancien nom (visible entre parenthèse en dessous). La visualisation d'un renommage dans Archifiltre est notifié par un liseré bleu clair. 
 _Peut être utile dans le cadre d’une proposition de modification de l’arborescence ou bien lors du traitement d’un fonds électronique._    
 
-* L’icône de dossier ou de fichier avec une loupe permet d’ouvrir directement l’objet pour pouvoir le consulter (il faut que le lien entre Archifiltre et le répertoire ne soit pas rompu).     
+* L’ouverture d'un item :     
+L'icône de dossier ou de fichier avec une loupe permet d’ouvrir directement l’objet pour pouvoir le consulter (il faut que le lien entre Archifiltre et le répertoire ne soit pas rompu). 
 
-* Le tag permet d’appliquer à un dossier ou à un fichier une information. Cette information s’ajoute à la bibliothèque des tags. **Attention**, lorsque l’on applique un tag sur un dossier, le tag s’applique à l’ensemble des dossiers et fichiers contenu dans ce dossier. Lorsqu’un tag est appliqué il se visualise par un liseré bleu foncé sur le haut de l'item.    
+* Le tag :    
+[[images/2.3_tags.png]]    
+Le tag permet d’appliquer à un dossier ou à un fichier une information. Cette information s’ajoute à la bibliothèque des tags. **Attention**, lorsque l’on applique un tag sur un dossier, le tag s’applique à l’ensemble des dossiers et fichiers contenu dans ce dossier. Lorsqu’un tag est appliqué il se visualise par un liseré bleu foncé sur le haut de l'item.    
 _Peut être utile dans le cadre d’un audit en appliquant des actions à réaliser (à éliminer, à archiver, à transférer…) ou dans le cadre du traitement en appliquant une action à un dossier (ISAD-G) ou faire un rapprochement intellectuel (type répertoire méthodique)_
 
-* Le tag "A supprimer" est un tag automatisé qui permet de s'appliquer en l'ensemble du répertoire fils. Lors de l'export RESIP les items ayant le tag "A supprimer" ne sont pas exportés.
+* Le tag "A supprimer" :     
+[[images/2.3_tagsupp.png]]    
+Ce tag est un tag automatisé qui permet de s'appliquer en l'ensemble du répertoire fils. Lors de l'export RESIP les items ayant le tag "A supprimer" ne sont pas exportés.
 
-* La bibliothèque de tags permet de retrouver l’ensemble des tags qui ont été appliqués dans le répertoire. Cette bibliothèque permet de réutiliser les tags et de les appliquer en appuyant sur le « + » mais aussi de les comptabiliser en nombre et en volumétrie concernée. Il possible également de supprimer un tag appliqué en cliquant sur la corbeille.    
+* La bibliothèque de tags :    
+Elle permet de retrouver l’ensemble des tags qui ont été appliqués dans le répertoire. Cette bibliothèque permet de réutiliser les tags et de les appliquer en appuyant sur le « + » mais aussi de les comptabiliser en nombre et en volumétrie concernée. Il possible également de supprimer un tag appliqué en cliquant sur la corbeille.    
 _Peut être utile pour un retour d’audit sur le nombre de dossier éliminable, la volumétrie…_
 
-* La description permet d’ajouter à un dossier ou à un fichier des informations. La visualisation de l'ajout d'une description se fait avec un liseré bleu sur l'item enrichi.    
+* La description :      
+Elle permet d’ajouter à un dossier ou à un fichier des informations. La visualisation de l'ajout d'une description se fait avec un liseré bleu sur l'item enrichi.    
 _Peut être utile dans le cadre d’un audit, pour justifier un sort final. La description peut être utilisée dans le cadre du traitement en tant que « présentation du contenu » (ISAD-G) ou « scope content » (Balise de la Description Archivistique Encodée)._
 
 #### 2.4 Utiliser les exports
