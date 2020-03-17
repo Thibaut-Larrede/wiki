@@ -12,7 +12,7 @@ L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bur
 #### 3. Mener une opération d'audit et de collecte
   3.1 Je souhaite étudier la structure d’une arborescence _(en cours)_    
   3.2 Je souhaite faire des recommandations techniques sur une arborescence _(à venir)_    
-  3.3 Je souhaite faire des préconisations à partir d’Archifiltre _(à venir)_    
+  3.3 Je souhaite faire des préconisations à partir d’Archifiltre    
   3.4 Je souhaite trouver facilement des éliminables _(à venir)_    
   3.5 Je souhaite faire du tri à partir d’Archifiltre _(à venir)_     
   3.6 Je souhaite faire du traitement de masse _(à venir)_    
@@ -175,6 +175,62 @@ _Visualisation par nombre :_
 Si l’on utilise la visualisation par nombre (exemple ci-dessus), les indicateurs sont totalement différents. Ce changement de visualisation offre une nouvelle grille d’analyse de l’arborescence. Dans ce deuxième exemple, on constate que le troisième dossier dispose d’une arborescence complexe et d’une profondeur dépassant les 15 niveaux.
 
 > **Attention :** Ces indicateurs ne sont que des éléments d'analyse pour appréhender le répertoire. Lorsque nous sommes confronté à un archivage à réaliser, nous quantifions toujours ce qu'il y a à traiter pour définir notre plan d'action et adapter nos méthodes de travail selon le volume. Nous n'allons pas traiter de la même manière l'archivage d'une armoire, d'un local ou d'un service entier. Cette capacité d'adaptation de l'archiviste, se transpose ici, en électronique, avec la visualisation par poids et par volume. 
+
+### 3. Mener une opération d'audit et de collecte
+
+#### 3.3 Je souhaite faire des préconisations à partir d’Archifiltre
+
+Comme chaque projet, il est important de définir le cadre d’action et le rôle de chaque personne. Dans un projet d’audit ou de préconisation sur une arborescence, il est indispensable de définir les attentes et les besoins du service. De fait, si l’archiviste s’engage à fournir un livrable contenant l’ensemble des préconisations (problèmes, solutions, point fort, point faible), le service audité doit également s’impliquer dans le plan d’action et le calendrier définit en amont. 
+
+##### **Première étape : faire une analyse macro de l’arborescence**
+
+Archifiltre permet de connaître l’ensemble des métadonnées de l’arborescence en un seul coup d’œil. 
+
+Sans même naviguer au sein de l’arborescence, il est déjà possible de dégager des pistes de réflexions, d’orientation pour nos préconisations.
+
+L’indice de la volumétrie de l’arborescence. On peut mettre en relief ce chiffre avec celui d’autres services, calculer son pourcentage d’occupation de l’espace serveur. 
+
+Les métadonnées de dates peuvent également donner une orientation. Le fichier le plus ancien date de 1980 et la date moyenne se situe à 2010 et la médiane à 2000. On peut d’ores-et-déjà estimer que des dossiers sont clos et peuvent être archivés ou éliminés.
+
+L’indication du nombre de fichiers et de dossiers peut être parlante si l’on dispose de moyens de comparaison. Si on ne dispose pas de moyens de comparaison, on peut faire le ratio nombre de fichiers / nombres de dossiers. Ici : 104812/7721=13,5. Cette information et purement théorique, mais une arborescence où le ratio descend à moins de dix fichiers, on peut de suite savoir qu’il y a un problème d’organisation. L’arborescence est trop ramifiée et l’information perdue. 
+
+##### **Deuxième étape : proposer un rapport d’audit**
+
+Pour débuter un rapport d’audit, il faut dans un premier s’appuyer sur le rapport d’audit générer automatiquement par Archifiltre. C’est un format texte et modifiable, il peut être compléter et modifié sur sa forme. 
+
+L’audit généré automatiquement réalise des préconisations essentiellement techniques. C’est au tour de l’archiviste de l’agrémenter d’éléments d’analyse plus approfondie.  
+
+**Cas 1 – Proposer des améliorations de règles de nommage**
+
+Dans cet exemple, le fil d’Ariane visualisé dans Archifiltre permet de voir l’ensemble du chemin d’accès jusqu’au fichier. On peut voir de nombreuses redondances. En les identifiants par des codes couleurs, il facile de faire comprendre au service qu’il n’est pas utile de reprendre les informations du niveau supérieur. Chaque niveau dans l’arborescence doit avoir une information complémentaire, sinon son existence n’est pas utile.
+
+En retravaillant très peu l’arborescence (en renommage et en déplacement), il est possible de montrer au service que le chemin d’accès peut être fortement réduit et plus explicite. Avec l’exemple ci-dessous, il est possible de réduire la longueur chemin d’accès de 46% : 
+
+\PREST\5 - SUIVI DES MARCHES et des CONVENTIONS\2 - MARCHES et CONVENTIONS\Section MOBILIERS DEMENAGEMENTS MANUTENTION\MARCHE DEMENAGEMENTS\Marché 2017-2021 ORGANIDEM\1 - Prépa DCE + procd\Analyse candidatures et offres\Compléments offres\3 réponses\2 NASSE DEMECO\2ème Réponse Groupe Nasse\2ème réponse Groupe Nasse\Cas pratiques - destruction mobilier, garde meuble Rectifié 22 decembre 2016.xlsx
+
+PREST\5_Marchés-et-conventions\2_Suivi\1_Section-déménagements-manutention\1_2017-2021\1_DCE_procédures\1_Candidatures_et_offres\1_Compléments\3_Réponses\2_Nasse-demeco\1_2e_réponse\20161222_cas-pratique-déménagement 
+
+**Cas 2 – Proposer des pistes de réorganisation de l’arborescence**
+
+La fin de la deuxième étape est l’occasion de lancer une réflexion sur la construction de l’arborescence et les choix qui ont été fait.
+
+Dans chaque arborescence, il y a des cas que l’on voit revenir systématiquement et qui sont toujours sources de problèmes et qui doivent attirer notre attention.
+
+* Les dossiers personnels
+
+Ces dossiers ont une logique d’organisation personnelle, souvent peut utilisés par les collaborateurs. Les dossiers sont souvent sources de redondances de fichiers ou de versioning (les versions intermédiaires dans le dossier perso et la version finale sur le serveur commun).
+
+* Les dossiers thématiques
+
+Prenons l’exemple des dossiers de ressources humaines. Les services ont tendance à classer par thématiques :
+RH > Recrutement > Contractuel > Non-abouti > Monsieur X ; Madame X ; Madame Y ; …
+
+Or la durée d’utilité administrative de ces dossiers est de 5 ans. Il est donc utile de créer un niveau pour réaliser un classement chronologique, facilitant ainsi le traitement.
+
+RH > Recrutement > Contractuel > Non-abouti > 2019 (Monsieur X ; Madame Y) ; 2020 (Madame X) ; …
+
+> **Attention :** Faire des préconisations engage l’archiviste à fournir un travail en amont de toutes actions. Il est important de s’assurer de l’implication du service et de travailler par étapes. Restructurer une arborescence prend beaucoup de temps aux deux acteurs. Il faut procéder par étape. Par exemple, définir et établir une arborescence de premier niveau puis fignoler  par étapes/niveaux. 
+
 
 ***
 ## Autres wiki et documentation sur Archifiltre :
