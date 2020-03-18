@@ -178,7 +178,7 @@ Si l’on utilise la visualisation par nombre (exemple ci-dessus), les indicateu
 
 ### 3. Mener une opération d'audit et de collecte
 
-#### 3.3 Je souhaite faire des préconisations à partir d’Archifiltre
+#### 3.1 Je souhaite faire des préconisations à partir d’Archifiltre
 
 Comme chaque projet, il est important de définir le cadre d’action et le rôle de chaque personne. Dans un projet d’audit ou de préconisation sur une arborescence, il est indispensable de définir les attentes et les besoins du service. De fait, si l’archiviste s’engage à fournir un livrable contenant l’ensemble des préconisations (problèmes, solutions, point fort, point faible), le service audité doit également s’impliquer dans le plan d’action et le calendrier définit en amont. 
 
@@ -230,6 +230,76 @@ Or la durée d’utilité administrative de ces dossiers est de 5 ans. Il est do
 RH > Recrutement > Contractuel > Non-abouti > 2019 (Monsieur X ; Madame Y) ; 2020 (Madame X) ; …
 
 > **Attention :** Faire des préconisations engage l’archiviste à fournir un travail en amont de toutes actions. Il est important de s’assurer de l’implication du service et de travailler par étapes. Restructurer une arborescence prend beaucoup de temps aux deux acteurs. Il faut procéder par étape. Par exemple, définir et établir une arborescence de premier niveau puis fignoler  par étapes/niveaux. 
+
+#### 3.2 Je souhaite faire des recommandations techniques sur une arborescence
+
+**S’appuyer sur le rapport d’audit**
+
+Lorsqu’on génère un rapport d’audit automatiquement depuis Archifiltre, de nombreuses données sont analysées et structurées. 
+
+_1 Les chiffres clés sur l’arborescence :_
+
+Dans cette première partie, il s’agit de faire un état des lieux de l’arborescence du service audité : le nombre de dossiers, le nombre de fichiers, la taille de l’arborescence, les dates extrêmes, le nom du fichier le plus long, le chemin d’accès le plus long et le nombre de niveaux de profondeur maximum.
+L’objectif de cette première partie est de donner, à une échelle macro, les premiers problèmes de l’arborescence. 
+
+_2 Répartition des éléments par types d’extension_
+
+Cette rubrique a pour objectif de pondérer l’arborescence selon les types de fichiers produit. Cette indication n’est qu’un élément d’orientation pour un audit. Par exemple, la présence en masse de fichiers de type tableur peut indiquer la conservation d’un grand nombre de fichiers de suivi ou d’export de logiciels. Une présence très importante de fichiers de type média peut indiquer une utilisation non approprié ou abusive du réseau commun. 
+
+_3 Top 5 des répertoires/dossiers le plus anciens_
+
+Dans cette partie, est mis en avant, les dossiers dont les dernières dates de modification sont les plus anciennes du répertoire. Cette information peut être une orientation pour collecter ou éliminer réglementairement ces dossiers.
+
+_4 Top 5 des répertoires/dossiers les plus volumineux_
+
+A l’instar des archives papier, la volumétrie reste toujours un premier indicateur pour approcher un fonds à évaluer, collecter, traiter.
+
+_5, 6 et 7 Les redondances_
+
+Dans ces deux parties sont renseignés les éléments en redondance au sein du répertoire avec une estimation du volume et de la quantité que cela représente.
+
+**Etudier les chemins d’accès**
+
+Le chemin d’accès d’un fichier ou d’un répertoire est la chaine de caractères décrivant la position du fichier ou du répertoire dans le système. En d’autres termes, le chemin d’accès l’ensemble des niveaux en partant du disque dur ou serveur, jusqu’au fichier. Le fil d’Ariane dans Archifiltre est une partie du chemin d’accès. 
+
+_Pourquoi faut-il étudier les chemins d’accès ?_ 
+
+Pour des raisons techniques, les chemins d’accès ne peuvent dépasser 250 caractères. 
+Cette limite peut vite être atteinte avec une arborescence trop profondeur. Elle peut également être vite atteinte à cause du nommage d’un fichier.
+
+Par exemple un fichier situé à un niveau 4, peut vite devenir bloquant s’il est mal nommé.
+
+> J://Direction/Archives/0_Procédures-et-doc/Textes/loi n 78-753du 17 juillet 1978 portant diverses mesures d'amélioration des relations entre l'administration et le public et diverses dispositions d'ordre administratif social et fiscal
+
+Dans cet exemple, le fichier à simplement été enregistré sans être renommé. Le chemin d’accès atteint déjà 235 caractères sur 250.
+
+_Pourquoi faut-il surveiller la longueur des chemins d’accès de mon répertoire ?_
+
+ Un fichier dont le chemin d’accès dépasse le cadre maximal ne peut plus être consulté ni même déplacé. De même, lorsqu’on souhaite déplacer des dossiers, le transfert peut être bloqué en raison de chemins d’accès trop long.
+
+_Comment identifier l’ensemble de mes chemins d’accès trop long ?_
+
+Pour connaître l’ensemble des chemins d’accès trop long, il faut réaliser un export csv. Dans l’export csv, une colonne est consacrée au chemin d’accès. Si l’on applique un filtre, il est possible de demande au tableur de ressortir l’ensemble des chemins d’accès dépassant le chiffre 250.
+ 
+ 
+_Comment y remédier ?_
+
+Il n’y a pas d’autre solution que le renommage. Selon les situations, il peut être fait en masse ou manuellement. Il également possible de supprimer les niveaux intermédiaires inutiles. 
+
+**Etudier les profondeurs de l’arborescence**
+
+Comme expliqué dans la rubrique ci-dessus, plus il y aura de profondeur dans l’arborescence plus le chemin d’accès est allongé. De outre, plus l’utilisateur doit naviguer dans l’arborescence plus le risque de perte de l’information est importante.
+
+_Quelle profondeur d’arborescence doit-on conseiller ?_
+
+Il est conseillé de ne pas dépasser plus de dix niveaux de profondeurs. Il est important de transposer sa pratique électronique à celle du papier. Qui ouvrirait plus de dix dossiers à la suite pour accéder à sa feuille ? Une arborescence trop profonde n’est pas fonctionnelle. Le risque est que l’utilisateur copie les documents ailleurs dans l’arborescence voire ne retrouve pas les documents en question.
+
+_Comment identifier les différentes profondeurs de mon arborescence ?_
+
+Pour connaître la valeur des niveaux de profondeur de mon arborescence, il faut réaliser un export csv. Dans l’export csv, une colonne est consacrée à la profondeur de l’arborescence. Si l’on applique un filtre, il est possible de demande au tableur de ressortir l’ensemble des niveaux de profondeur dépassant le chiffre 10.
+ 
+
+
 
 
 ***
