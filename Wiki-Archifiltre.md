@@ -50,6 +50,12 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
 Elle permet de connaître pour un dossier (ou pour un fichier), son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous.    
 _Peut être utile comme critère de recherche dans un audit (recherche des dossiers clos et anciens)._
 
+* Les dates des répertoires :    
+Moyenne : valeur moyenne de la date de dernière modification pour l’ensemble des fichiers du répertoire sélectionné. Cela équivaut à calculer la moyenne d’âge des fichiers. Cette valeur n’est pas toujours très intéressante : elle peut être faussée quand quelques fichiers présentent des dates très anciennes (ou à l’inverse très récentes) alors que la majorité ont des dates relevant de la même période. Dans ce cas, ils faussent la valeur de la moyenne.    
+Médiane : la moitié des fichiers ont une date antérieure à la valeur médiane, la moitié une date supérieure.    
+Lorsque les deux barres moyenne et médiane sont proches, cela signifie que le dossier présente une homogénéité des dates de dernière modification : elles sont rapprochées dans le temps, et il y a très peu de documents qui s’écartent de cette période.    
+Les deux petites barres noires permettent par ailleurs de situer les dates extrêmes du répertoire sélectionné par rapport à l’ensemble de l’arborescence étudiée.    
+> **Attention :** la métadonnée de dernière modification correspond normalement à la date de dernier enregistrement du fichier. Cette métadonnée n’est toutefois pas toujours fiable. Il arrive qu’elle soit modifiée lorsque le fichier est ouvert (par exemple pour les mails) alors même que ce fichier n’a pas été modifié.    
 
 * La zone d’informations sur le répertoire :        
 [[images/2.1_entete.png]]     
