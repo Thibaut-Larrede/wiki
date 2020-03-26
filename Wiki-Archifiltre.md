@@ -40,7 +40,7 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
  
 [[images/1.2_chargement.png]]
 
-> **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes. 
+> **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes
 ***
 
 ### 2. Utiliser les fonctionnalités d'Archifiltre
