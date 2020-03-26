@@ -46,19 +46,21 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
 ### 2. Utiliser les fonctionnalités d'Archifiltre
 #### 2.1 Repérer les données sur l'arborescence
 
-* La zone des métadonnées :     
+* La zone des métadonnées :   
+[[images/2.1.1_zone-métadonnée.PNG]]      
 Elle permet de connaître pour un dossier (ou pour un fichier), son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous.    
 _Peut être utile comme critère de recherche dans un audit (recherche des dossiers clos et anciens)._
 
 * Les dates des répertoires :    
+[[images/2.1.2_dates-répertoires.PNG]]    
 Moyenne : valeur moyenne de la date de dernière modification pour l’ensemble des fichiers du répertoire sélectionné. Cela équivaut à calculer la moyenne d’âge des fichiers. Cette valeur n’est pas toujours très intéressante : elle peut être faussée quand quelques fichiers présentent des dates très anciennes (ou à l’inverse très récentes) alors que la majorité ont des dates relevant de la même période. Dans ce cas, ils faussent la valeur de la moyenne.    
 Médiane : la moitié des fichiers ont une date antérieure à la valeur médiane, la moitié une date supérieure.    
 Lorsque les deux barres moyenne et médiane sont proches, cela signifie que le dossier présente une homogénéité des dates de dernière modification : elles sont rapprochées dans le temps, et il y a très peu de documents qui s’écartent de cette période.    
 Les deux petites barres noires permettent par ailleurs de situer les dates extrêmes du répertoire sélectionné par rapport à l’ensemble de l’arborescence étudiée.    
 > **Attention :** la métadonnée de dernière modification correspond normalement à la date de dernier enregistrement du fichier. Cette métadonnée n’est toutefois pas toujours fiable. Il arrive qu’elle soit modifiée lorsque le fichier est ouvert (par exemple pour les mails) alors même que ce fichier n’a pas été modifié.    
 
-* La zone d’informations sur le répertoire :        
-[[images/2.1_entete.png]]     
+* La zone d’informations sur le répertoire :      
+[[images/2.1.3_entete.png]]     
 Elle permet de connaître le nombre de dossiers, de fichiers et la volumétrie totale. Il est également possible de donner un nom à l’analyse Archifiltre en cliquant sur « Nom du projet ».    
 _Peut-être utile pour appréhender, dans un premier temps, l’aborescence._
 
@@ -74,7 +76,8 @@ _Dates_ : l’affichage du répertoire est toujours pondéré selon le poids des
 _Volume_ : c’est l’option de visualisation qui est activée par défaut. Elle permet de voir votre arborescence selon une pondération par volume/poids de vos dossiers.    
 *_Nombre_* : C’est une solution alternative pour visualiser votre arborescence. L’ordre affiché du répertoire reste le même, mais la pondération se fait selon le nombre de fichiers. Un dossier avec de nombreux fichiers, même peu volumineux, apparaîtra plus grand qu’un dossier contenant peu de fichiers mais volumineux.    
 
-* La navigation dans le répertoire :     
+* La navigation dans le répertoire :    
+[[images/2.2_navigation-répertoires.PNG]]   
 Vous pouvez naviguer dans le répertoire avec votre souris. En cliquant sur un dossier ou sur un fichier, les données propres à l’objet s’affichent dans la zone des métadonnées, mais aussi en bas de la visualisation avec la taille de l’objet mais aussi le pourcentage de l’espace qu’il occupe au sein du répertoire total. Si vous souhaitez naviguez plus profondément dans l’arborescence, il suffit de double-cliquer sur le dossier et un zoom en pondérant à nouveau selon la nouvelle visualisation. Si vous souhaitez analyser plus en détail l’objet, il est possible d’ouvrir le dossier ou le fichier sélectionné en cliquant sur la loupe à côté du nom de l’objet.
 
 * La visualisation des fichiers et typologies :     
@@ -86,6 +89,7 @@ Au plus bas de votre répertoire, vous visualiser les fichiers. Des codes couleu
 Il permet de suivre le chemin d’accès jusqu’au dossier ou fichier que l’on étudie. On peut copier le chemin d'accès en sélectionnant le niveau du chemin d'accès désiré et en cliquant sur le petit icône apparaissant. 
 
 * La carte :     
+[[images/2.2_map.PNG]]    
 Elle vous permet de savoir où vous êtes dans l’arborescence lorsque vous naviguez au sein de celle-ci. Lorsque l’on descend à plusieurs sous-niveaux, la carte vous permet de vous resituer dans l’arborescence.     
 _Peut-être utile lors de l’audit ou du traitement afin d’orienter son niveau d’analyse. Lorsqu’on étudie une partie infinitésimale de l’arborescence, mieux vaut ne pas s’y attarder._  
 
