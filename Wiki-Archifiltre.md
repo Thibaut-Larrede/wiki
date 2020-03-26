@@ -47,7 +47,7 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
 #### 2.1 Repérer les données sur l'arborescence
 
 * La zone des métadonnées :   
-[[images/2.1.1_zone-métadonnée.png]]      
+[[images/2.1.1_zone-metadonnee.png]]      
 Elle permet de connaître pour un dossier (ou pour un fichier), son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous.    
 _Peut être utile comme critère de recherche dans un audit (recherche des dossiers clos et anciens)._
 
