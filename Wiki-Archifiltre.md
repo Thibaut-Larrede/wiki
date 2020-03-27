@@ -119,7 +119,8 @@ Ce tag est un tag automatisé qui permet de s'appliquer en l'ensemble du répert
 
 * La bibliothèque de tags :    
 [[images/2-3-6_bibliotheque.png]]    
-Elle permet de retrouver l’ensemble des tags qui ont été appliqués dans le répertoire. Cette bibliothèque permet de réutiliser les tags et de les appliquer en appuyant sur le « + » mais aussi de les comptabiliser en nombre et en volumétrie concernée. Il possible également de supprimer un tag appliqué en cliquant sur la corbeille.    
+Elle permet de retrouver l’ensemble des tags qui ont été appliqués dans le répertoire. Cette bibliothèque permet de réutiliser les tags et de les appliquer en appuyant sur le « + » mais aussi de les comptabiliser en nombre et en volumétrie concernée (zone grisée à l'arrière). Il possible également de supprimer un tag appliqué en cliquant sur la corbeille.    
+Il est possible de renommer un tag depuis la bibliothèque en cliquant dessus.    
 _Peut être utile pour un retour d’audit sur le nombre de dossier éliminable, la volumétrie…_
 
 * La description :      
