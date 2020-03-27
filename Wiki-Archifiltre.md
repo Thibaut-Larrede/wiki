@@ -44,7 +44,7 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
 
 > **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes
 
-Votre ordinateur a planté pendant votre session de travail ? Il possible de restaurer votre travail en relaçant Archifiltre et en cliquant sur "Recharger la session précédente". Vous retrouverez votre travail là où il s'est arrêté.
+Votre ordinateur a planté pendant votre session de travail ? Il possible de restaurer votre travail en relançant Archifiltre et en cliquant sur "Recharger la session précédente". Vous retrouverez votre travail là où il s'est arrêté.
 
 [[images/1-3_recharger.png]]
 
@@ -182,7 +182,7 @@ La visualisation à plat et pondérée doit permettre de dégager l’organisati
 
 Avant d’entrer plus en détail dans un répertoire, il est important d’en étudier sa structure par sa visualisation. Ici, il n’est pas difficile de voir que l’arborescence présente quatre fois une structuration similaire. Pour qu’un tel résultat apparaisse dans la visualisation globale du répertoire, il y a deux possibilités : soit il y a un classement sériel (type chronologique, géographique…) soit il y a des dossiers similaires créés à des endroits différents et qui comportent plus ou moins les mêmes fichiers (puisque la visualisation est pondérée par poids).
 
-**Que faire ?** Pour déterminer plus précisément la situation à laquelle on est confronté, il est inévitable de rentrer plus en profondeur dans l’analyse de ces dossiers. Dans cet exemple, des dossiers et des fichiers de mêmes noms ont été retrouvés. Pour déterminer si les dossiers sont de véritables doublons, un récolement doit être réalisé. Pour cela, chaque dossier doit être intégré, à son niveau le plus haut, dans Archifiltre. Un export csv doit être réalisé quatre fois. Par différentiel, il possible de déterminer avec exactitude quel dossier est le plus complet, quel dossier manque, quel dossiers dispose des dernières versions etc. 
+**Que faire ?** Pour déterminer plus précisément la situation à laquelle on est confronté, il est inévitable de rentrer plus en profondeur dans l’analyse de ces dossiers. Dans cet exemple, des dossiers et des fichiers de mêmes noms ont été retrouvés. Pour déterminer si les dossiers sont de véritables doublons, un récolement doit être réalisé. Pour cela, chaque dossier doit être intégré, à son niveau le plus haut, dans Archifiltre. En faisant un export csv, nous obtenons le récolement. (à réaliser ici quatre fois). En établissant les différences via les csv, il possible de déterminer avec exactitude quel dossier est le plus complet, quels dossiers manquent, quels dossiers disposent des dernières versions etc. 
 
 > **Attention :** Réaliser un dé-doublonnage est plus compliqué qu’il n’y paraît. Dans cet exemple, il faut déterminer les différences entre ces quatre arborescences : Où sont les fichiers définitifs ? Est-ce qu’on retrouve l’intégralité des fichiers dans la plus grosse arborescence ? Quelle arborescence fait référence ? Un logiciel de dé-doublonnage va supprimer les fichiers sans déterminer une logique de tri. La visualisation de doublons impose donc un travail de réflexion en amont. 
 
