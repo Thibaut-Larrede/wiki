@@ -67,7 +67,7 @@ Les deux petites barres noires permettent par ailleurs de situer les dates extr�
 > **Attention :** la métadonnée de dernière modification correspond normalement à la date de dernier enregistrement du fichier. Cette métadonnée n’est toutefois pas toujours fiable. Il arrive qu’elle soit modifiée lorsque le fichier est ouvert (par exemple pour les mails) alors même que ce fichier n’a pas été modifié.    
 
 * Le Hash (empreintes) :   
-[[images/2-1-3_empreintes.png]]
+[[images/2-1-3_empreintes.png]]     
 Le hash est le résultat d'un calcul informatique qui attribue à un item un code. Ce code est attribué en hachant (d'où le nom) l'ensemble de l'item (données, métadonnées). Ainsi un document ne peut avoir qu'un code unique (comme un code génétique). Si deux documents sont identiques, ils auront le même code. Si un document est modifié son code est également modifié. Prenons un exemple cité sur Wikipédia, avec un hash calculé sur une phrase :     
 "Et l’unique cordeau des trompettes marines" => 8747e564eb53cb2f1dcb9aae0779c2aa    
 En modifiant un caractère, l'empreinte change radicalement :    
