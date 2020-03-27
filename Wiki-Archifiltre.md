@@ -43,6 +43,11 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
 [[images/1-2_chargement.png]]
 
 > **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes
+
+Votre ordinateur a planté pendant votre session de travail ? Il possible de restaurer votre travail en relaçant Archifiltre et en cliquant sur "Recharger la session précédente". Vous retrouverez votre travail là où il s'est arrêté.
+
+[[images/1-3_recharger.png]]
+
 ***
 
 ### 2. Utiliser les fonctionnalités d'Archifiltre
@@ -61,10 +66,18 @@ Lorsque les deux barres moyenne et médiane sont proches, cela signifie que le d
 Les deux petites barres noires permettent par ailleurs de situer les dates extrêmes du répertoire sélectionné par rapport à l’ensemble de l’arborescence étudiée.    
 > **Attention :** la métadonnée de dernière modification correspond normalement à la date de dernier enregistrement du fichier. Cette métadonnée n’est toutefois pas toujours fiable. Il arrive qu’elle soit modifiée lorsque le fichier est ouvert (par exemple pour les mails) alors même que ce fichier n’a pas été modifié.    
 
+* Le Hash (empreintes) :   
+[[images/2-1-3_empreintes.png]]
+Le hash est le résultat d'un calcul informatique qui attribue à un item un code. Ce code est attribué en hachant (d'où le nom) l'ensemble de l'item (données, métadonnées). Ainsi un document ne peut avoir qu'un code unique (comme un code génétique). Si deux documents sont identiques, ils auront le même code. Si un document est modifié son code est également modifié. Prenons un exemple cité sur Wikipédia, avec un hash calculé sur une phrase :     
+"Et l’unique cordeau des trompettes marines" => 8747e564eb53cb2f1dcb9aae0779c2aa    
+En modifiant un caractère, l'empreinte change radicalement :    
+"Et l’unique cordeau des trompettes marinEs" => c802e1bd9b5f2b0d244bbc982f5082b3    
+_Peut-être utile lors de la recherche de doublons. Un csv avec empreintes peut-être édité depuis Archifiltre. Si l'on recherche dans ce csv deux hash identiques, alors on a la certitude d'avoir trouvé deux purs doublons._
+
 * La zone d’informations sur le répertoire :      
-[[images/2-1-3_entete.png]]     
+[[images/2-1-4_entete.png]]     
 Elle permet de connaître le nombre de dossiers, de fichiers et la volumétrie totale. Il est également possible de donner un nom à l’analyse Archifiltre en cliquant sur « Nom du projet ».    
-_Peut-être utile pour appréhender, dans un premier temps, l’aborescence._
+_Peut-être utile pour appréhender, dans un premier temps, l’arborescence._
 
 #### 2.2 Visualiser et naviguer dans un répertoire
 
@@ -88,7 +101,8 @@ Au plus bas de votre répertoire, vous visualiser les fichiers. Des codes couleu
 
 * Le fil d'Ariane    
 [[images/2-2-4_fil-ariane.png]]    
-Il permet de suivre le chemin d’accès jusqu’au dossier ou fichier que l’on étudie. On peut copier le chemin d'accès en sélectionnant le niveau du chemin d'accès désiré et en cliquant sur le petit icône apparaissant. 
+Il permet de suivre le chemin d’accès jusqu’au dossier ou fichier que l’on étudie. On peut copier le chemin d'accès en sélectionnant le niveau du chemin d'accès désiré et en cliquant sur le petit icône apparaissant.     
+_Peut-être utile lors de l'enrichissement pour réaliser un lien (dans un tag ou une description) entre deux documents. Les deux unités peuvent être enrichies par les chemins permettant de faire un lien entre intellectuel entre les deux.
 
 * La carte :     
 [[images/2-2-5_map.png]]    
@@ -117,7 +131,8 @@ _Peut être utile dans le cadre d’un audit en appliquant des actions à réali
 
 * Le tag "A supprimer" :     
 [[images/2-3-5_tag-supp.png]]    
-Ce tag est un tag automatisé qui permet de s'appliquer en l'ensemble du répertoire fils. Lors de l'export RESIP les items ayant le tag "A supprimer" ne sont pas exportés.
+Ce tag est un tag automatisé qui permet de s'appliquer en l'ensemble du répertoire fils. 
+>*Attention :* Lors de l'export RESIP les items ayant le tag "A supprimer" ne sont pas exportés. Ainsi, il ne sont pas chargés dans le SAE.
 
 * La bibliothèque de tags :    
 [[images/2-3-6_bibliotheque.png]]    
@@ -137,7 +152,7 @@ _Peut être utile dans le cadre d’un audit, pour justifier un sort final. La d
 _Peut être utilisé comme outil de dialogue avec un service pour faire des propositions de tri_ 
 
 [[images/2-4-2_exports.png]]    
-* Le bouton « Exporter » permet de regrouper les métadonnées récupérées et générées dans Archifiltre sous un autre format. Il est d’exporter :    
+* Le bouton « Exporter » permet de regrouper les métadonnées récupérées et générées dans Archifiltre sous un autre format. Il est possible d’exporter :    
 Au format csv.
 Au format csv avec calcul d’empreintes    
 Au format exploitable par le logiciel RESIP    
