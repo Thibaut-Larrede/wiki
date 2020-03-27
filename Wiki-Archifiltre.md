@@ -34,11 +34,11 @@ Le fichier s'enregistre sous le nom "Archifiltre.exe". Double-cliquez pour lance
 
 Lorsque Archifiltre est lancé, pour visualiser votre répertoire, il suffit de réaliser un glisser-déposer.
 
-[[images/1.1_glisser-deposer.png]]
+[[images/1-1_glisser-deposer.png]]
 
 Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour lire les quelques astuces en bas de la page et découvrir les nouvelles fonctionnalités de la version en cliquant sur le lien "quoi de neuf ?"
  
-[[images/1.2_chargement.png]]
+[[images/1-2_chargement.png]]
 
 > **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes
 ***
@@ -47,12 +47,12 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
 #### 2.1 Repérer les données sur l'arborescence
 
 * La zone des métadonnées :   
-[[images/2.1.1_zone-metadonnee.png]]      
+[[images/2-1-1_zone-metadonnee.png]]      
 Elle permet de connaître pour un dossier (ou pour un fichier), son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous.    
 _Peut être utile comme critère de recherche dans un audit (recherche des dossiers clos et anciens)._
 
 * Les dates des répertoires :    
-[[images/2.1.2_dates-répertoires.PNG]]    
+[[images/2-1-2_dates-repertoires.png]]    
 Moyenne : valeur moyenne de la date de dernière modification pour l’ensemble des fichiers du répertoire sélectionné. Cela équivaut à calculer la moyenne d’âge des fichiers. Cette valeur n’est pas toujours très intéressante : elle peut être faussée quand quelques fichiers présentent des dates très anciennes (ou à l’inverse très récentes) alors que la majorité ont des dates relevant de la même période. Dans ce cas, ils faussent la valeur de la moyenne.    
 Médiane : la moitié des fichiers ont une date antérieure à la valeur médiane, la moitié une date supérieure.    
 Lorsque les deux barres moyenne et médiane sont proches, cela signifie que le dossier présente une homogénéité des dates de dernière modification : elles sont rapprochées dans le temps, et il y a très peu de documents qui s’écartent de cette période.    
@@ -60,14 +60,14 @@ Les deux petites barres noires permettent par ailleurs de situer les dates extr�
 > **Attention :** la métadonnée de dernière modification correspond normalement à la date de dernier enregistrement du fichier. Cette métadonnée n’est toutefois pas toujours fiable. Il arrive qu’elle soit modifiée lorsque le fichier est ouvert (par exemple pour les mails) alors même que ce fichier n’a pas été modifié.    
 
 * La zone d’informations sur le répertoire :      
-[[images/2.1.3_entete.png]]     
+[[images/2-1-3_entete.png]]     
 Elle permet de connaître le nombre de dossiers, de fichiers et la volumétrie totale. Il est également possible de donner un nom à l’analyse Archifiltre en cliquant sur « Nom du projet ».    
 _Peut-être utile pour appréhender, dans un premier temps, l’aborescence._
 
 #### 2.2 Visualiser et naviguer dans un répertoire
 
 * La barre d’outils de visualisation :      
-[[images/2.2_boutons.png]]    
+[[images/2-2-1_boutons.png]]    
 **Retour à la racine** : permet de revenir à la visualisation initiale du répertoire.    
 **Code couleur** :   
 _Type_ : l’affichage du répertoire se fait selon le volume. La visualisation n’est plus celle de Windows mais une visualisation pondérée selon le poids des dossiers.    
@@ -77,56 +77,63 @@ _Volume_ : c’est l’option de visualisation qui est activée par défaut. Ell
 *_Nombre_* : C’est une solution alternative pour visualiser votre arborescence. L’ordre affiché du répertoire reste le même, mais la pondération se fait selon le nombre de fichiers. Un dossier avec de nombreux fichiers, même peu volumineux, apparaîtra plus grand qu’un dossier contenant peu de fichiers mais volumineux.    
 
 * La navigation dans le répertoire :    
-[[images/2.2_navigation-répertoires.PNG]]   
+[[images/2-2-2_navigation-repertoires.png]]   
 Vous pouvez naviguer dans le répertoire avec votre souris. En cliquant sur un dossier ou sur un fichier, les données propres à l’objet s’affichent dans la zone des métadonnées, mais aussi en bas de la visualisation avec la taille de l’objet mais aussi le pourcentage de l’espace qu’il occupe au sein du répertoire total. Si vous souhaitez naviguez plus profondément dans l’arborescence, il suffit de double-cliquer sur le dossier et un zoom en pondérant à nouveau selon la nouvelle visualisation. Si vous souhaitez analyser plus en détail l’objet, il est possible d’ouvrir le dossier ou le fichier sélectionné en cliquant sur la loupe à côté du nom de l’objet.
 
 * La visualisation des fichiers et typologies :     
-[[images/2.2_couleursfichiers.png]]     
+[[images/2-2-3_couleurs-fichiers.png]]     
 Au plus bas de votre répertoire, vous visualiser les fichiers. Des codes couleurs ont été attribués aux fichiers selon leur nature. Ils reprennent en partie  les couleurs utilisés par les logiciels de bureautique : rouge foncé (pdf), rouge clair (présentation), vert (tableurs), bleu clair (messageries), bleu foncé (traitement de texte), violet clair (images), violet foncé (vidéo), rose (musiques) et gris (dossiers compressés, formats particuliers)
 
 * Le fil d'Ariane    
-[[images/2.2_filariane.png]]    
+[[images/2-2-4_fil-ariane.png]]    
 Il permet de suivre le chemin d’accès jusqu’au dossier ou fichier que l’on étudie. On peut copier le chemin d'accès en sélectionnant le niveau du chemin d'accès désiré et en cliquant sur le petit icône apparaissant. 
 
 * La carte :     
-[[images/2.2_map.PNG]]    
+[[images/2-2-5_map.png]]    
 Elle vous permet de savoir où vous êtes dans l’arborescence lorsque vous naviguez au sein de celle-ci. Lorsque l’on descend à plusieurs sous-niveaux, la carte vous permet de vous resituer dans l’arborescence.     
 _Peut-être utile lors de l’audit ou du traitement afin d’orienter son niveau d’analyse. Lorsqu’on étudie une partie infinitésimale de l’arborescence, mieux vaut ne pas s’y attarder._  
 
 #### 2.3 Utiliser les fonctionnalités
 
-* La barre de chargement du calcul d’empreinte :        
+* La barre de chargement du calcul d’empreinte :    
+[[images/2-3-1_empreintes.png]]           
 _Plus le répertoire comporte un nombre élevé de fichier plus le calcul est long. Lorsque le calcul est disponible, l’export csv et le rapport d’audit peuvent être générés_
 
 * Renommer un répertoire ou un fichier :      
+[[images/2-3-2_renommage.png]]    
 Vous pouvez le réaliser en cliquant dans cette zone. Le renommage n’est effectif que dans Archifiltre. En renommant, vous attribuer un nouveau nom à l’objet tout en conservant l’ancien nom (visible entre parenthèse en dessous). La visualisation d'un renommage dans Archifiltre est notifié par un liseré bleu clair. 
 _Peut être utile dans le cadre d’une proposition de modification de l’arborescence ou bien lors du traitement d’un fonds électronique._    
 
-* L’ouverture d'un item :     
+* L’ouverture d'un item :    
+[[images/2-3-3_item.png]]     
 L'icône de dossier ou de fichier avec une loupe permet d’ouvrir directement l’objet pour pouvoir le consulter (il faut que le lien entre Archifiltre et le répertoire ne soit pas rompu). 
 
-* Le tag :    
-[[images/2.3_tags.png]]    
+* Le tag :      
+[[images/2-3-4_tags.png]]    
 Le tag permet d’appliquer à un dossier ou à un fichier une information. Cette information s’ajoute à la bibliothèque des tags. **Attention**, lorsque l’on applique un tag sur un dossier, le tag s’applique à l’ensemble des dossiers et fichiers contenu dans ce dossier. Lorsqu’un tag est appliqué il se visualise par un liseré bleu foncé sur le haut de l'item.    
 _Peut être utile dans le cadre d’un audit en appliquant des actions à réaliser (à éliminer, à archiver, à transférer…) ou dans le cadre du traitement en appliquant une action à un dossier (ISAD-G) ou faire un rapprochement intellectuel (type répertoire méthodique)_
 
 * Le tag "A supprimer" :     
-[[images/2.3_tagsupp.png]]    
+[[images/2-3-5_tag-supp.png]]    
 Ce tag est un tag automatisé qui permet de s'appliquer en l'ensemble du répertoire fils. Lors de l'export RESIP les items ayant le tag "A supprimer" ne sont pas exportés.
 
 * La bibliothèque de tags :    
+[[images/2-3-6_bibliotheque.png]]    
 Elle permet de retrouver l’ensemble des tags qui ont été appliqués dans le répertoire. Cette bibliothèque permet de réutiliser les tags et de les appliquer en appuyant sur le « + » mais aussi de les comptabiliser en nombre et en volumétrie concernée. Il possible également de supprimer un tag appliqué en cliquant sur la corbeille.    
 _Peut être utile pour un retour d’audit sur le nombre de dossier éliminable, la volumétrie…_
 
 * La description :      
+[[images/2-3-7_description.png]]    
 Elle permet d’ajouter à un dossier ou à un fichier des informations. La visualisation de l'ajout d'une description se fait avec un liseré bleu sur l'item enrichi.    
 _Peut être utile dans le cadre d’un audit, pour justifier un sort final. La description peut être utilisée dans le cadre du traitement en tant que « présentation du contenu » (ISAD-G) ou « scope content » (Balise de la Description Archivistique Encodée)._
 
 #### 2.4 Utiliser les exports
 
+[[images/2-4-1_enregistrement.png]]    
 * Le bouton enregistrer permet de sauvegarder le travail réalisé dans Archifiltre. L’enregistrement génère un fichier à l’extension JSON. Ce fichier peut être chargé dans Archifiltre en faisant le glisser-déposer. Le chargement du fichier est très rapide, quelle que soit la taille de l’arborescence.    
 _Peut être utilisé comme outil de dialogue avec un service pour faire des propositions de tri_ 
 
+[[images/2-4-2_exports.png]]    
 * Le bouton « Exporter » permet de regrouper les métadonnées récupérées et générées dans Archifiltre sous un autre format. Il est d’exporter :    
 Au format csv.
 Au format csv avec calcul d’empreintes    
@@ -143,7 +150,7 @@ Le génie d’Archifiltre vous permet de réaliser tous vos souhaits, il ne rest
 #### 3.1 Je souhaite étudier la structure d’une arborescence
 
 **Cas 1 – Une arborescence mal pensée**
-[[images/3.1.1.1_structure-volumine.png]]
+[[images/3-1-1-1_structure-volumine.png]]
 
 La visualisation d’Archifiltre étant pondérée par le poids des dossiers, la visualisation du répertoire peut permettre en quelque secondes de constater que le répertoire n’est pas construit dans une logique fonctionnelle ni organisationnelle. Ici, on peut constater un dysfonctionnement dès le deuxième niveau du répertoire.
 
@@ -153,7 +160,7 @@ La visualisation à plat et pondérée doit permettre de dégager l’organisati
 > **Attention :** Ce cas fonctionne dans le cas où l’arborescence est essentiellement constituée de fichiers bureautique. Si un dossier comporte plusieurs fichiers volumineux (type média) alors la visualisation peut être faussée. Pour s’en assurer il est important d’essayer une visualisation pondérée selon le nombre (II.10).
 
 **Cas 2 – Des doublons de répertoires au sein de l’arborescence**
-[[images/3.1.1.2_structure-redondante.png]]
+[[images/3-1-1-2_structure-redondante.png]]
 
 Avant d’entrer plus en détail dans un répertoire, il est important d’en étudier sa structure par sa visualisation. Ici, il n’est pas difficile de voir que l’arborescence présente quatre fois une structuration similaire. Pour qu’un tel résultat apparaisse dans la visualisation globale du répertoire, il y a deux possibilités : soit il y a un classement sériel (type chronologique, géographique…) soit il y a des dossiers similaires créés à des endroits différents et qui comportent plus ou moins les mêmes fichiers (puisque la visualisation est pondérée par poids).
 
@@ -162,7 +169,7 @@ Avant d’entrer plus en détail dans un répertoire, il est important d’en é
 > **Attention :** Réaliser un dé-doublonnage est plus compliqué qu’il n’y paraît. Dans cet exemple, il faut déterminer les différences entre ces quatre arborescences : Où sont les fichiers définitifs ? Est-ce qu’on retrouve l’intégralité des fichiers dans la plus grosse arborescence ? Quelle arborescence fait référence ? Un logiciel de dé-doublonnage va supprimer les fichiers sans déterminer une logique de tri. La visualisation de doublons impose donc un travail de réflexion en amont. 
 
 **Cas 3 – Une arborescence chronologique**
-[[images/3.1.1.3_structure-chrono.png]]
+[[images/3-1-1-3_structure-chrono.png]]
 
 La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peut donner les premières clefs d’analyse et d’audit. Toutefois, certains bureaux peuvent être amenés à avoir une production sérielle, qui peut être classée de façon chronologique. A plus ou moins grande échelle, tous les bureaux ont une partie d’arborescence sérielle. Le chrono-courrier d’un secrétariat, les dossiers de gestion annuelle d’un bureau des ressources humaines, le registre d’entrée ou d’élimination du bureau des archives etc. 
 
@@ -173,14 +180,14 @@ La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peu
 **Cas 4 – Visualiser l’arborescence par nombre de fichiers**    
 
 _Visualisation par poids :_    
-[[images/3.1.1.4_structure-volume.png]]
+[[images/3-1-1-4_structure-volume.png]]
 
 Étudier une arborescence contenant des fichiers volumineux n’est pas pertinente avec la pondération par poids. De fait, plus un fichier est volumineux, plus sa visualisation au sein de l’arborescence est importante. Si le volume par poids peut être un indicateur de tri, il n’y n’est pas forcément un bon indicateur dans un audit ou une opération de collecte. Avec la pondération par poids, notre arborescence ci-dessous, nous oriente vers une priorisation du tri du premier et du deuxième dossier au premier niveau. 
 
 **Que faire ?**
 
 _Visualisation par nombre :_     
-[[images/3.1.1.4_structure-nombre.png]]
+[[images/3-1-1-4_structure-nombre.png]]
 
 Si l’on utilise la visualisation par nombre (exemple ci-dessus), les indicateurs sont totalement différents. Ce changement de visualisation offre une nouvelle grille d’analyse de l’arborescence. Dans ce deuxième exemple, on constate que le troisième dossier dispose d’une arborescence complexe et d’une profondeur dépassant les 15 niveaux.
 
