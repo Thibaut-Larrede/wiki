@@ -21,6 +21,8 @@ L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bur
   3.7 Je souhaite rédiger un bordereau d’élimination _(à venir)_        
   3.8 Je souhaite organiser un Cleaning-Day à partir d’Archifiltre _(à venir)_ 
 #### 4. Traiter un fonds d'archives électroniques
+  4.1 Je souhaite faire un versement vers ADAMANT (SAE Archives nationales) _(en cours)_    
+  4.2 Je souhaite faire un versement vers un autre SAE (As@lae ...) _(à venir)_    
 
 ## Wiki utilisateur
 
@@ -329,6 +331,78 @@ Or la durée d’utilité administrative de ces dossiers est de 5 ans. Il est do
 RH > Recrutement > Contractuel > Non-abouti > 2019 (Monsieur X ; Madame Y) ; 2020 (Madame X) ; …
 
 > **Attention :** Faire des préconisations engage l’archiviste à fournir un travail en amont de toutes actions. Il est important de s’assurer de l’implication du service et de travailler par étapes. Restructurer une arborescence prend beaucoup de temps aux deux acteurs. Il faut procéder par étape. Par exemple, définir et établir une arborescence de premier niveau puis fignoler  par étapes/niveaux. 
+
+### 3. Traiter un fonds d'archives électroniques
+#### 3.1 Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)
+
+L'ensemble des enrichissements possibles avec Archifiltre restent virtuels, le versement à étudier n'est pas impacté. Tous les enrichissements qui sont réalisés dans Archifiltre peuvent être transformés au format [SEDA](https://francearchives.fr/de/article/88482501)
+et ainsi être intégré au SAE [ADAMANT](http://www.archives-nationales.culture.gouv.fr/archiver-les-donnees-numeriques-adamant)
+
+**Préparer le versement**
+
+Comme pour le papier, un versement électronique demande une préparation avant son traitement et versement final. Les principaux éléments de préparation du versement vont être de l'ordre technique.    
+
+[[images/4-1-1_ZIP.png]]
+
+Le premier élément à vérifier est de savoir si le versement contient des éléments qui peuvent être bloquant.    
+Tout d'abord il est important de vérifier si le versement est composé de répertoires compressés (zip, 7z, rar…). Ils doivent être décompressés pour être traités lors du classement. La présence est de répertoires compressé est bloquant pour le SAE mais aussi par que le contenu peut modifier fortement le contenu et l'analyse de ce versement.    
+Pour identifier les objets compressés présents dans le versement, on peut exporter un récolement csv de l’arborescence depuis Archifiltre. Dans ce cas, il faut filtrer la colonne "extension" en sélectionnant uniquement les formats de compression (.zip, .7z, .rar). La liste de l'ensemble des éléments compréssés et leur chemin d'accès sont ainsi renseignés.
+
+[[images/4-1-2_csv.png]]
+
+Le deuxième élément, identique dans la pratique, est vérifier l'existence ou non de fichiers vide (de l'ordre de 0 à 1 octet) et les fichiers systèmes (ayant pour extensions .ini, .tmp, tumbs.db, .Ink, .DS_Store).    
+La même méthode peut être utilisée pour identifier avec le récolement csv en filrant les colonnes "poids" et "extension".
+
+Enfin, le troisième élément, tient dans le nommage du fichier. L'ensemble des fichiers ou dossiers ayant un point dans leur nommage, autre que pour l'extension, seront bloqué pour un versement dans un SAE. Il convient donc de corriger manuellement depuis l'explorateur windows en retirant le signe de ponctuation. 
+
+**Enrichir depuis Archifiltre**
+
+_Modification de l'intitulé_    
+Par défaut, Archifiltre reprend comme intitulé le titre du fichier/répertoirE. En cas de modification, le titre d'origine est conservé comme métadonnée et rappelé dans Archifiltre en dessous du nouveau titre. Lors de l'export pour le SAE
+
+_Tag : action et lien_    
+Le tag peut être utilisé pour décrire les actions (mot action), mais aussi un sort de traitement (éliminable, à reclasser...).    
+Le tag peut être également utilisé pour réaliser un lien intellectuel entre plusieurs éléments dans l'arborescence. Le tag peut donc être utilisé pour réaliser un lien intellectuel à l'instar d'un répertoire méthodique.    
+>**Attention** : le tag est à utiliser avec parcimonie puisque au format SEDA il ne remplit pas la balise "Keyword", propre aux actions. Le tag renseigne actuellement les indexations thématiques.
+
+_Tag : A supprimer_    
+Lors de l'export pour le SAE les items ayant le tag "A supprimer" ne sont pas exportés. Ainsi, il ne sont pas chargés dans le SAE.
+
+_Description_    
+Le champ description peut être utilisé lorsqu'on souhaite décrire l'objet par une phraxe ou ajouter un commentaire (signaler une information par exemple). Cette information est celle de la présentation du contenu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 3.2 Je souhaite faire un versement vers un autre SAE (As@lae, ...)
+
 
 ***
 ## Autres wiki et documentation sur Archifiltre :
