@@ -387,7 +387,7 @@ Il convient ensuite d'importer cet export dans ReSIP. Les principales actions à
 
 Pour éclaircir la méthodologie et l'interopérabilité entre Archifiltre et ReSIP a été créé par l'équipe Archifiltre un logigramme pour traiter un versement bureautique.
 
-[[images/4-1-3_logigramme.png]]
+[[images/4-1-3_logigramme2.png]]
 
 #### 4.2 Je souhaite faire un versement vers un autre SAE (As@lae, ...)
 
