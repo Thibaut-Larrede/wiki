@@ -348,7 +348,7 @@ Le premier élément à vérifier est de savoir si le versement contient des él
 Tout d'abord il est important de vérifier si le versement est composé de répertoires compressés (zip, 7z, rar…). Ils doivent être décompressés pour être traités lors du classement. La présence est de répertoires compressé est bloquant pour le SAE mais aussi par que le contenu peut modifier fortement le contenu et l'analyse de ce versement.    
 Pour identifier les objets compressés présents dans le versement, on peut exporter un récolement csv de l’arborescence depuis Archifiltre. Dans ce cas, il faut filtrer la colonne "extension" en sélectionnant uniquement les formats de compression (.zip, .7z, .rar). La liste de l'ensemble des éléments compréssés et leur chemin d'accès sont ainsi renseignés.
 
-[[images/4-1-2_csv.png]]
+[[images/4-1-2_CSV.png]]
 
 Le deuxième élément, identique dans la pratique, est vérifier l'existence ou non de fichiers vide (de l'ordre de 0 à 1 octet) et les fichiers systèmes (ayant pour extensions .ini, .tmp, tumbs.db, .Ink, .DS_Store).    
 La même méthode peut être utilisée pour identifier avec le récolement csv en filrant les colonnes "poids" et "extension".
@@ -358,7 +358,7 @@ Enfin, le troisième élément, tient dans le nommage du fichier. L'ensemble des
 **Enrichir depuis Archifiltre**
 
 _Modification de l'intitulé_    
-Par défaut, Archifiltre reprend comme intitulé le titre du fichier/répertoirE. En cas de modification, le titre d'origine est conservé comme métadonnée et rappelé dans Archifiltre en dessous du nouveau titre. Lors de l'export pour le SAE
+Par défaut, Archifiltre reprend comme intitulé le titre du fichier/répertoire. En cas de modification, le titre d'origine est conservé comme métadonnée et rappelé dans Archifiltre en dessous du nouveau titre. Lors de l'export pour le SAE
 
 _Tag : action et lien_    
 Le tag peut être utilisé pour décrire les actions (mot action), mais aussi un sort de traitement (éliminable, à reclasser...).    
@@ -369,9 +369,11 @@ _Tag : A supprimer_
 Lors de l'export pour le SAE les items ayant le tag "A supprimer" ne sont pas exportés. Ainsi, il ne sont pas chargés dans le SAE.
 
 _Description_    
-Le champ description peut être utilisé lorsqu'on souhaite décrire l'objet par une phraxe ou ajouter un commentaire (signaler une information par exemple). Cette information est celle de la présentation du contenu.
+Le champ description peut être utilisé lorsqu'on souhaite décrire l'objet par une phrase ou ajouter un commentaire (signaler une information par exemple). Cette information est celle de la présentation du contenu.
 
+**Enrichir depuis RESIP**    
 
+[[images/4-1-3_logigramme.png]]
 
 
 
