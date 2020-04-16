@@ -332,8 +332,8 @@ RH > Recrutement > Contractuel > Non-abouti > 2019 (Monsieur X ; Madame Y) ; 202
 
 > **Attention :** Faire des préconisations engage l’archiviste à fournir un travail en amont de toutes actions. Il est important de s’assurer de l’implication du service et de travailler par étapes. Restructurer une arborescence prend beaucoup de temps aux deux acteurs. Il faut procéder par étape. Par exemple, définir et établir une arborescence de premier niveau puis fignoler  par étapes/niveaux. 
 
-### 3. Traiter un fonds d'archives électroniques
-#### 3.1 Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)
+### 4. Traiter un fonds d'archives électroniques
+#### 4.1 Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)
 
 L'ensemble des enrichissements possibles avec Archifiltre restent virtuels, le versement à étudier n'est pas impacté. Tous les enrichissements qui sont réalisés dans Archifiltre peuvent être transformés au format [SEDA](https://francearchives.fr/de/article/88482501)
 et ainsi être intégré au SAE [ADAMANT](http://www.archives-nationales.culture.gouv.fr/archiver-les-donnees-numeriques-adamant)
@@ -345,65 +345,51 @@ Comme pour le papier, un versement électronique demande une préparation avant 
 [[images/4-1-1_ZIP.png]]
 
 Le premier élément à vérifier est de savoir si le versement contient des éléments qui peuvent être bloquant.    
-Tout d'abord il est important de vérifier si le versement est composé de répertoires compressés (zip, 7z, rar…). Ils doivent être décompressés pour être traités lors du classement. La présence est de répertoires compressé est bloquant pour le SAE mais aussi par que le contenu peut modifier fortement le contenu et l'analyse de ce versement.    
-Pour identifier les objets compressés présents dans le versement, on peut exporter un récolement csv de l’arborescence depuis Archifiltre. Dans ce cas, il faut filtrer la colonne "extension" en sélectionnant uniquement les formats de compression (.zip, .7z, .rar). La liste de l'ensemble des éléments compréssés et leur chemin d'accès sont ainsi renseignés.
+Tout d'abord il est important de vérifier si le versement est composé de répertoires compressés (zip, 7z, rar…). Ils doivent être décompressés pour être traités lors du classement. La présence de répertoires compressés est bloquant pour le SAE. Outre le blocage, il est important de décompresser les répertoires car le contenu compressé peut modifier fortement le contenu du versement dans sa globalité et donc son analyse.    
+Pour identifier les objets compressés présents dans le versement, on peut exporter un récolement csv de l’arborescence depuis Archifiltre. Dans ce cas, il faut filtrer la colonne "extension" en sélectionnant uniquement les formats de compression (.zip, .7z, .rar). La liste de l'ensemble des éléments compressés et leur chemin d'accès sont ainsi renseignés.
 
 [[images/4-1-2_CSV.png]]
 
-Le deuxième élément, identique dans la pratique, est vérifier l'existence ou non de fichiers vide (de l'ordre de 0 à 1 octet) et les fichiers systèmes (ayant pour extensions .ini, .tmp, tumbs.db, .Ink, .DS_Store).    
-La même méthode peut être utilisée pour identifier avec le récolement csv en filrant les colonnes "poids" et "extension".
+Le deuxième élément, identique dans la pratique, est de vérifier l'existence ou non de fichiers vides (de l'ordre de 0 à 1 octet) et les fichiers systèmes (ayant pour extensions .ini, .tmp, tumbs.db, .Ink, .DS_Store).    
+La même méthode peut être utilisée pour identifier ces éléments, avec le récolement csv, en filtrant les colonnes "poids" et "extension".
 
-Enfin, le troisième élément, tient dans le nommage du fichier. L'ensemble des fichiers ou dossiers ayant un point dans leur nommage, autre que pour l'extension, seront bloqué pour un versement dans un SAE. Il convient donc de corriger manuellement depuis l'explorateur windows en retirant le signe de ponctuation. 
+Enfin, le troisième élément, tient dans le nommage du fichier. L'ensemble des fichiers ou dossiers ayant un point dans leur nommage, autre que pour l'extension, seront bloqués dans le SAE. Il convient donc de corriger manuellement depuis l'explorateur windows en retirant le signe de ponctuation. 
 
 **Enrichir depuis Archifiltre**
 
-_Modification de l'intitulé_    
-Par défaut, Archifiltre reprend comme intitulé le titre du fichier/répertoire. En cas de modification, le titre d'origine est conservé comme métadonnée et rappelé dans Archifiltre en dessous du nouveau titre. Lors de l'export pour le SAE
+Il est possible d'enrichir le versement en ajoutant des métadonnées au versement. A l'instar des instruments de recherche rédigés dans la feuille de style SOSIE, nous ajoutons des éléments d'informations, de contextualisation à des ensembles d'archives. Ces informations sont catégorisées et standardisées par la norme ISAG (G) et au format SEDA.  
 
-_Tag : action et lien_    
-Le tag peut être utilisé pour décrire les actions (mot action), mais aussi un sort de traitement (éliminable, à reclasser...).    
-Le tag peut être également utilisé pour réaliser un lien intellectuel entre plusieurs éléments dans l'arborescence. Le tag peut donc être utilisé pour réaliser un lien intellectuel à l'instar d'un répertoire méthodique.    
->**Attention** : le tag est à utiliser avec parcimonie puisque au format SEDA il ne remplit pas la balise "Keyword", propre aux actions. Le tag renseigne actuellement les indexations thématiques.
+_Modification de l'intitulé_    
+Par défaut, Archifiltre reprend comme intitulé le titre du fichier/répertoire. En cas de modification, le titre d'origine est conservé comme métadonnée et rappelé dans Archifiltre en dessous du nouveau titre. Lors de l'export pour le SAE les informations d'origines et les modifications sont conservées.    
+
+[[images/4-1-3_renommage.png]]
+
+_Tag : action et liens_    
+Le tag peut être utilisé pour décrire les actions (mot action), mais aussi un sort de traitement (qui seront à exploiter depuis ReSIP).    
+Le tag peut être également utilisé pour réaliser un lien intellectuel entre plusieurs éléments dans l'arborescence. Cette utilisation du tag revient à la méthodologie de la rédaction d'un répertoire méthodique.    
+>**Attention** : le tag est à utiliser avec parcimonie. Au format SEDA, le tag ne remplit pas la balise "Keyword", propre aux actions. Actuellement, le tag renseigne le champ des indexations thématiques.
 
 _Tag : A supprimer_    
-Lors de l'export pour le SAE les items ayant le tag "A supprimer" ne sont pas exportés. Ainsi, il ne sont pas chargés dans le SAE.
+Lors de l'export pour le SAE les items ayant le tag "A supprimer" ne sont pas exportés depuis Archifiltre. Ainsi, il ne sont pas chargés dans le SAE.
 
 _Description_    
 Le champ description peut être utilisé lorsqu'on souhaite décrire l'objet par une phrase ou ajouter un commentaire (signaler une information par exemple). Cette information est celle de la présentation du contenu.
 
 **Enrichir depuis RESIP**    
 
+L'ensemble du traitement du versement ne peut être complètement réalisé depuis Archifiltre. Pour le finaliser, il convient d'utiliser [ReSIP](https://www.programmevitam.fr/pages/ressources/resip/) développé par le programme [VITAM](https://www.programmevitam.fr/).    
+
+Pour établir le lien entre Archifiltre et ReSIP, il faut réaliser l'export "ReSIP" depuis Archifiltre. 
+
+[[images/4-1-3_resip.png]]
+
+Il convient ensuite d'importer cet export dans ReSIP. Les principales actions à mener dans ReSIP vont être la description de l'en-tête du versement, les règles d'accès (au niveau du versement ou de l'item) et la modification des dates extrêmes (si des métadonnées sont modifiées par la consultation du document, par exemple).    
+
+Pour éclaircir la méthodologie et l'interopérabilité entre Archifiltre et ReSIP a été créé par l'équipe Archifiltre un logigramme pour traiter un versement bureautique.
+
 [[images/4-1-3_logigramme.png]]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### 3.2 Je souhaite faire un versement vers un autre SAE (As@lae, ...)
+#### 4.2 Je souhaite faire un versement vers un autre SAE (As@lae, ...)
 
 
 ***
