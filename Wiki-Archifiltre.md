@@ -36,7 +36,7 @@ Le fichier s'enregistre sous le nom "Archifiltre.exe". Double-cliquez pour lance
 
 > **Attention :** Il est possible que votre système d'exploitation ou votre antivirus vous demande si ce programme est sûr, il n'y a pas d'inquiétude à avoir, le logiciel est sans danger, vous pouvez forcer l'installation. 
 
-Lorsque Archifiltre est lancé, pour visualiser votre répertoire, il suffit de réaliser un glisser-déposer.
+Lorsqu'Archifiltre est lancé, pour visualiser votre répertoire, il suffit de réaliser un glisser-déposer.
 
 [[images/1-1_glisser-deposer.png]]
 
@@ -44,7 +44,7 @@ Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour l
  
 [[images/1-2_chargement.png]]
 
-> **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes
+> **Attention :** Plus votre arborescence est volumineuse, plus il y a de métadonnées à charger. La visualisation de l’arborescence peut pendre quelques minutes voire même de nombreuses minutes en fonction des volumes de fichiers et de la puissance de votre ordinateur.
 
 Votre ordinateur a planté pendant votre session de travail ? Il possible de restaurer votre travail en relançant Archifiltre et en cliquant sur "Recharger la session précédente". Vous retrouverez votre travail là où il s'est arrêté.
 
@@ -57,7 +57,7 @@ Votre ordinateur a planté pendant votre session de travail ? Il possible de res
 
 * La zone des métadonnées :   
 [[images/2-1-1_zone-metadonnee.png]]      
-Elle permet de connaître pour un dossier (ou pour un fichier), son poids, son hash, la dernière date de modification la plus ancienne et la dernière de modification la plus récente. Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous.    
+Elle permet de connaître pour un dossier (ou pour un fichier), son poids, son hash (son empreinte), la dernière date de modification la plus ancienne et la dernière de modification la plus récente (quand il s'agit d'un répertoire). Les métadonnées de dates du dossier se retrouvent dans la frise chronologique en dessous.    
 _Peut être utile comme critère de recherche dans un audit (recherche des dossiers clos et anciens)._
 
 * Les dates des répertoires :    
