@@ -133,7 +133,8 @@ _Peut être utile dans le cadre d’un audit en appliquant des actions à réali
 
 * Le tag "A supprimer" :     
 [[images/2-3-5_tag-supp.png]]    
-Ce tag est un tag automatisé qui permet de s'appliquer en l'ensemble du répertoire fils. 
+Ce tag est un tag automatisé qui permet d'appliquer l'action "A supprimer" à un élément ou à un ensemble d'élements d'un répertoire.
+Vous retrouverez la liste des éléments tagués "A supprimer" dans l'export CSV pour en faire une liste d'éliminables à valider suivant la réglementation.
 >*Attention :* Lors de l'export RESIP les items ayant le tag "A supprimer" ne sont pas exportés. Ainsi, il ne sont pas chargés dans le SAE.
 
 * La bibliothèque de tags :    
