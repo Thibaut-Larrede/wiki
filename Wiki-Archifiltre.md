@@ -36,7 +36,7 @@ Le fichier s'enregistre sous le nom "Archifiltre.exe". Double-cliquez pour lance
 
 > **Attention :** Il est possible que votre système d'exploitation ou votre antivirus vous demande si ce programme est sûr, il n'y a pas d'inquiétude à avoir, le logiciel est sans danger, vous pouvez forcer l'installation. 
 
-Lorsqu'Archifiltre est lancé, pour visualiser votre répertoire, il suffit de réaliser un glisser-déposer.
+Lorsque Archifiltre est lancé, pour visualiser votre répertoire, il suffit de réaliser un glisser-déposer.
 
 [[images/1-1_glisser-deposer.png]]
 
