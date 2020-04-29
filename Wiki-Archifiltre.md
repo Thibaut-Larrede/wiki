@@ -5,7 +5,7 @@ L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bur
 [[images/0_page-garde.png]]
 
 # Sommaire : 
-#### 1. Installer Archifiltre et charger mon répertoire
+#### 1. (Installer Archifiltre et charger mon répertoire)[#1-installer-archifiltre-et-charger-mon-r%C3%A9pertoire-1]
 #### 2. Utiliser les fonctionnalités d'Archifiltre    
   2.1 Repérer les données sur le répertoire étudié    
   2.2 Visualiser et naviguer dans un répertoire    
