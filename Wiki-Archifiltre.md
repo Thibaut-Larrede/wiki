@@ -357,7 +357,7 @@ _- Et surtout à nos échanges avec le service_
 
 **Identifier des données pour lesquelles la durée d'utilité administrative est échue et le sort final est l'élimination**    
 [[images/3-4-3_dua.png]]    
-Les marchés publics infructueux peuvent être éliminés 5 ans après la déclaration d'infructuosité. Un marché de 2013 infructueux peu donc être éliminé en 2020. (DAF/DPACI/RES/2009/018)
+Les marchés publics infructueux peuvent être éliminés 5 ans après la déclaration d'infructuosité. Un marché de 2013 infructueux peut donc être éliminé en 2020. (DAF/DPACI/RES/2009/018)
 
 **Identifier des versions intermédiaires**    
 Il est souvent possible d’identifier les versions provisoires des documents grâce à leur nommage, avec la présence de v1, v2, V2.1, etc. La version finale quant à elle contient souvent vf ou vdef dans son intitulé.    
