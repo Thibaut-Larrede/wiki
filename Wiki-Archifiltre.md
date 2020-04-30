@@ -5,17 +5,17 @@ L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bur
 [[images/0_page-garde.png]]
 
 # Sommaire : 
-#### 1. [Installer Archifiltre et charger mon répertoire](#1-installer-archifiltre-et-charger-mon-r%C3%A9pertoire-1)
-#### 2. Utiliser les fonctionnalités d'Archifiltre    
-  2.1 Repérer les données sur le répertoire étudié    
-  2.2 Visualiser et naviguer dans un répertoire    
-  2.3 Utiliser les fonctionnalités    
-  2.4 Utiliser les exports    
-#### 3. Mener une opération d'audit et de collecte
-  3.1 Je souhaite étudier la structure d’une arborescence   
-  3.2 Je souhaite faire des recommandations techniques sur une arborescence  
-  3.3 Je souhaite faire des préconisations à partir d’Archifiltre    
-  3.4 Je souhaite trouver facilement des éliminables _(en cours)_    
+#### 1. [Installer Archifiltre et charger mon répertoire](#1-installer-archifiltre-et-charger-mon-r%C3%A9pertoire-1)    
+#### 2. [Utiliser les fonctionnalités d'Archifiltre](#2-utiliser-les-fonctionnalités-darchifiltre-1)      
+  2.1 [Repérer les données sur le répertoire étudié](#21-repérer-les-données-sur-larborescence)     
+  2.2 [Visualiser et naviguer dans un répertoire](#22-visualiser-et-naviguer-dans-un-répertoire)       
+  2.3 [Utiliser les fonctionnalités](#23-utiliser-les-fonctionnalités)    
+  2.4 [Utiliser les exports](#24-utiliser-les-exports)    
+#### 3. [Mener une opération d'audit et de collecte](#3-mener-une-opération-daudit-et-de-collecte-1)    
+  3.1 [Je souhaite étudier la structure d’une arborescence](#31-je-souhaite-étudier-la-structure-dune-arborescence)        
+  3.2 [Je souhaite faire des recommandations techniques sur une arborescence](#32-je-souhaite-faire-des-recommandations-techniques-sur-une-arborescence)    
+  3.3 [Je souhaite faire des préconisations à partir d’Archifiltre](#33-je-souhaite-faire-des-préconisations-à-partir-darchifiltre)    
+  3.4 [Je souhaite trouver facilement des éliminables](##34-je-souhaite-trouver-facilement-des-éliminables)    
   3.5 Je souhaite faire du tri à partir d’Archifiltre _(à venir)_     
   3.6 Je souhaite faire du traitement de masse _(à venir)_    
   3.7 Je souhaite rédiger un bordereau d’élimination _(à venir)_        
@@ -334,6 +334,8 @@ Or la durée d’utilité administrative de ces dossiers est de 5 ans. Il est do
 RH > Recrutement > Contractuel > Non-abouti > 2019 (Monsieur X ; Madame Y) ; 2020 (Madame X) ; …
 
 > **Attention :** Faire des préconisations engage l’archiviste à fournir un travail en amont de toutes actions. Il est important de s’assurer de l’implication du service et de travailler par étapes. Restructurer une arborescence prend beaucoup de temps aux deux acteurs. Il faut procéder par étapes. Par exemple, définir et établir une arborescence de premier niveau puis fignoler par étapes/niveaux.
+
+#### 3.4 Je souhaite trouver facilement des éliminables
 
 ### 4. Traiter un fonds d'archives électroniques
 #### 4.1 Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)
