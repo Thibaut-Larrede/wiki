@@ -15,7 +15,7 @@ L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bur
   3.1 [Je souhaite étudier la structure d’une arborescence](#31-je-souhaite-étudier-la-structure-dune-arborescence)        
   3.2 [Je souhaite faire des recommandations techniques sur une arborescence](#32-je-souhaite-faire-des-recommandations-techniques-sur-une-arborescence)    
   3.3 [Je souhaite faire des préconisations à partir d’Archifiltre](#33-je-souhaite-faire-des-préconisations-à-partir-darchifiltre)    
-  3.4 [Je souhaite trouver facilement des éliminables](##34-je-souhaite-trouver-facilement-des-éliminables)    
+  3.4 [Je souhaite trouver facilement des éliminables](#34-je-souhaite-trouver-facilement-des-éliminables)    
   3.5 Je souhaite faire du tri à partir d’Archifiltre _(à venir)_     
   3.6 Je souhaite faire du traitement de masse _(à venir)_    
   3.7 Je souhaite rédiger un bordereau d’élimination _(à venir)_        
