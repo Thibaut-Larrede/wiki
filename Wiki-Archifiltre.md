@@ -339,49 +339,46 @@ RH > Recrutement > Contractuel > Non-abouti > 2019 (Monsieur X ; Madame Y) ; 202
 
 Des éliminables peuvent être identifiés dans le cadre de la collecte et de l’accompagnement des services, mais également dans le cadre de traitement d’archives définitives.    
 
-Trouver des éliminables dans le cadre de la collecte : 
-
+Comment trouver des éliminables dans le cadre de la collecte ?    
 Comme pour chacune de nos actions de collecte ou de d’accompagnement des services producteurs et versants, il est nécessaire de connaitre leurs missions, les documents produits et leurs règles de gestion.
 
-*Identifier des parties de l'arborescence qui ne sont plus alimentées*     
+**Identifier des parties de l'arborescence qui ne sont plus alimentées**     
 
 Pour identifier des parties de l’arborescence qui ne sont plus alimentées par le service producteur, on peut se fier :    
 
-_Identifier des parties de l'arborescence qui ne sont plus alimentées_    
-Pour identifier des parties de l’arborescence qui ne sont plus alimentées par le service producteur, on peut se fier : 
-Au nom des répertoires :    
+_- Au nom des répertoires :_    
+[[images/3-4-1_nom-repertoire.png]]    
 
-[[images/3-4-1_nom-repertoire.png]]
+_- Aux dates de dernières modifications :_    
+[[images/3-4-2_dates.png]]    
 
-Aux dates de dernières modifications :        
-[[images/3-4-2_dates.png]]
+_- A un type de format qui n'est plus utilisé_            
+_- Et surtout à nos échanges avec le service_      
 
-A un type de format qui n'est plus utilisé        
-Et surtout à nos échanges avec le service  
-
-*Identifier des données pour lesquelles la durée d'utilité administrative est échue et le sort final est l'élimination*
-
+**Identifier des données pour lesquelles la durée d'utilité administrative est échue et le sort final est l'élimination**    
 [[images/3-4-3_dua.png]]    
+Les marchés publics infructueux peuvent être éliminés 5 ans après la déclaration d'infructuosité. Un marché de 2013 infructueux peu donc être éliminé en 2020. (DAF/DPACI/RES/2009/018)
 
-*Identifier des versions intermédiaires*    
-Il est souvent possible d’identifier les versions provisoires des documents grâce à leur nommage, avec la présence de v1, v2, V2.1, etc. La version finale quant à elle contient souvent vf ou vdef dans son intitulé.
-Les versions provisoires peuvent être identifées dans Archifiltre :
+**Identifier des versions intermédiaires**    
+Il est souvent possible d’identifier les versions provisoires des documents grâce à leur nommage, avec la présence de v1, v2, V2.1, etc. La version finale quant à elle contient souvent vf ou vdef dans son intitulé.    
+Les versions provisoires peuvent être identifiées dans Archifiltre :    
 
-[[images/3-4-4_versionning.png]]    
+[[images/3-4-4_versionning.png]]        
 
 Ou dans l'export csv, avec recherches de mots clefs.    
 
 [[images/3-4-4_versionning-2.png]]   
 
->*A noter :* Parfois le format permet aussi d’identifier les différentes versions : par exemple les versions intermédiaires sont des documents modifiables tandis que la version définitive est figée (.pdf).
+>**A noter :** Parfois le format permet aussi d’identifier les différentes versions : par exemple les versions intermédiaires sont des documents modifiables tandis que la version définitive est figée (.pdf).
 
-*Identifier des redondances (doublons):*    
+**Identifier des redondances (doublons):**    
 Dans ArchiFiltre les doublons peuvent être identifier grâce au hash. Le hash est une fonction qui attribue à des données une empreinte numérique. Ici chaque fichier ou répertoire se voit donc attribué une empreinte compte tenu des caractères qui le composent. Si un caractère est modifié alors l’empreinte sera différente. Mais si deux documents sont strictement identiques, ils ont la même empreinte. Et ainsi que nous pouvons repérer les redondances parfaites !    
 Dans ArchiFiltre, le hash de vos fichiers et répertoires apparaît ainsi:
 
-[[images/]]
+[[images/3-4-4_hash.png]]    
 
-Il est parfois nécessaire d’attendre quelques secondes ou minutes pour que les hashs de l’ensemble de vos éléments soient calculés. Une pop-up  vous indique quand le chargement est terminé.    
+Il est parfois nécessaire d’attendre quelques secondes ou minutes pour que les hashs de l’ensemble de vos éléments soient calculés. Une pop-up vous indique quand le chargement est terminé.   
+ 
 Vous pouvez alors télécharger un fichier csv avec empreinte :    
 [[images/3-4-5_exports.png]]    
 
@@ -389,29 +386,19 @@ Les empreintes de vos fichiers et répertoires apparaissent donc dans le fichier
 [[images/3-4-6_csv-empreintes.png]]    
 Grâce à un travail de mise en forme conditionnelle  via cette colonne dédiée aux empreintes, il est ensuite possible d’afficher toutes les éléments redondants.    
 
-*Identifier les répertoires vides*
-
+**Identifier les répertoires vides**    
 Vous pouvez identifier les répertoires vides dans l’export csv en réalisant un filtre par éléments de type répertoire :    
 [[images/3-4-6_csv-empreintes-2.png]]    
 
 Puis un filtre par poids 0:    
 [[images/3-4-6_csv-empreintes-3.png]]     
 
-*Identifier les fichiers systèmes:*    
+**Identifier les fichiers systèmes:**    
 De la même manière, vous pouvez identifier des fichiers systèmes en réalisant un filtre par éléments de type fichiers :    
 [[images/3-4-6_csv-empreintes-4.png]]    
 Puis un filtre avec les extensions suivantes : .ini ; .tmp ; .lnk ; .DS_Store ; Thumbs.db
 
 [[images/3-4-6_csv-empreintes-5.png]]  
-
-
-
-
-
-
-
-
-
 
 ### 4. Traiter un fonds d'archives électroniques
 #### 4.1 Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)
