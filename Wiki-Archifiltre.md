@@ -20,8 +20,8 @@ L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bur
   3.6 Je souhaite faire du traitement de masse _(à venir)_    
   3.7 Je souhaite rédiger un bordereau d’élimination _(à venir)_        
   3.8 Je souhaite organiser un Cleaning-Day à partir d’Archifiltre _(à venir)_ 
-#### 4. Traiter un fonds d'archives électroniques
-  4.1 Je souhaite faire un versement vers ADAMANT (SAE Archives nationales) _(en cours)_    
+#### 4. [Traiter un fonds d'archives électroniques](#4-traiter-un-fonds-darchives-électroniques-1)
+  4.1 [Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)](#41-je-souhaite-faire-un-versement-vers-adamant-sae-archives-nationales)    
   4.2 Je souhaite faire un versement vers un autre SAE (As@lae ...) _(à venir)_    
 
 ## Wiki utilisateur
