@@ -4,6 +4,8 @@ L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bur
 
 [[images/0_page-garde.png]]
 
+Retrouvez-nous également sur notre chaîne [Youtube](https://www.youtube.com/channel/UClDwrT-Y1NY9WnEiXLMHp6w) 🎥 pour des tutos et sur notre compte [Twitter](https://twitter.com/archifiltre?lang=fr) 🐦 pour nous poser toutes vos questions ! 
+
 # Sommaire : 
 #### 1. [Installer Archifiltre et charger mon répertoire](#1-installer-archifiltre-et-charger-mon-r%C3%A9pertoire-1)    
 #### 2. [Utiliser les fonctionnalités d'Archifiltre](#2-utiliser-les-fonctionnalités-darchifiltre-1)      
@@ -18,7 +20,7 @@ L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bur
   3.4 [Je souhaite trouver facilement des éliminables](#34-je-souhaite-trouver-facilement-des-éliminables)    
   3.5 Je souhaite faire du tri à partir d’Archifiltre _(à venir)_     
   3.6 Je souhaite faire du traitement de masse _(à venir)_    
-  3.7 Je souhaite rédiger un bordereau d’élimination _(à venir)_        
+  3.7 [Je souhaite rédiger un bordereau d’élimination](#37-je-souhaite-rédiger-un-bordereau-délimination)        
   3.8 Je souhaite organiser un Cleaning-Day à partir d’Archifiltre _(à venir)_ 
 #### 4. [Traiter un fonds d'archives électroniques](#4-traiter-un-fonds-darchives-électroniques-1)
   4.1 [Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)](#41-je-souhaite-faire-un-versement-vers-adamant-sae-archives-nationales)    
@@ -400,6 +402,28 @@ De la même manière, vous pouvez identifier des fichiers systèmes en réalisan
 Puis un filtre avec les extensions suivantes : .ini ; .tmp ; .lnk ; .DS_Store ; Thumbs.db
 
 [[images/3-4-6_csv-empreintes-5.png]]  
+
+#### 3.7 Je souhaite rédiger un bordereau d’élimination    
+
+Comme pour les archives papiers, lorsqu’on supprime des données ou des fichiers bureautiques, il est important de réaliser un bordereau d’élimination.    
+ 
+A partir d’Archifiltre, différentes méthodes peuvent être réalisées pour éditer un bordereau d’élimination.    
+
+**Générer un rapport d’audit**    
+Lorsque vous utilisez le tag automatisé « A éliminer », la liste des éléments éliminés se génère automatiquement dans la dernière partie du bordereau d’élimination. Sous la forme d’un tableau est référencé : le type, chemin, taille, date de dernière modification.    
+Ce tableau recense aussi bien les dossiers que les fichiers identifiés par ce tag.    
+
+[[images/3-7_BE-1.png]]    
+
+**Générer un export csv**    
+Il est possible de rentrer davantage dans la précision de la rédaction du bordereau d’élimination, en utilisant l’export csv. En filtrant la colonne « A éliminer », il sera généré la liste de l’ensemble des éléments à éliminer (une ligne par fichiers/dossiers).    
+Ainsi, ce csv permet de générer un récolement complet pour le bordereau d’élimination.        
+Ce récolement à deux utilité : il permet de documenter l’ensemble des documents produit, ou reçu, par le service (il est donc possible de documenter l’existence et la connaissance d’un seul fichier), il permet également d’établir la liste de l’ensemble des chemins d’accès à fournir au service informatique pour une élimination en masse.   
+
+[[images/3-7_BE-2.png]]
+ 
+>*A noter :* Il reste cependant à rédiger un en-tête afin de synthétiser l’ensemble des éléments pour faire signer au service producteur.
+
 
 ### 4. Traiter un fonds d'archives électroniques
 #### 4.1 Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)
