@@ -385,6 +385,7 @@ Vous pouvez alors télécharger un fichier csv avec empreinte :
 Les empreintes de vos fichiers et répertoires apparaissent donc dans le fichier :    
 [[images/3-4-6_csv-empreintes.png]]    
 Grâce à un travail de mise en forme conditionnelle  via cette colonne dédiée aux empreintes, il est ensuite possible d’afficher toutes les éléments redondants.    
+Si vous souhaitez plus d'informations, vous vous invitons à regarder notre guide vidéo sur la recherche des redondances à partir du csv avec empreintes : [ici](https://youtu.be/FakZsyZyV4s).
 
 **Identifier les répertoires vides**    
 Vous pouvez identifier les répertoires vides dans l’export csv en réalisant un filtre par éléments de type répertoire :    
