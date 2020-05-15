@@ -1,6 +1,6 @@
 ### v2.1.1
 
-Cette version mineure ajoute quelques fonctionnalités et corrections de bugs. Son plus gros ajout est une **traduction allemande** : wunderbar !
+Cette version mineure ajoute quelques fonctionnalités et corrections de bugs. Son plus gros ajout est une **traduction allemande** : wunderbar ! La co-construction s'illustre aussi dans la traduction puisque c'est un travail réalisé par nos collègues Steffen Lippitz et Sabine Drotziger que nous tenons à remercier chaleureusement pour leur contribution.
 
 Nous avons aussi ajouté une **colonne redondances dans l‘export CSV**. Elle contient juste “oui” ou “non” pour signaler si l‘élément a au moins un doublon. Par ailleurs, cliquer sur la notification d‘export CSV ouvrira directement le fichier.
 
