@@ -1,3 +1,8 @@
+- Pour accéder à vos logs locaux, cherchez le fichier "archifiltre-logs-{date-des-logs}". Il se trouve :
+  - Sur Windows : C:\Users\{utilisateur}\AppData\Roaming\archifiltre
+  - Sur Mac : /Users/{utilisateur}/Library/Application Support/archifiltre
+  - Sur Linux : /home/.config/archifiltre
+
 - Si vous avez fait une erreur, vous pouvez annuler vos dernières actions en utilisant les deux flèches « suivant » et « précédent » qui se trouvent en haut de l'interface.
 
 - Dans archifiltre, chaque rectangle représente un dossier ou un fichier de votre arborescence, leur largeur est proportionnelle au poids du dossier ou fichier, et ils sont classés du plus grand à gauche au plus petit à droite.
@@ -25,8 +30,3 @@
 - Dans la fiche à gauche, vous trouverez une synthèse des dates de dernières modifications des fichiers contenus par le dossier sélectionné. La médiane représente la date à partir de laquelle la moitié des fichiers du dossier n'ont plus été modifiés.
 
 - Lors des différents exports, les tags d'un dossier sont propagés à tous ses fils.
-
-- Pour accéder à vos logs locaux, cherchez le fichier "archifiltre-logs-{date-des-logs}". Il se trouve :
-  - Sur Windows : C:\Users\{utilisateur}\AppData\Roaming\archifiltre
-  - Sur Mac : /Users/{utilisateur}/Library/Application Support/archifiltre
-  - Sur Linux : /home/.config/archifiltre
