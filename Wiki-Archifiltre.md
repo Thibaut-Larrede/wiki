@@ -21,7 +21,7 @@ Retrouvez-nous également sur notre chaîne [Youtube](https://www.youtube.com/ch
   3.5 Je souhaite faire du tri à partir d’Archifiltre _(à venir)_     
   3.6 Je souhaite faire du traitement de masse _(à venir)_    
   3.7 [Je souhaite rédiger un bordereau d’élimination](#37-je-souhaite-rédiger-un-bordereau-délimination)        
-  3.8 Je souhaite organiser un Cleaning-Day à partir d’Archifiltre _(à venir)_ 
+  3.8 Je souhaite organiser un cleaning-day à partir d’Archifiltre _(à venir)_ 
 #### 4. [Traiter un fonds d'archives électroniques](#4-traiter-un-fonds-darchives-électroniques-1)
   4.1 [Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)](#41-je-souhaite-faire-un-versement-vers-adamant-sae-archives-nationales)    
   4.2 Je souhaite faire un versement vers un autre SAE (As@lae ...) _(à venir)_    
@@ -424,6 +424,68 @@ Ce récolement à deux utilité : il permet de documenter l’ensemble des docum
  
 >*A noter :* Il reste cependant à rédiger un en-tête afin de synthétiser l’ensemble des éléments pour faire signer au service producteur.
 
+#### 3.8 Je souhaite organiser un cleaning-day à partir d’Archifiltre
+
+Avant de procéder à l’organisation d’un cleaning-day, il est important de revenir sur sa définition et ses objectifs.
+
+Un [cleaning-day](https://www.archimag.com/archives-patrimoine/2014/05/15/comment-organiser-cleaning-day-optimiser-gestion-documentaire) est une journée où une entité administrative consacre l’ensemble de son temps à la gestion de ses archives, en collaboration avec le service des archives. Il n’y a pas une seule et bonne manière d’organiser un cleaning-day. Cela peut se faire aussi bien sur une demie-journée que sur plusieurs semaines. Tout cela dépend des besoins, des possibilités et des attentes du service.
+
+1. Pourquoi organiser un cleaning-day :    
+    
+Beaucoup de services d’archives ont peu de moyens ou sont en sous-effectif. Mettre en place des pratiques de records management est impossible pour certains services. Mais intervenir lorsqu’une arborescence n’est plus fonctionnelle ou que l’espace serveur est à saturation, n’est pas une situation acceptable. Organiser un cleaning-day permet d’être à mi-chemin entre ces deux situations, de créer du lien avec le service producteur, de poser les jalons d’une bonne gestion documentaire et de sensibiliser les services. 
+
+2. Quand organiser un cleaning-day :    
+    
+L’organisation d’un cleaning-day peut émaner du service producteur. Le service des archives peut également organiser de façon ponctuelle ou cyclique selon les besoins du service en question. Il est important de veiller à ce que la plus grande du service producteur participe à l’atelier. Il est primordial qu’il y ait une adhésion commune mais aussi afin de sensibiliser le plus grand nombre aussi. 
+
+3. Organiser un cleaning-day :    
+    
+Pour qu’un cleaning-day réussisse, il est important de définir en amont le périmètre.    
+- Qui intervient ?    
+- Quelle partie de l’arborescence est à traiter    
+- Réaliser un audit pour identifier les problèmes et point d’attentions    
+- Quelles sont les attentes et objectifs : allégement, tri, réorganisation, archivage…    
+- Quelle méthodologie : pendant le cleaning-day, après le cleaning-day    
+- Questions technique : droits d’accès, matériel informatique, chargement du JSON à l’avance…    
+
+4. Quelques exemples et retours d’expériences de cleaning-day :    
+    
+Il est important de rappeler qu’il n’y a pas qu’une seule et unique façon et il n’y a pas non plus de bonnes ou de mauvaises façons de faire un cleaning-day.    
+
+- Groupe de tri pour identifier éliminables et dossiers à archiver :        
+    
+Après avoir réalisé un audit de l’espace serveur du service producteur en amont, présenter le rapport d’audit à l’oral avant le lancement du cleaning-day. Dans cette présentation, il est important de souligner les éléments qui fonctionnent, ceux qui sont à améliorer et toutes les pistes de tri possible. Lors de cette présentation, on présente l’outil Archifiltre sous sa forme basique (visualisation de l’arborescence, des métadonnées, ouverture des éléments et appliquer un tag). Cette présentation permet au service de poser toutes leurs questions, d’appréhender leur arborescence dans Archifiltre.    
+Chaque groupe/pôle va procéder au tri de l’arborescence dans Archifiltre. Il est possible de donner à un groupe les dossiers qu’il connait et enrichi (on observe une légère tendance à la conservation) ou des dossiers qu’il ne connait pas pour avoir un regard plus critique (on observe une tendance à l’élimination plus facilement). Durant la séance l’archiviste circule entre les différentes postes informatiques pour répondre aux questions archivistique ou technique.    
+A la fin de la séance, il est important de centraliser les JSON pour les instruire. En relation avec le responsable du service, le service des archives instruit les propositions de tri via les tags sur les dossiers : archiver, éliminer (voire transférer). Rédiger ensuite les bordereaux de versements et d’élimination (voir les articles correspondant) et envoyer la liste des éléments à éliminer ou archiver au service informatique (voir article correspondant).    
+
+Les 👍 : 
+Adhésion et énergie collective, échange direct entre archivistes et services producteurs.       
+Les 👎 : 
+Agents déstabilisés par le cadre et perte de temps, forte implication de l’archiviste.       
+
+- Groupes de travail pour identifier les éliminables :     
+
+Après avoir réalisé un audit de l’espace serveur du service producteur, présenter le rapport d’audit à l’oral. Dans cette présentation, il est important de souligner les éléments qui fonctionnent, ceux qui sont à améliorer et toutes les pistes de tri possible. Lors de cette présentation, on peut présenter l’outil Archifiltre sous sa forme basique (visualisation de l’arborescence, des métadonnées, ouverture des éléments et appliquer un tag). Cette présentation permet au service de poser toutes leurs questions, d’appréhender leur arborescence dans Archifiltre.    
+Pour organiser le cleaning-day, il est important de définir un interlocuteur, de préférence le référent archives, s’il y en a un. Ensuite établir plusieurs groupes (par pôles d’activités par exemple). L’ensemble de ces groupes vont travailler en même sur un créneau fixé ou bien sur un délai plus large, par exemple une semaine. A la fin du temps imparti, le référent rassemble les différents JSON.     
+Le service archives visent ensuite les propositions d’élimination et entre en discussion avec les services. Lorsque les éliminations sont validées, rédiger le bordereau d’élimination (voir article correspondant) et envoyer la liste des éliminables au service informatique (voir article correspondant).    
+  
+Les 👍 : 
+Autonomie des services, sensibilisation, mise en place d’un référent.    
+Les 👎 : 
+Retards ou non-implication de certains groupes, plusieurs JSON à instruire.    
+
+- Groupe de travail pour réorganiser un espace serveur pour une petite entité (de type bureau) :    
+
+Si un bureau souhaite réfléchir et réorganiser son espace serveur (évolution des missions, non pertinence…), il faut réaliser un audit. Avant de procéder à une réorganisation, quelle qu’elle soit, il est important d’identifier les éléments à éliminer (notamment les doublons et versionning). Il faut ensuite présenter au service le résultat de l’audit, les pistes d’améliorer et en amorcer les questions sur les pratiques documentaires.    
+Pour organiser le cleaning-day, il faut mobiliser l’ensemble du service producteur. Il est impératif lors d’une réorganisation que l’ensemble des agents adhère et participe. Cette séance de cleaning-day, peut-être préparée en amont, notamment la question des éliminables pour gagner en compréhension de l’arborescence. Durant cette séance il est important de questionner la profondeur de l’arborescence, les regroupements, la gestion des dossiers de premier niveau.    
+Lorsque les pistes de réorganisation sont validées, le service peut procéder lui-même à la réorganisation, avec la participation ou non de l’archiviste, voire en collaboration avec le service informatique s’il y a des déplacements conséquents de fichiers/dossiers.    
+
+Les 👍 : 
+Sensibilisation du service, adhésion commune, gain en visibilité et clarté dans la recherche d’information.    
+Les 👎 : 
+Organisation en amont en plusieurs étapes.    
+
+> **Attention**: Un cleaning-day demande du temps et de l'engagement, il est important de définir les attentions et le rôle de chacun. Pour s'entraîner, rien de tel que d'organiser un cleaning-day sur son propre espace serveur entre collègues. On dit bien que les cordonniers sont toujours les plus mal chaussés, il y a donc de quoi faire !
 
 ### 4. Traiter un fonds d'archives électroniques
 #### 4.1 Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)
