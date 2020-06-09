@@ -21,7 +21,7 @@ Retrouvez-nous également sur notre chaîne [Youtube](https://www.youtube.com/ch
   3.5 Je souhaite faire du tri à partir d’Archifiltre _(à venir)_     
   3.6 Je souhaite faire du traitement de masse _(à venir)_    
   3.7 [Je souhaite rédiger un bordereau d’élimination](#37-je-souhaite-rédiger-un-bordereau-délimination)        
-  3.8 Je souhaite organiser un cleaning-day à partir d’Archifiltre _(à venir)_ 
+  3.8 [Je souhaite organiser un cleaning-day à partir d’Archifiltre](#38-je-souhaite-organiser-un-cleaning-day-à-partir-darchifiltre)
 #### 4. [Traiter un fonds d'archives électroniques](#4-traiter-un-fonds-darchives-électroniques-1)
   4.1 [Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)](#41-je-souhaite-faire-un-versement-vers-adamant-sae-archives-nationales)    
   4.2 Je souhaite faire un versement vers un autre SAE (As@lae ...) _(à venir)_    
