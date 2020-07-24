@@ -1,5 +1,6 @@
 * [Accueil](https://github.com/SocialGouv/archifiltre/wiki/Accueil)
 * [Wiki Archifiltre](https://github.com/SocialGouv/archifiltre/wiki/Wiki-Archifiltre)
+  * [Anciennes versions](https://github.com/SocialGouv/archifiltre/wiki/Wiki-Archifiltre-(anciennes-versions))
   * [Astuces](https://github.com/SocialGouv/archifiltre/wiki/Astuces)
   * [Données utilisateur](https://github.com/SocialGouv/archifiltre/wiki/Donn%C3%A9es-utilisateur)
   * [Historique](https://github.com/SocialGouv/archifiltre/wiki/Historique)
