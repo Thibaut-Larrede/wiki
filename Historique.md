@@ -1,3 +1,34 @@
+### v3.0.0
+
+Archifiltre sort dans une toute nouvelle version majeure, la v3 ! Au programme, refonte totale de l‘interface, déplacements de fichiers, recherche, des filtres et bien plus encore !  
+
+La nouveauté la plus visible est la **refonte graphique**. Tout ou presque change : nouveaux boutons, nouvelles couleurs, et nouvelle organisation des sections avec quatre onglets.
+
+*   L‘onglet **Général** contient des informations sur l‘aborescence et l‘élément sélectionné
+*   L‘onglet **Enrichissement** permet de renommer un élément, lui ajouter une description et des tags
+*   Le nouvel onglet **Audit** contient des informations sur l‘arborescence : répartition des fichiers avec code couleur et statistiques sur l‘arborescence
+*   Enfin, le nouvel onglet **Redondances** donne des informations sur les doublons de l‘arborescence. Grâce à de nouvelles visualisations et la possibilité de rechercher des doublons, les trouver devrait devenir beaucoup plus simple
+
+Nous avons aussi ajouté le **déplacement de fichiers** en mode beta. Le mode déplacement activable depuis la barre de navigation permet de déplacer des dossiers et fichiers à d‘autres endroits de l‘arborescence. Comme le reste des fonctionnalités d‘archifiltre, rien ne change dans la vraie arborecence stockée sur le disque. L‘influence de cette fonctionnalité est visible dans les exports.  
+
+En haut à droite, un nouveau bouton de **recherche** permet d‘ouvrir une fenêtre. Celle-ci contient un champ de recherche pour filtrer par nom ou par chemin. De plus, trois filtres sont disponibles : le **filtre par taille**, le **filtre par type** et le **filtre par tag** . Ils sont cumulables pour avoir des résultats les plus précis possibles.  
+
+En plus de cela, nous avons ajouté de nombreuses nouvelles fonctionnalités : **nouveaux tris et options de visualisation**, **exports groupés**, **corrections de nombreux bugs** (notamment sur le calcul des hashs), **accélération du chargement**...
+
+### v2.1.1
+
+Cette version mineure ajoute quelques fonctionnalités et corrections de bugs. Son plus gros ajout est une **traduction allemande** : wunderbar ! La co-construction s'illustre aussi dans la traduction puisque c'est un travail réalisé par nos collègues Steffen Lippitz et Sabine Drotziger que nous tenons à remercier chaleureusement pour leur contribution.
+
+Nous avons aussi ajouté une **colonne redondances dans l‘export CSV**. Elle contient juste “oui” ou “non” pour signaler si l‘élément a au moins un doublon. Par ailleurs, cliquer sur la notification d‘export CSV ouvrira directement le fichier.
+
+En cas d‘erreur lors de l‘import, une **nouvelle notification** s‘affiche. En cliquant dessus, on a une liste de tous les fichiers qui posent problème, et pourquoi (par exemple un problème de droits de lecture).
+
+Autre chose, le **nom des exports est maintenant plus lisible**, et le fil d‘ariane sur les éléments renommés suit le schéma suivant : “nouveau nom (ancien nom)”.
+
+Il y a aussi eu la correction d‘un **bug sur les couleurs d‘enrichissement** des stalactites qui ne disparaissaient pas quand on enlevait les enrichissements.
+
+Enfin, les astuces ont été déplacées de l‘écran de chargement vers ce [wiki](https://github.com/SocialGouv/archifiltre/wiki/Astuces)</a>.
+
 ### v2.1.0
 
 Cette version améliore tout d‘abord les **performances** : **chargement plus rapide**, et **navigation plus fluide** dans l‘interface principale ! Plusieurs améliorations ont été faites pour rendre l‘interface plus claire et lisible, notamment grâce à l‘utilisation de **nouvelles icônes**.
