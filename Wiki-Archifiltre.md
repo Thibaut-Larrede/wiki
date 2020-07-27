@@ -9,7 +9,45 @@ Retrouvez-nous également sur notre chaîne [Youtube](https://www.youtube.com/ch
 Ce wiki est adapté pour les versions à partir de la v.3.0. Retrouvez le wiki adapté aux versions précédentes [ici](https://github.com/SocialGouv/archifiltre/wiki/Wiki-Archifiltre-(anciennes-versions)).
 
 # Sommaire : 
-#### 1. [Installer Archifiltre](#1-installer-archifiltre-et-charger-mon-r%C3%A9pertoire-1) 
+### 1. Commencer avec Archifiltre
+#### 1.1 [Installer Archifiltre](#11-installer-archifiltre)
+#### 1.2 [Paramétrer Archifiltre](#12-paramétrer-archifiltre)
+#### 1.3 [Charger mon répertoire](#13-charger-mon-répertoire)
+#### 1.4 [Sauvegarder ma session de travail](#14-sauvegarder-ma-session-de-travail)
+### 2. [Utiliser les fonctionnalités d'Archifiltre](#2-utiliser-les-fonctionnalités-darchifiltre)
+#### 2.1 [L’onglet « général »](#21-longlet--général-)
+##### 2.1.1 [La zone des caractéristiques](#211-la-zone-des-caractéristiques)
+##### 2.1.2 [Les outils de visualisation et de navigation](#212-les-outils-de-visualisation-et-de-navigation)
+#### 2.2 [L’onglet « enrichissement »](#22-longlet--enrichissement-)
+##### 2.2.1 [Le renommage](#221-le-renommage)
+##### 2.2.2 [La description](#222-la-description)
+##### 2.2.3 [Le tag](#223-le-tag)
+##### 2.2.4 [La bibliothèque de tags](#224-la-bibliothèque-de-tag)
+##### 2.2.5 [Le tag « à éliminer »](#225-le-tag--à-éliminer-)
+##### 2.2.6 [Le mode déplacement](#226-le-mode-d%C3%A9placement)
+#### 2.3 [L’onglet « audit »](#23-longlet--audit-)
+#### 2.4 [L’onglet « redondances »](#24-longlet--redondances-)
+##### 2.4.1 [Visualiser les redondances](#241-visualiser-les-redondances)
+##### 2.4.2 [Naviguer au sein des redondances](#242-naviguer-au-sein-des-redondances)
+#### 3. [Utiliser les exports d'Archifiltre](#3-utiliser-les-exports-darchifiltre)
+##### 3.1 [Le rapport d'audit](#31-le-rapport-daudit)
+##### 3.2 [Le csv (avec et sans empreintes)](#32-les-csv-avec-et-sans-empreintes)
+##### 3.3 [ReSIP](#33-resip)
+##### 3.4 [METS (beta)](#34-mets-beta)
+#### 4. [Mener une opération d'audit et de collecte](#4-mener-une-opération-daudit-et-de-collecte)
+##### 4.1 [Je souhaite étudier la structure d'une arborescence](#41-je-souhaite-étudier-la-structure-dune-arborescence)
+##### 4.2 [Je souhaite faire des recommandations techniques sur une arborescence](#42-je-souhaite-faire-des-recommandations-techniques-sur-une-arborescence)    
+##### 4.3 [Je souhaite faire des préconisations à partir d'Archifiltre](#43-je-souhaite-faire-des-préconisations-à-partir-darchifiltre)
+##### 4.4 [Je souhaite trouver facilement des éliminables](#44-je-souhaite-trouver-facilement-des-éliminables)
+##### 4.5 Je souhaite faire du tri à partir d’Archifiltre _(à venir)_
+##### 4.6 Je souhaite faire du traitement de masse _(à venir)_
+##### 4.7 [Je souhaite rédiger un bordereau d'élimination](#47-je-souhaite-rédiger-un-bordereau-délimination)
+##### 4.8 [Je souhaite organiser un cleaning-day à partir d'Archifiltre](#48-je-souhaite-organiser-un-cleaning-day-à-partir-darchifiltre)
+#### 5. [Traiter un fonds d'archives électroniques](#5-traiter-un-fonds-darchives-électroniques)
+##### 5.1 [Je souhaite faire un versement vers ADAMANT (SAE Archives nationales)
+###### 5.1.1 [Enrichir depuis Archifiltre](#511-enrichir-depuis-archifiltre)
+###### 5.1.2 [Enrichir depuis ReSIP](#512-enrichir-depuis-resip)
+##### 5.2 [Je souhaite faire un versement vers le SAE As@lae](#52-je-souhaite-faire-un-versement-vers-le-sae-aslae)
 
 ## Commencer avec Archifiltre    
 ### 1.1 Installer Archifiltre    
