@@ -61,7 +61,7 @@ Pour une meilleure immersion et visualisation de l’arborescence à analyser, i
 
 #### 2.1.1 La zone des caractéristiques    
 
-[[images/2-1-1_zone-caracteristique.JPG]]
+[[images/2-1-1_zone-caracteristiques.JPG]]
 
 Dans la partie gauche de la zone des caractéristiques nous retrouvons l’ensemble des métadonnées relatives à l’arborescence.    
 Nous avons son nom (modifiable en cliquant sur le crayon), le nombre de dossiers, de fichiers et sa volumétrie (en octet, mégaoctet ou gigaoctet). Enfin, nous avons les dates extrêmes de l’arborescence avec la dates du fichier le plus ancien et celle du fichier le plus récent.    
@@ -70,7 +70,7 @@ Nous avons son nom, sa volumétrie (en octet, mégaoctet ou gigaoctet), son mime
 
 En cliquant sur un dossier ou sur un fichier, les données propres à l’élément s’affichent dans la zone des métadonnées, mais aussi en bas de la visualisation avec la taille de l’objet mais aussi le pourcentage de l’espace qu’il occupe au sein du répertoire total.    
 
-[[images/2-1-1_metadonnees-elements.JPG]]    
+[[images/2-1-1_metadonnees-element.JPG]]    
 
 * Focus : Comment interpréter les dates de l'éléments ?    
 
@@ -86,7 +86,7 @@ Nous avons fait le choix de la date médiane. La date médiane est la date à la
 
 Le hash est le résultat d’un calcul informatique qui attribue à un élément un code. Ce code est attribué en hashant (d’où le nom) l’ensemble du contenu de l’élément. Ainsi, un document ne peut avoir qu’un code unique (comme un code génétique). Si deux documents sont identiques, ils auront alors le même code. Si un document est modifié (ne serait-ce que d’une virgule), son code est également modifié.    
 
-Prenons un exemple cité sur Wikipédia, avec un hash calculé sur une phrase :    
+Prenons un exemple cité sur [Wikipédia](https://fr.wikipedia.org/wiki/MD5), avec un hash calculé sur une phrase :    
 
 « Et l’unique cordeau des trompettes marines » => 8747e564eb53cb2f1dcb9aae0779c2aa    
 « Et l’unique cordeau des trompettes marinEs » => c802e1bd9b5f2b0d244bbc982f5082b3     
@@ -112,13 +112,13 @@ _Par nombre :_ C’est une solution alternative pour visualiser votre arborescen
 
 [[images/2-1-2_ponderation.jpg]]    
 
-**Coloration**
-_Par type :_ l’affichage du répertoire se fait selon le volume. La visualisation n’est plus celle de Windows mais une visualisation pondérée selon le poids des dossiers/fichiers.      
-[[images/2-2-3_couleurs-fichiers.png]]    
+**Coloration**    
+_Par type :_ l’affichage du répertoire se fait selon le volume. La visualisation n’est plus celle de Windows mais une visualisation pondérée selon le poids des dossiers/fichiers.         
+[[images/2-2-3_couleurs-fichiers.png]]       
 Au plus bas de votre répertoire, vous visualisez les fichiers. Des codes couleurs ont été attribués aux fichiers selon leur nature. Ils reprennent en partie les couleurs utilisés par les logiciels de bureautique : rouge foncé (pdf), rouge clair (présentations de type Powerpoint), vert (tableurs), bleu clair (messageries), bleu foncé (traitement de texte), violet clair (images), violet foncé (vidéo), rose (fichiers audio) et gris (tous les autres formats y compris dossiers compressés, formats particuliers).    
 _Par dates :_ l’affichage de la taille des éléments est toujours pondéré selon le poids des dossiers. En revanche, le classement des fichiers et les couleurs attribuées aux fichiers et aux dossiers sont réalisés selon les métadonnées de dates. Le classement se fait du plus ancien (en foncé) au plus récent (en clair).    
 
-[[2-1-2_coloration.jpg]]    
+[[images/2-1-2_coloration.jpg]]    
 
 **Se déplacer dans les stalactites**    
 
@@ -192,7 +192,7 @@ Peut être utile dans le cadre d’un audit en appliquant des actions à réalis
 
 #### 2.2.4 La bibliothèque de tag    
 
-[[images/2-2-4_bibliothèque.jpg]]    
+[[images/2-2-4_bibliotheque.jpg]]    
 
 Elle permet de retrouver l’ensemble des tags qui ont été appliqués dans l'arborescence analysée. Cette bibliothèque également de comptabiliser le nombre de tags et la volumétrie sur laquelle ils ont été appliqués (données en pourcentage). Il est possible de supprimer l’ensemble du tag appliqué dans l’arborescence en cliquant sur la corbeille. Il est aussi possible de renommer un tag depuis la bibliothèque en cliquant sur le petit crayon.    
 _Peut être utile pour un retour d’audit sur le nombre de dossiers éliminables, la volumétrie…_    
@@ -208,7 +208,7 @@ Vous retrouverez la liste des éléments tagués "A supprimer" dans l'export CSV
 
 #### 2.2.6 Le mode déplacement
 
-[[images/2-2-6_déplacement]]    
+[[images/2-2-6_deplacement]]    
 
 Ce mode permet de déplacer des éléments au sein de l’arborescence. Les déplacements ne se font que dans Archifiltre, en mode image. Pour déplacer un élément, cliquer sur le bouton « mode déplacement ». Sélectionner l’élément, et faites-le glisser jusqu’à son dossier parent de destination. Une fois l’élément déplacé, il est visualisable quelques secondes avec un encadré rouge. Si vous souhaitez annuler l’opération, cliquer sur le bouton « annuler » en haut à droite d’Archifiltre.     
 Lorsqu’on effectue un déplacement dans un archifiltre, cet enrichissement se retrouve à différents endroits. Il est visualisable immédiatement dans Archifiltre mais aussi à partir de l’export csv (champs « nouveau chemin ») ainsi que dans l’export ReSIP. Le reclassement est donc effectif dans le SAE et conserve la métadonnée de l’ancienne localisation de l’élément.    
@@ -238,7 +238,7 @@ Pourquoi avons-nous fait le choix d’utiliser le terme de « redondance » plut
 
 #### 2.4.1 Visualiser les redondances
 
-[[2-4-1_redondances.jpg]]    
+[[images/2-4-1_redondances.jpg]]    
 
 Le premier graphique permet de voir la part des éléments redondants au sein de l’arborescence. Le deuxième graphique permet de voir le type de redondance. Enfin, le tableau permet de connaître les types de redondances, le nombre de fichiers que cela concerne, la volumétrie et le pourcentage.    
 
@@ -311,7 +311,7 @@ Le génie d’Archifiltre vous permet de réaliser tous vos souhaits, il ne rest
 
 ### 4.1 Je souhaite étudier la structure d'une arborescence 
 
-####_Cas 1 – Une arborescence mal pensée_
+#### Cas 1 – Une arborescence mal pensée
 
 [[images/4-1_structure-arbo.jpg]]    
 
@@ -321,7 +321,7 @@ La visualisation d’Archifiltre étant pondérée par le poids des dossiers, la
 
 >**Attention :** Ce cas fonctionne dans le cas où l’arborescence est essentiellement constituée de fichiers bureautique. Si un dossier comporte plusieurs fichiers volumineux (type multimédia) alors la visualisation peut être faussée. Pour s’en assurer il est important d’essayer une visualisation pondérée selon le nombre (II.10).    
 
-####_Cas 2 – Des doublons de répertoires au sein de l’arborescence_
+#### Cas 2 – Des doublons de répertoires au sein de l’arborescence
 
 [[images/4-1_structure-redondante.jpg]]    
 
@@ -331,7 +331,7 @@ Avant d’entrer plus en détail dans un répertoire, il est important d’en é
 
 >**Attention :** Réaliser un dé-doublonnage est plus compliqué qu’il n’y paraît. Dans cet exemple, il faut déterminer les différences entre ces quatre arborescences : Où sont les fichiers définitifs ? Est-ce qu’on retrouve l’intégralité des fichiers dans la plus grosse arborescence ? Quelle arborescence fait référence ? Un logiciel de dé-doublonnage va supprimer les fichiers sans déterminer une logique de tri. La visualisation de doublons impose donc un travail de réflexion en amont et de choix d'évaluation en fonction de la connaissance du contexte.
 
-####_Cas 3 – Une arborescence chronologique_
+#### Cas 3 – Une arborescence chronologique
 
 [[images/4-1_structure-chrono.jpg]]
 
@@ -341,10 +341,10 @@ La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peu
 
 >**Attention :** Bien qu’il soit simple et efficace, le classement chronologique ne peut être utilisé que partiellement.
 
-####_Cas 4 – Visualiser l’arborescence par nombre de fichiers_
+#### Cas 4 – Visualiser l’arborescence par nombre de fichiers 
 
 _Visualisation par poids :_
-[[images/vision-poids.jpg]]    
+[[images/4-1-vision-poids.jpg]]    
 Étudier une arborescence contenant des fichiers volumineux n’est pas pertinente avec la pondération par poids. De fait, plus un fichier est volumineux, plus sa visualisation au sein de l’arborescence est importante. Si le volume par poids peut être un indicateur de tri, il n’est pas forcément un bon indicateur dans un audit ou une opération de collecte. Avec la pondération par poids, notre arborescence ci-dessous, nous oriente vers une priorisation du tri du premier et du deuxième dossier au premier niveau.    
 
 _Visualisation par nombre :_    
@@ -412,10 +412,9 @@ Pour connaître la valeur des niveaux de profondeur de mon arborescence, il faut
 
 ### 4.3 Je souhaite faire des préconisations à partir d’Archifiltre
 
-
 Comme chaque projet, il est important de définir le cadre d’action et le rôle de chaque personne. Dans un projet d’audit ou de préconisation sur une arborescence, il est indispensable de définir les attentes et les besoins du service. De fait, si l’archiviste s’engage à fournir un livrable contenant l’ensemble des préconisations (problèmes, solutions, points forts, points faibles), le service audité doit également s’impliquer dans le plan d’action et le calendrier défini en amont.    
 
-_Première étape : faire une analyse macro de l’arborescence _   
+_Première étape : faire une analyse macro de l’arborescence_   
 
 Archifiltre permet de connaître l’ensemble des métadonnées de l’arborescence en un seul coup d’œil.   
  
@@ -428,7 +427,7 @@ Les métadonnées de dates peuvent également donner une orientation. Par exempl
 L’indication du nombre de fichiers et de dossiers peut être parlante si l’on dispose de moyens de comparaison. Si on ne dispose pas de moyens de comparaison, on peut faire le ratio nombre de fichiers / nombres de dossiers. Ici : 104812/7721=13,5. Cette information est purement théorique, mais une arborescence où le ratio descend à moins de dix fichiers, on peut de suite savoir qu’il y a un problème d’organisation. L’arborescence est trop ramifiée et l’information perdue.    
 
 
-_Deuxième étape : proposer un rapport d’audit _   
+_Deuxième étape : proposer un rapport d’audit_   
 
 Pour débuter un rapport d’audit, il faut dans un premier s’appuyer sur le rapport d’audit généré automatiquement par Archifiltre. C’est un format texte et modifiable, il peut être complété et modifié sur sa forme.    
 
@@ -475,10 +474,10 @@ _Identifier des parties de l'arborescence qui ne sont plus alimentées_
 Pour identifier des parties de l’arborescence qui ne sont plus alimentées par le service producteur, on peut se fier :    
 
 _Au nom des répertoires :_
-[[images//4-4_nom-repertoire.jpg]]    
+[[images/4-4_nom-repertoire.jpg]]    
 
 _Au dates de dernières modifications :_
-[[images/4-4_date_repertoire.jpg]]    
+[[images/4-4_date-repertoire.jpg]]    
 
 _A un type de format qui n'est plus utilisé._    
 _Et surtout à nos échanges avec le service !_    
@@ -661,7 +660,7 @@ Pour éclaircir la méthodologie et l'interopérabilité entre Archifiltre et Re
 
 [[images/5-1-2_logigramme.png]]    
 
-#### 4.2 Je souhaite faire un versement vers le SAE As@lae    
+#### 5.2 Je souhaite faire un versement vers le SAE As@lae    
 
 Pour réaliser un versement vers As@lae (en SEDA 2.1) il est possible d’utiliser d’Archifiltre pour enrichir les paquets et verser en SEDA 2.1 en combinant Archifiltre et le logiciel RESIP (voir article ci-dessus).
 
