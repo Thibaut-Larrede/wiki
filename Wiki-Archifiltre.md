@@ -91,7 +91,7 @@ Votre ordinateur a planté pendant votre session de travail ? Il possible de res
 
 [[images/1-4_sauvegarder.JPG]]
 
-Pour sauvegarder son travail et retrouver l’ensemble de ses enrichissements, il suffit de cliquer sur la petite disquette en haut à droite. Une fenêtre s’ouvre pour choisir le lieu d’enregistrement de notre session de travail. Le fichier généré est un format JSON. Ce fichier JSON peut être dans Archifiltre suite à notre sauvegarde. S’ouvre alors notre arborescence et l’ensemble des enrichissements réalisés auparavant.    
+Pour sauvegarder son travail et retrouver l’ensemble de ses enrichissements, il suffit de cliquer sur la petite disquette en haut à droite. Une fenêtre s’ouvre pour choisir le lieu d’enregistrement de votre session de travail. Le fichier généré est un format JSON. Ce fichier JSON peut être redéposé dans Archifiltre suite à notre sauvegarde. S’ouvre alors notre arborescence et l’ensemble des enrichissements réalisés auparavant.    
 
 >**Attention :** Certains utilisateurs n’ont pas d’extension lors de l’enregistrement du fichier. Il convient alors d’écrire soi-même l’extension pour le bon déroulement de l’enregistrement : « nomdufichier.json ».
 
@@ -99,7 +99,7 @@ Pour sauvegarder son travail et retrouver l’ensemble de ses enrichissements, i
 
 ### 2.1 L'onglet « général »
 
-L’onglet général a pour objectif de nous aider à nous familiariser avec l’arborescence à analyser. Dans cet onglet, nous avons l’ensemble des métadonnées et caractéristiques de l’arborescence et des éléments. A cela s’ajoute l’ensemble des outils de visualisation pour prendre en main et guider notre analyse.    
+L’onglet général a pour objectif de nous aider à appréhender l’arborescence à analyser. Dans cet onglet, nous avons l’ensemble des métadonnées et caractéristiques de l’arborescence et des éléments. A cela s’ajoute l’ensemble des outils de visualisation pour prendre en main et guider notre analyse.    
 Pour une meilleure immersion et visualisation de l’arborescence à analyser, il est possible de masquer l’onglet des caractéristiques.
 
 #### 2.1.1 La zone des caractéristiques    
@@ -107,15 +107,15 @@ Pour une meilleure immersion et visualisation de l’arborescence à analyser, i
 [[images/2-1-1_zone-caracteristiques.JPG]]
 
 Dans la partie gauche de la zone des caractéristiques nous retrouvons l’ensemble des métadonnées relatives à l’arborescence.    
-Nous avons son nom (modifiable en cliquant sur le crayon), le nombre de dossiers, de fichiers et sa volumétrie (en octet, mégaoctet ou gigaoctet). Enfin, nous avons les dates extrêmes de l’arborescence avec la dates du fichier le plus ancien et celle du fichier le plus récent.    
-A droite de la zone des caractéristiques nous retrouvons l’ensemble des métadonnées relatives à l’élément sélectionné dans l’arborescence.    
+Nous visualisons son nom (modifiable en cliquant sur le crayon), le nombre de dossiers, de fichiers et sa volumétrie (en octet, mégaoctet ou gigaoctet). Enfin, nous avons les dates extrêmes de l’arborescence avec la date du fichier le plus ancien et celle du fichier le plus récent.    
+A droite de la zone des caractéristiques, nous retrouvons l’ensemble des métadonnées relatives à l’élément sélectionné dans l’arborescence.    
 Nous avons son nom, sa volumétrie (en octet, mégaoctet ou gigaoctet), son mime type (son identifiant de format de données), son hash (empreinte) et les dernières dates de modification.     
 
 En cliquant sur un dossier ou sur un fichier, les données propres à l’élément s’affichent dans la zone des métadonnées, mais aussi en bas de la visualisation avec la taille de l’objet mais aussi le pourcentage de l’espace qu’il occupe au sein du répertoire total.    
 
 [[images/2-1-1_metadonnees-element.JPG]]    
 
-* Focus : Comment interpréter les dates de l'éléments ?    
+* Focus : Comment interpréter les dates de l'élément ?    
 
 [[images/2-1-1_dates.JPG]]    
 
@@ -134,18 +134,18 @@ Prenons un exemple cité sur [Wikipédia](https://fr.wikipedia.org/wiki/MD5), av
 « Et l’unique cordeau des trompettes marines » => 8747e564eb53cb2f1dcb9aae0779c2aa    
 « Et l’unique cordeau des trompettes marinEs » => c802e1bd9b5f2b0d244bbc982f5082b3     
 
-Le hash d’un dossier parent est calculé à partir du hash des dossiers et fichiers fils.    
+Le hash d’un dossier parent est calculé à partir du hash des dossiers et fichiers enfants.    
 
-_Peut être utile lors de la recherche de redondances. La recherche de doublons peut se faire depuis l’onglet « redondances ». Un csv avec empreintes peut être également édité depuis Archifiltre. Si l’on recherche dans ce csv les hash identiques, alors on a la certitude d’avoir trouvé une redondance.  Voir l’article dédié sur recherche des redondances dans le wiki._    
+_Peut être utile lors de la recherche de redondances. La recherche de doublons peut se faire depuis l’onglet « redondances ». Un csv avec empreintes peut être également édité depuis Archifiltre. Si l’on recherche dans ce csv les hash identiques, alors on a la certitude d’avoir trouvé un doublon.  Voir l’article dédié sur la recherche des redondances dans le wiki._    
 
 #### 2.1.2 Les outils de visualisation et de navigation
 
 [[images/2-1-2_boutons.jpg]]    
 
 **Classement**    
-_Par volume :_ c’est l’option de visualisation qui est activée par défaut. Elle permet de voir votre arborescence selon une pondération par volume/poids de vos dossiers.    
-_Par dates :_ cette visualisation classe les dossiers et fichiers des plus anciens au plus récent.    
-_Par ordre alphanumérique :_ cette visualisation classe les éléments dans l’ordre alphanumérique. Cette visualisation nous permet donc de retrouver le classement des dossiers comme sur notre ordinateur.    
+_Par volume :_ c’est l’option de visualisation qui est activée par défaut. Elle permet de voir votre arborescence selon une pondération par volume/poids (en octets) de vos dossiers: l'élément affiché en 1er est plus volumineux que le second, etc.
+_Par dates :_ cette visualisation classe les dossiers et fichiers des plus anciens aux plus récents.    
+_Par ordre alphanumérique :_ cette visualisation classe les éléments dans l’ordre alphanumérique. Cette visualisation nous permet donc de retrouver le classement des dossiers comme sur notre explorateur de fichiers sur notre ordinateur.    
 
 [[images/2-1-2_classement.jpg]]    
 
@@ -159,7 +159,7 @@ _Par nombre :_ C’est une solution alternative pour visualiser votre arborescen
 _Par type :_ l’affichage du répertoire se fait selon le volume. La visualisation n’est plus celle de Windows mais une visualisation pondérée selon le poids des dossiers/fichiers.         
 [[images/2-2-3_couleurs-fichiers.png]]       
 Au plus bas de votre répertoire, vous visualisez les fichiers. Des codes couleurs ont été attribués aux fichiers selon leur nature. Ils reprennent en partie les couleurs utilisés par les logiciels de bureautique : rouge foncé (pdf), rouge clair (présentations de type Powerpoint), vert (tableurs), bleu clair (messageries), bleu foncé (traitement de texte), violet clair (images), violet foncé (vidéo), rose (fichiers audio) et gris (tous les autres formats y compris dossiers compressés, formats particuliers).    
-_Par dates :_ l’affichage de la taille des éléments est toujours pondéré selon le poids des dossiers. En revanche, le classement des fichiers et les couleurs attribuées aux fichiers et aux dossiers sont réalisés selon les métadonnées de dates. Le classement se fait du plus ancien (en foncé) au plus récent (en clair).    
+_Par dates :_ l’affichage de la taille des éléments est toujours pondéré selon le poids des dossiers. En revanche, le classement des fichiers et les couleurs attribuées aux fichiers et aux dossiers sont déclinés selon les métadonnées de dates. Le classement se fait du plus ancien (en foncé) au plus récent (en clair).    
 
 [[images/2-1-2_coloration.jpg]]    
 
@@ -167,13 +167,13 @@ _Par dates :_ l’affichage de la taille des éléments est toujours pondéré s
 
 [[images/2-1-2_stalactites.jpg]]
 
-Si vous souhaitez naviguer plus profondément dans l’arborescence, il suffit de double-cliquer sur le dossier et un zoom s’effectue et pondère à nouveau selon la nouvelle visualisation. Si vous souhaitez revenir sur la visualisation d’ensemble, il suffit de cliquer sur le bouton à gauche « retour à la racine ».
+Si vous souhaitez naviguer plus profondément dans l’arborescence, il suffit de double-cliquer sur l'élément et un zoom s’effectue et pondère à nouveau selon la nouvelle visualisation. Si vous souhaitez revenir sur la visualisation d’ensemble, il suffit de cliquer sur le bouton à gauche « retour à la racine ».
 
 **Le fil d'Ariane**    
 
 [[images/2-1-2_ariane.jpg]]
 
-Il permet de suivre le chemin d’accès du dossier parents jusqu’à l’élément fils que l’on étudie. On peut copier le chemin d'accès en sélectionnant le niveau du chemin d'accès désiré puis en cliquant sur la petite icône apparaissant à côté.    
+Il permet de suivre le chemin d’accès du dossier parents jusqu’à l’élément enfant qu'on étudie. On peut copier le chemin d'accès en sélectionnant le niveau du chemin d'accès désiré puis en cliquant sur la petite icône apparaissant à côté.    
 _Peut être utile lors de l'enrichissement pour réaliser un lien (dans un tag ou une description) entre deux documents. Les deux unités peuvent être enrichies par les chemins permettant de faire un lien intellectuel entre les deux._    
 
 **La carte**
@@ -181,13 +181,13 @@ _Peut être utile lors de l'enrichissement pour réaliser un lien (dans un tag o
 [[images/2-1-2_carte.jpg]]    
 
 Elle vous permet de savoir où vous êtes dans l’arborescence lorsque vous naviguez au sein de celle-ci. Lorsqu’on descend de plusieurs sous-niveaux, la carte vous permet de vous resituer dans l’arborescence avec la zone en surbrillance et la zone grisée.    
-_Peut être utile lors de l’audit ou du traitement afin d’orienter son niveau d’analyse. Lorsqu’on étudie une partie infinitésimale de l’arborescence, mieux vaut ne pas s’y attarder._    
+_Peut être utile lors de l’audit ou du traitement afin d’orienter son niveau d’analyse. Lorsqu’on étudie une partie infinitésimale de l’arborescence, mieux vaut ne pas s’y attarder trop longtemps._    
 
 **Consulter l'élément**    
 
 [[images/2-1-2_ouvrir.jpg]]    
 
-Depuis Archifiltre, il est possible de consulter du niveau macro jusqu’au niveau le plus micro. Pour cela il suffit de cliquer sur un élément et ensuite sur la petite loupe dans la zone des caractéristiques de l’élément. Le document ou le dossier sélectionné s’ouvre. Cela n’est possible que si la connexion n’est pas rompue. Il n’est pas possible de consulter un document issue d’un espace serveur si nous n’avons plus la connexion, par exemple.
+Depuis Archifiltre, il est possible de consulter du niveau macro jusqu’au niveau le plus micro. Pour cela il suffit de cliquer sur un élément et ensuite sur la petite loupe dans la zone des caractéristiques de l’élément. Le document ou le dossier sélectionné s’ouvre. Cela n’est possible que si la connexion n’est pas rompue. Il n’est pas possible de consulter un document issu d’un espace serveur si nous n’avons plus la connexion, par exemple.
 
 **Rechercher un élément dans l'arborescence**    
 
@@ -197,7 +197,7 @@ Pour rechercher un élément au sein de l’arborescence, il est possible de cli
 
 [[images/2-1-2_filtre2.jpg]]    
 
-Lorsque la fenêtre s’ouvre, il est possible de rechercher un fichier ou un dossier en tapant son nom dans la barre de recherche. Il est également possible de ressortir une liste d’éléments en appliquant des filtres : son type, sa taille, un tag. Pour une recherche plus fine et/ou l’application d’un plus grand nombre de filtre, il convient de générer le csv de l’arborescence depuis Archifiltre. Le csv a la complétude d’un récolement de l’ensemble des fichiers et dossiers de l’arborescence et contient l’ensemble des enrichissements.    
+Lorsque la fenêtre s’ouvre, il est possible de rechercher un fichier ou un dossier en tapant son nom dans la barre de recherche. Il est également possible de ressortir une liste d’éléments en appliquant des filtres : son type, sa taille, un tag. Pour une recherche plus fine et/ou l’application d’un plus grand nombre de filtres, il convient de générer le csv de l’arborescence depuis Archifiltre. Le csv a la complétude d’un récolement de l’ensemble des fichiers et dossiers de l’arborescence et contient l’ensemble des enrichissements.    
 
 ### 2.2 L’onglet « enrichissement »
 
@@ -205,7 +205,7 @@ Cet onglet a pour objectif d’enrichir l’arborescence à travers l’ajout de
 
 [[images/2-2_enrichissement.jpg]]    
 
-Dans la partie gauche de la zone des métadonnées nous avons l’ensemble des métadonnées de l’élément : son nom, sa volumétrie, son mime type (son identifiant format de données), son hash (empreinte) et les dernières dates de modification.
+Dans la partie gauche de la zone des métadonnées, nous retrouvons l’ensemble des métadonnées de l’élément : son nom, sa volumétrie, son mime type (son identifiant format de données), son hash (empreinte) et les dernières dates de modification.
 
 #### 2.2.1 Le renommage
 
@@ -230,7 +230,7 @@ _La description peut être utilisée dans le cadre du traitement en tant que « 
 
 Le tag permet d’appliquer à un dossier ou à un fichier une information. Cette information s’ajoute à la bibliothèque des tags. Lorsqu’un tag est appliqué, il se visualise par un liseré bleu foncé sur le haut de l'item. Pour appliquer un tag, il suffit de le taper dans la zone de texte, si le tag existe déjà, il est alors immédiatement proposé. Pour supprimer un tag sur un élément, il faut sélectionner l’élément, aller dans la zone « tag » et cliquer sur la petite croix à droite du tag en question.
 
->**Attention**, lorsqu'on applique un tag sur un dossier, le tag s’applique à un niveau parent, il s’applique à tous les niveaux fils. 
+>**Attention**, lorsqu'on applique un tag sur un dossier, le tag s’applique à un niveau parent, il s’applique à tous les niveaux enfants. 
 Peut être utile dans le cadre d’un audit en appliquant des actions à réaliser (à éliminer, à archiver, à transférer…) ou dans le cadre du traitement en appliquant une action, un terme d'indexation ou pour faire un rapprochement intellectuel entre deux éléments dans l’arborescence (du type répertoire méthodique).    
 
 #### 2.2.4 La bibliothèque de tag    
@@ -244,7 +244,7 @@ _Peut être utile pour un retour d’audit sur le nombre de dossiers éliminable
 
 [[images/2-2-5_eliminer.jpg]]    
 
-Ce tag est un tag automatisé qui permet d'appliquer l'action "A éliminer" à un élément ou à l’ensemble d'éléments d'un répertoire. Pour supprimer ce tag, il suffit de sur l’élément en question puis sur la petite corbeille à gauche du tag. Ce tag se matérialise par un liseré rouge sur l’élément.    
+Ce tag est un tag automatisé qui permet d'appliquer l'action "A éliminer" à un élément ou à l’ensemble d'éléments d'un répertoire. Pour supprimer ce tag, il suffit de cliquer sur l’élément en question puis sur la petite corbeille à gauche du tag. Ce tag se matérialise par un liseré rouge sur l’élément.    
 Vous retrouverez la liste des éléments tagués "A supprimer" dans l'export CSV ou dans le rapport d’audit. Cette liste permet d’aider à rédiger un bordereau d’élimination (le récolement peut être joint au bordereau d'élimination, par exemple).    
 
 >**Attention :** Lors de l’export ReSIP, les éléments ayant le tag « à éliminer » ne sont pas exportés. Ainsi, ils ne sont pas intégrés dans le SAE.
@@ -263,21 +263,21 @@ Cet onglet a pour objectif d’étudier l’arborescence dans une approche d’a
 [[images/2-3_audit.jpg]]    
 
 Il est possible dans cet onglet d’étudier le nombre de fichiers de l’arborescence et le niveau de profondeur de l’arborescence. Un graphique permet également de connaître la répartition des fichiers par type. 
-Il est possible de générer un rapport d’audit depuis Archifiltre. Ce rapport d’audit est un fichier de traitement de texte et peut être modifié autant que l’on souhaite. Dans ce rapport est analysé :
+Il est possible de générer un rapport d’audit depuis Archifiltre. Ce rapport d’audit est un fichier de traitement de texte et peut être modifié autant que l’on souhaite. Dans ce rapport, sont présentés automatiquement :
 -	Les chiffres clés de l’arborescence
 -	La répartition des éléments par type d’extension
--	Top 5 des répertoires/dossiers les plus anciens
--	Top 5 des répertoires/dossiers les plus volumineux
+-	Un top 5 des répertoires/dossiers les plus anciens
+-	Un top 5 des répertoires/dossiers les plus volumineux
 -	Chiffres clés sur les doublons
--	Top 5 des éléments les plus récurrents dans l’arborescence
--	Top 5 des éléments présents plusieurs fois les plus volumineux
+-	Un top 5 des éléments les plus récurrents dans l’arborescence
+-	Un top 5 des éléments présents plusieurs fois les plus volumineux
 -	La liste des éléments ayant le tag « à éliminer »    
 
 ### 2.4 L’onglet « redondances »
 
 Dans cet onglet, l’objectif est de pouvoir travailler sur les éléments en redondances dans l’arborescence.    
  
-Pourquoi avons-nous fait le choix d’utiliser le terme de « redondance » plutôt que celui de « doublon », plus commun ? D’une part, notre expérience nous pousse à nous rendre compte que nous retrouvons bien plus qu’un doublon dans les arborescences. D’autre part le terme de « doublon », dans le jargon archivistique, sous-entend l’inutilité du deuxième élément. Or la présence d’une information à plusieurs endroits peut avoir un sens. Si le calcul d’empreintes nous permet de retrouver l’ensemble des redondances, le SEDA 2.1 nous permet également de conserver un seul fichier et les métadonnées des localisations. Redondance ne rime pas avec impertinence.     
+Pourquoi avons-nous fait le choix d’utiliser le terme de « redondance » plutôt que celui de « doublon », plus commun ? D’une part, notre expérience nous pousse à nous rendre compte que nous retrouvons bien plus qu’un doublon dans les arborescences. D’autre part, le terme de « doublon », dans le jargon archivistique, sous-entend l’inutilité du deuxième élément. Or, la présence d’une information à plusieurs endroits peut avoir un sens. Si le calcul d’empreintes nous permet de retrouver l’ensemble des redondances, le SEDA 2.1 nous permet également de conserver un seul fichier et les métadonnées des localisations. Redondance ne rime pas avec impertinence.     
 
 #### 2.4.1 Visualiser les redondances
 
@@ -287,7 +287,7 @@ Le premier graphique permet de voir la part des éléments redondants au sein de
 
 #### 2.4.2 Naviguer au sein des redondances
 
-La deuxième partie de l’onglet est la liste de l’ensemble des éléments en redondance dans l’arborescence. Ce regroupement des redondances permet, notamment, de réfléchir au sens de leur existence et de déterminer, si nécessaire, l’élément de référence. Pour faciliter l’accès au éléments redondants, un moteur de recherche permet de saisir les mots clefs pour retrouver les éléments redondants que l’on souhait étudier.    
+La deuxième partie de la vue est la liste de l’ensemble des éléments en redondance dans l’arborescence. Ce regroupement des redondances permet, notamment, de réfléchir au sens de leur existence et de déterminer, si nécessaire, l’élément de référence. Pour faciliter l’accès aux éléments redondants, un moteur de recherche permet de saisir les mots clefs pour retrouver les éléments redondants que l’on souhaite étudier.    
 
 [[images/2-4-2_naviguer-redondances.jpg]]    
 
@@ -295,19 +295,19 @@ La deuxième partie de l’onglet est la liste de l’ensemble des éléments en
 
 ### 3.1 Le rapport d'audit
 
-Il est possible de générer un rapport d’audit depuis Archifiltre. Ce rapport d’audit est un fichier de traitement de texte et peut être modifié autant que l’on souhaite. Dans ce rapport est analysé :    
+Il est possible de générer un rapport d’audit depuis Archifiltre. Ce rapport d’audit est un fichier de traitement de texte et peut être modifié autant que l’on souhaite. Dans ce rapport, sont présentés automatiquement :
 -	Les chiffres clés de l’arborescence
 -	La répartition des éléments par type d’extension
--	Top 5 des répertoires/dossiers les plus anciens
--	Top 5 des répertoires/dossiers les plus volumineux
+-	Un top 5 des répertoires/dossiers les plus anciens
+-	Un top 5 des répertoires/dossiers les plus volumineux
 -	Chiffres clés sur les doublons
--	Top 5 des éléments les plus récurrents dans l’arborescence
--	Top 5 des éléments présents plusieurs fois les plus volumineux
+-	Un top 5 des éléments les plus récurrents dans l’arborescence
+-	Un top 5 des éléments présents plusieurs fois les plus volumineux
 -	La liste des éléments ayant le tag « à éliminer »
 
 ### 3.2 Les csv (avec et sans empreintes)
 
-L’export csv est un tableur contenant l’ensemble des éléments. Chaque ligne du tableur correspond à un fichier ou un dossier de l’arborescence. Dans le csv est indiqué :
+L’export csv est un tableur contenant l’ensemble des métadonnées des éléments analysés. Chaque ligne du tableur correspond à un fichier ou un dossier de l’arborescence. Dans le csv, sont présentés :
 -	Le chemin d’accès
 -	La longueur du chemin d’accès
 -	Le nom de l’élément
@@ -318,22 +318,21 @@ L’export csv est un tableur contenant l’ensemble des éléments. Chaque lign
 -	Le nouveau chemin d’accès
 -	Le nouveau nom
 -	La description
--	Fichier ou Répertoire
+-	L'indication du type d'élément: Fichier ou Répertoire
 -	La profondeur de l’élément dans l’arborescence
 -	Le nombre de fichiers contenu (si c’est un dossier)
 -	Le type
 -	L’empreinte
 -	La redondance (oui/non)
--	Les tags
+-	Les tags : 1 colonne par tag différent
 
->**Attention :** Il est possible qu’en ouvrant le csv avec Excel, les accents ne soient pas lisibles. Pour régler le problème il faut ouvrir Excel, aller dans l’onglet « données », sélectionner « données externes » puis fichier texte. Lorsque la fenêtre de dialogue est ouverte, sélectionner le csv exporté depuis Archifiltre. Une nouvelle fenêtre s’ouvre, pour l’information « origine du fichier », sélectionner « 65001 : Unicode (UTF-8) » (en bas de la liste), puis cliquer sur suivant. Pour l’information séparateurs, sélectionner « point-virgule ». Cliquer sur suivant puis terminer. Le csv est ouvert et lisible dans Excel.
+>**Attention :** Il est possible qu’en ouvrant le csv avec Miicrosoft Excel, les accents ne soient pas lisibles. Pour régler le problème il faut ouvrir Excel, aller dans l’onglet « données », sélectionner « données externes » puis fichier texte. Lorsque la fenêtre de dialogue est ouverte, sélectionner le csv exporté depuis Archifiltre. Une nouvelle fenêtre s’ouvre, pour l’information « origine du fichier », sélectionner « 65001 : Unicode (UTF-8) » (en bas de la liste), puis cliquer sur suivant. Pour l’information séparateurs, sélectionner « point-virgule ». Cliquer sur suivant puis terminer. Le csv est ouvert et lisible dans Excel.
 
 ### 3.3 ReSIP
 
 L’export ReSIP est un export au format csv qui est exploitable par le logiciel [ReSIP](https://www.programmevitam.fr/pages/ressources/resip/) (développé par le programme [VITAM](https://www.programmevitam.fr/)    
 
 Dans cet export est indiqué au format SEDA 2.1    
-
 -	ID
 -	Parent ID
 -	File
@@ -370,15 +369,16 @@ La visualisation d’Archifiltre étant pondérée par le poids des dossiers, la
 
 Avant d’entrer plus en détail dans un répertoire, il est important d’en étudier sa structure par sa visualisation. Ici, il n’est pas difficile de voir que l’arborescence présente quatre fois une structuration similaire. Pour qu’un tel résultat apparaisse dans la visualisation globale du répertoire, il y a deux possibilités : soit il y a un classement sériel (type chronologique, géographique…) soit il y a des dossiers similaires créés à des endroits différents et qui comportent plus ou moins les mêmes fichiers (puisque la visualisation est pondérée par poids).
 
-**Que faire ?** Pour déterminer plus précisément la situation à laquelle on est confronté, il est inévitable de rentrer plus en profondeur dans l’analyse de ces dossiers. Dans cet exemple, des dossiers et des fichiers de mêmes noms ont été retrouvés. Pour déterminer si les dossiers sont de véritables doublons, un récolement doit être réalisé. Pour cela, chaque dossier doit être intégré, à son niveau le plus haut, dans Archifiltre. En faisant un export csv, nous obtenons le récolement. (à réaliser ici quatre fois). En établissant les différences via les csv, il est possible de déterminer avec exactitude quel dossier est le plus complet, quels dossiers manquent, quels dossiers disposent des dernières versions etc.
+**Que faire ?** Pour déterminer plus précisément la situation à laquelle on est confronté.e, il est inévitable de rentrer plus en profondeur dans l’analyse de ces dossiers. Dans cet exemple, des dossiers et des fichiers de mêmes noms ont été retrouvés. Pour déterminer si les dossiers sont de véritables doublons, un récolement doit être réalisé. Pour cela, chaque dossier doit être intégré, à son niveau le plus haut, dans Archifiltre. En faisant un export csv, nous obtenons le récolement. (à réaliser ici quatre fois). En établissant les différences via les csv, il est possible de déterminer avec exactitude quel dossier est le plus complet, quels dossiers manquent, quels dossiers disposent des dernières versions etc.
 
->**Attention :** Réaliser un dé-doublonnage est plus compliqué qu’il n’y paraît. Dans cet exemple, il faut déterminer les différences entre ces quatre arborescences : Où sont les fichiers définitifs ? Est-ce qu’on retrouve l’intégralité des fichiers dans la plus grosse arborescence ? Quelle arborescence fait référence ? Un logiciel de dé-doublonnage va supprimer les fichiers sans déterminer une logique de tri. La visualisation de doublons impose donc un travail de réflexion en amont et de choix d'évaluation en fonction de la connaissance du contexte.
+>**Attention :** Réaliser un dé-doublonnage est plus compliqué qu’il n’y paraît. Dans cet exemple, il faut déterminer les différences entre ces quatre arborescences : Où sont les fichiers définitifs ? Est-ce qu’on retrouve l’intégralité des fichiers dans la plus grosse arborescence ? Quelle arborescence fait référence ? Un logiciel de dé-doublonnage va supprimer les fichiers sans avoir une logique de tri. La visualisation de doublons impose donc un travail de réflexion en amont et de choix d'évaluation en fonction de la connaissance du contexte.
+Par ailleurs, il n'est pas forcément nécessaire de dé-doublonner. Dans le cas d'un versement dans un SAE, le manifest du SIP peut faire réfrénece plusieurs fois à un même élément mais cet élément ne sera conservé qu'une seule fois, il n'y a donc plus de doublon stricto sensu.
 
 #### Cas 3 – Une arborescence chronologique
 
 [[images/4-1_structure-chrono.jpg]]
 
-La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peut donner les premières clefs d’analyse et d’audit. Toutefois, certains bureaux peuvent être amenés à avoir une production sérielle, qui peut être classée de façon chronologique. A plus ou moins grande échelle, tous les bureaux ont une partie d’arborescence sérielle. Le chrono-courrier d’un secrétariat, les dossiers de gestion annuelle d’un bureau des ressources humaines, le registre d’entrée ou d’élimination du bureau des archives etc.    
+La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peut donner les premières clefs d’analyse et d’audit. Toutefois, certains services peuvent être amenés à avoir une production sérielle, qui peut être classée de façon chronologique. A plus ou moins grande échelle, tous les bureaux ont une partie d’arborescence sérielle. Le chrono-courrier d’un secrétariat, les dossiers de gestion annuelle d’un bureau des ressources humaines, le registre d’entrée ou d’élimination du bureau des archives etc.    
 
 **Que faire ?** Pour une analyse du répertoire à échelle macro, la visualisation pondérée n’apporte aucune plus-value. En revanche, il est possible de s’appuyer sur l’ensemble des métadonnées pour aborder l’arborescence d’une autre manière. Lorsqu’un répertoire a une date de dernière modification qui remonte à plusieurs années, on peut considérer alors que ce dossier est clos. A l’instar du papier, il est possible de débuter l’évaluation.    
 
@@ -388,7 +388,7 @@ La visualisation d’ensemble d’une arborescence (par poids ou par nombre) peu
 
 _Visualisation par poids :_
 [[images/4-1_vision-poids.jpg]]    
-Étudier une arborescence contenant des fichiers volumineux n’est pas pertinente avec la pondération par poids. De fait, plus un fichier est volumineux, plus sa visualisation au sein de l’arborescence est importante. Si le volume par poids peut être un indicateur de tri, il n’est pas forcément un bon indicateur dans un audit ou une opération de collecte. Avec la pondération par poids, notre arborescence ci-dessous, nous oriente vers une priorisation du tri du premier et du deuxième dossier au premier niveau.    
+Étudier une arborescence contenant des fichiers volumineux n’est pas pertinent avec la pondération par poids. De fait, plus un fichier est volumineux, plus sa visualisation au sein de l’arborescence est importante. Si le volume par poids peut être un indicateur de tri, il n’est pas forcément un bon indicateur dans un audit ou une opération de collecte. Avec la pondération par poids, notre arborescence ci-dessous, nous oriente vers une priorisation du tri du premier et du deuxième dossier au premier niveau.    
 
 _Visualisation par nombre :_    
 [[images/4-1_vision-nombre.jpg]]     
@@ -409,7 +409,7 @@ Dans cette première partie, il s’agit de faire un état des lieux de l’arbo
 Cette rubrique a pour objectif de pondérer l’arborescence selon les types de fichiers produits. Cette indication n’est qu’un élément d’orientation pour un audit. Par exemple, la présence en masse de fichiers de type tableur peut indiquer la conservation d’un grand nombre de fichiers de suivi ou d’export de logiciels. Une présence très importante de fichiers de type média peut indiquer une utilisation non appropriée ou abusive du réseau commun.    
 
 3 Top 5 des répertoires/dossiers le plus anciens    
-Dans cette partie est mise en avant, les dossiers dont les dernières dates de modification sont les plus anciennes du répertoire. Cette information peut être une orientation pour collecter ou éliminer réglementairement ces dossiers.    
+Dans cette partie sont mis en avant les dossiers dont les dernières dates de modification sont les plus anciennes du répertoire. Cette information peut être une orientation pour collecter ou éliminer réglementairement ces dossiers.    
 
 4 Top 5 des répertoires/dossiers les plus volumineux    
 A l’instar des archives papier, la volumétrie reste toujours un premier indicateur pour approcher un fonds à évaluer, collecter, traiter.    
@@ -423,7 +423,7 @@ Le chemin d’accès d’un fichier ou d’un répertoire est la chaîne de cara
 
 _Pourquoi faut-il étudier les chemins d’accès ?_    
 
-Pour des raisons techniques, les chemins d’accès ne peuvent dépasser 256 caractères dans un environnement Windows. Cette limite peut vite être atteinte avec une arborescence trop profonde. Elle peut également être vite atteinte à cause du nommage d’un fichier. Quand la limite des 256 caractères est dépassée, les fichiers ne peuvent plus être consultés ou déplacés dans le répertoire.    
+Pour des raisons techniques, les chemins d’accès ne peuvent dépasser 256 caractères dans la plupart des environnements Windows. Cette limite peut vite être atteinte avec une arborescence trop profonde. Elle peut également être vite atteinte à cause du nommage d’un fichier. Quand la limite des 256 caractères est dépassée, les fichiers ne peuvent plus être consultés ou déplacés dans le répertoire.    
 Par exemple un fichier situé à un niveau 4, peut vite devenir bloquant s’il est mal nommé.    
 J://Direction/Archives/0_Procédures-et-doc/Textes/loi n 78-753du 17 juillet 1978 portant diverses mesures d'amélioration des relations entre l'administration et le public et diverses dispositions d'ordre administratif social et fiscal    
 
@@ -465,16 +465,16 @@ Sans même naviguer au sein de l’arborescence, il est déjà possible de déga
 
 L’indice de la volumétrie de l’arborescence: on peut mettre en relief ce chiffre avec celui d’autres services, calculer son pourcentage d’occupation de l’espace serveur.    
 
-Les métadonnées de dates peuvent également donner une orientation. Par exemple, le fichier le plus ancien, date de 1980 et la date moyenne se situe à 2010 et la médiane à 2000. On peut d’ores-et-déjà estimer que des dossiers sont clos et peuvent être sûrement archivés ou éliminés.    
+Les métadonnées de dates peuvent également donner une orientation. Par exemple, le fichier le plus ancien date de 1980 et la date moyenne se situe à 2010 et la médiane à 2000. On peut d’ores-et-déjà estimer que des dossiers sont clos et peuvent être sûrement archivés ou éliminés.    
 
 L’indication du nombre de fichiers et de dossiers peut être parlante si l’on dispose de moyens de comparaison. Si on ne dispose pas de moyens de comparaison, on peut faire le ratio nombre de fichiers / nombres de dossiers. Ici : 104812/7721=13,5. Cette information est purement théorique, mais une arborescence où le ratio descend à moins de dix fichiers, on peut de suite savoir qu’il y a un problème d’organisation. L’arborescence est trop ramifiée et l’information perdue.    
 
 
 _Deuxième étape : proposer un rapport d’audit_   
 
-Pour débuter un rapport d’audit, il faut dans un premier s’appuyer sur le rapport d’audit généré automatiquement par Archifiltre. C’est un format texte et modifiable, il peut être complété et modifié sur sa forme.    
+Pour débuter un rapport d’audit, il faut dans un premier temps s’appuyer sur le rapport d’audit généré automatiquement par Archifiltre. C’est un format texte et modifiable, il peut être complété et modifié sur sa forme. Chacun peut y ajouter son logo, ses références et ses analyses complémentaires.   
 
-L’audit généré automatiquement réalise des préconisations essentiellement techniques. C’est au tour de l’archiviste de l’agrémenter d’éléments d’analyse plus approfondie.    
+L’audit généré automatiquement réalise des préconisations essentiellement techniques. C’est au tour de l’archiviste de l’agrémenter d’éléments d’analyse plus approfondis.    
 
 **Cas 1 – Proposer des améliorations de règles de nommage**    
 
@@ -510,7 +510,7 @@ RH > Recrutement > Contractuel > Non-abouti > 2019 (Monsieur X ; Madame Y) ; 202
 Des éliminables peuvent être identifiés dans le cadre de la collecte et de l’accompagnement des services, mais également dans le cadre de traitement d’archives définitives.    
 
 Comment trouver des éliminables dans le cadre de la collecte ?    
-Comme pour chacune de nos actions de collecte ou de d’accompagnement des services producteurs et versants, il est nécessaire de connaitre leurs missions, les documents produits et leurs règles de gestion.    
+Comme pour chacune de nos actions de collecte ou d’accompagnement des services producteurs et versants, il est nécessaire de connaitre leurs missions, les documents produits et leurs règles de gestion.    
 
 _Identifier des parties de l'arborescence qui ne sont plus alimentées_
 
