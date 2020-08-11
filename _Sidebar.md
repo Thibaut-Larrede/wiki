@@ -4,6 +4,7 @@
   * [Astuces](https://github.com/SocialGouv/archifiltre/wiki/Astuces)
   * [Données utilisateur](https://github.com/SocialGouv/archifiltre/wiki/Donn%C3%A9es-utilisateur)
   * [Historique](https://github.com/SocialGouv/archifiltre/wiki/Historique)
+  * [Script d'export](https://github.com/SocialGouv/archifiltre/wiki/Export-vers-Archifiltre-gr%C3%A2ce-%C3%A0-un-script-en-lignes-de-commande)
 * [Wiki de développement](https://github.com/SocialGouv/archifiltre/wiki/Wiki-de-d%C3%A9veloppement)
   * [Erreurs dans Sentry](https://github.com/SocialGouv/archifiltre/wiki/Erreurs-dans-Sentry)
   * [Interactions avec le système de fichiers](https://github.com/SocialGouv/archifiltre/wiki/Interactions-avec-le-syst%C3%A8me-de-fichiers)
