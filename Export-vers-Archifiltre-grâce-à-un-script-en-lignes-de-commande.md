@@ -13,7 +13,7 @@ Nous proposons 2 scripts : un script bash pour les systèmes UNIX/LINUX, et un s
 Récupérez le script Powershell [ici](https://raw.githubusercontent.com/SocialGouv/archifiltre/master/scripts/load-from-filesystem.ps1), puis exécutez-le :
 
 ```
-load-from-filesystem.ps1 chemin-vers-le-dossier-a-charger > chemin-du-fichier-de-sortie
+load-from-filesystem.ps1 -Path chemin-vers-le-dossier-a-charger > chemin-du-fichier-de-sortie
 ```
 
 Un fichier d'export sera créé.
