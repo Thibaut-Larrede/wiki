@@ -18,6 +18,11 @@ load-from-filesystem.ps1 -Path chemin-vers-le-dossier-a-charger > chemin-du-fich
 
 Un fichier d'export sera créé.
 
+La plupart du temps, Powershell bloquera l'exécution du script car il n'est pas signé. Pour résoudre le problème, il faudra exécuter la commande suivante, qui permettra de contourner la politique de sécurité d'exécution de scripts pour l'instance Powershell courante :
+```
+Set-ExecutionPolicy -ExecutionPolicy Bypass
+```
+
 ## Unix
 
 Récupérez le script Bash [ici](https://raw.githubusercontent.com/SocialGouv/archifiltre/master/scripts/load-filesystem.sh), puis exécutez-le :
