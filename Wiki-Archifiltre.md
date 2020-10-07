@@ -346,6 +346,24 @@ Dans cet export est indiqué au format SEDA 2.1
 -	Content.tag
 
 ### 3.4 METS (beta)
+Le format METS est un format créé par la Digital Library Foundation et maintenu par la Bibliothèque du Congrès. En France, il est principalement utilisé par les bibliothécaires, notamment à la Bibliothèque nationale de France.
+Cet export a la même constitution qu'un SIP (Submission Information Package) selon la norme OAIS (Open Archival Information System). Il est constitué d'un manifeste (= bordereau de versement) et des objets à archiver, le tout sous un format compressé. La différence est que dans le manifeste, les champs renseignés sont différents. Le format METS peut renseigner l'ensemble de ces éléments :
+
+- **metsHdr** donne des informations sur le fichier METS lui-même : par exemple la date de création et de dernière modification du fichier, le créateur du fichier, identifiant du fichier…
+- **dmdSec** comprend l’information bibliographique ; il peut également servir à décrire des sous parties d’un document (page d’un livre, face d’une cassette audio…) ;
+- **amdSec** comprend des métadonnées de gestion du document numérique décrit, divisées en 4 sous-sections :    
+sourceMD donne des informations sur la source dont le document numérique décrit est issu ; par exemple il s’agit du document physique original dans le cas d’une numérisation ;    
+**techMD** donne des informations techniques sur le document dans son ensemble (identifiants, version…) ainsi que sur chacun des fichiers qui le composent (format de fichier, caractéristiques techniques du fichier) ;    
+**digiprovMD** donne des informations sur l’historique du document numérique, depuis sa création (numérisation, océrisation…) jusqu’au moment présent en passant par toutes les opérations (entrée dans un entrepôt, conversion de format…) qu’il a pu subir ;    
+- **rightsMD** donne des informations sur le statut juridique du document : libre de droit / sous droit, et les restrictions de communication qui en découlent (diffusable ou non, copie autorisée ou pas, etc.) ;    
+- **fileSec** fait l’inventaire de l’ensemble des fichiers qui composent le document, qu’il classe en différentes familles nommées « fileGrp » (par exemple : master, ocr, table des matières…). Il exprime les caractéristiques techniques de base de chacun de ces fichiers : taille, empreinte, emplacement du fichier… ;
+- **structMap** (seule section obligatoire) décrit une structure du document, qui correspond à la fois à un mode de navigation particulier et à une vue particulière sur le document. Chacune de ces cartes de structure permet d’identifier plusieurs niveaux de granularité dans le document :    
+**types de cartes de structure :** la carte de structure par défaut est physique, et peut être complétée par des cartes de structure de type logique. Une carte de structure physique exprime une navigation linéaire dans le document et correspond à la manière dont le document numérique est segmenté — par exemple numérisation et navigation page à page pour un imprimé —, tandis qu’une carte de structure logique permet une navigation non linéaire et indépendante de la manière dont le document a été numérisé (par exemple table des matières structurée en XML permettant de naviguer dans un ouvrage numérisé) ;
+**niveaux de granularité :** chaque carte de structure exprime les différents niveaux de granularité qui composent le document. Par exemple : titre de périodique, fascicule, page, fichier constituent 4 niveaux de granularité différents d’un périodique numérisé. Ce système permet, grâce à des liens internes, de relier toute information exprimée dans une ou une sous-section d’ au niveau de granularité adéquat. Par exemple, la description bibliographique concerne le document dans son ensemble, tandis que le signalement d’une page particulière comme une page de titre ne concernera qu’un élément particulier.    
+**structLink** permet d’exprimer des liens structurels entre différents éléments du document, par exemple des hyperliens entre une page et une autre si le document décrit est un site Web ;    
+**behaviorSec** permet d’associer explicitement des fichiers à des programme permettant de les lire.    
+
+Cette partie s'appuie sur un article de la BnF, pour le retrouver et se documenter d'avantage, cliquer sur le lien suivant : [Formet METS](https://www.bnf.fr/fr/mets-metadata-encoding-and-transmission-standard)    
 
 ## 4. Mener une opération d'audit et de collecte
 
