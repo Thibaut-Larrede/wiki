@@ -717,6 +717,18 @@ Pour établir le lien entre Archifiltre et ReSIP, il faut réaliser l'export « 
 
 Il convient ensuite d'importer cet export dans ReSIP. Les principales actions à mener dans ReSIP vont être la description de l'en-tête du versement, les règles d'accès (au niveau du versement ou de l'item) et la modification des dates extrêmes (si des métadonnées sont modifiées par la consultation du document, par exemple).    
 
+Avant de procéder à l'import du csv dans ReSIP, il est important de vérifier les préférences d'import. Pour cela, il faut aller dans Fichier>préférence...
+
+[[images/5-1-1_ReSIP-preference.jpg]]
+
+Dans l’onglet import, vérifier que l’encodage des csv est bien paramétré en UTF-8 :
+
+[[images/5-1-2_ReSIP-import.jpg]]
+
+Cliquer sur « ok » et revenir à l’écran principal. Dans le menu « Import », sélectionner « Importer depuis un csv de métadonnées ».    
+
+[[images/5-1-2_ReSIP-import-csv.jpg]]
+
 Pour éclaircir la méthodologie et l'interopérabilité entre Archifiltre et ReSIP, a été créé par l'équipe Archifiltre un logigramme pour traiter un versement bureautique.    
 
 [[images/5-1-2_logigramme.png]]    
