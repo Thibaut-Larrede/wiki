@@ -711,11 +711,12 @@ Le champ "Description" peut être utilisé lorsqu'on souhaite décrire l'objet p
 #### 5.1.2 Enrichir depuis ReSIP
 
 L'ensemble du traitement du versement ne peut être complètement réalisé depuis Archifiltre. Pour le finaliser, il convient d'utiliser [ReSIP](https://www.programmevitam.fr/pages/ressources/resip/) développé par le programme [VITAM](https://www.programmevitam.fr/).    
-Pour établir le lien entre Archifiltre et ReSIP, il faut réaliser l'export « ReSIP » depuis Archifiltre.    
+Pour établir le lien entre Archifiltre et ReSIP, il faut réaliser l'export « ReSIP » depuis Archifiltre.   
+>**Attention :** Le séparateur de champs du CSV généré par Archifiltre est le point-virgule ";". Il faut bien penser à choisir ce séparateur dans les préférences d'import de ReSip. 
 
 [[images/5-1_resip.jpg]]    
 
-Il convient ensuite d'importer cet export dans ReSIP. Les principales actions à mener dans ReSIP vont être la description de l'en-tête du versement, les règles d'accès (au niveau du versement ou de l'item) et la modification des dates extrêmes (si des métadonnées sont modifiées par la consultation du document, par exemple).    
+Il convient ensuite d'importer cet export dans ReSIP (en choisissant le point-virgule dans les paramètres d'import). Les principales actions à mener dans ReSIP vont être la description de l'en-tête du versement, les règles d'accès (au niveau du versement ou de l'item) et la modification des dates extrêmes (si des métadonnées sont modifiées par la consultation du document, par exemple).    
 
 Avant de procéder à l'import du csv dans ReSIP, il est important de vérifier les préférences d'import. Pour cela, il faut aller dans Fichier>préférence...
 
