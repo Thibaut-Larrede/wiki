@@ -6,6 +6,8 @@ L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bur
 
 Retrouvez-nous également sur notre chaîne [Youtube](https://www.youtube.com/channel/UClDwrT-Y1NY9WnEiXLMHp6w) 🎥 pour des tutos et sur notre compte [Twitter](https://twitter.com/archifiltre?lang=fr) 🐦 pour nous poser toutes vos questions ! 
 
+**Vos besoins :** Vous avez besoin d'informations, d'articles particuliers ? Faites vos propositions [ici](http://scrumblr.ca/Wiki%20Archifiltre) ! _(Anonyme et sans inscription)_
+
 Ce wiki est adapté pour les versions à partir de la v.3.0. Retrouvez le wiki adapté aux versions précédentes [ici](https://github.com/SocialGouv/archifiltre/wiki/Wiki-Archifiltre-(anciennes-versions)).
 
 # Sommaire : 
