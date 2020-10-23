@@ -33,12 +33,14 @@ Ce wiki est adapté pour les versions à partir de la v.3.0. Retrouvez le wiki a
 2.4 [L’onglet « redondances »](#24-longlet--redondances-)    
  >2.4.1 [Visualiser les redondances](#241-visualiser-les-redondances)    
  >2.4.2 [Naviguer au sein des redondances](#242-naviguer-au-sein-des-redondances)    
+2.5 [L'outil rechercher et filtrer](#25-loutil-rechercher-et-filtrer)  
 
 ### 3. [Utiliser les exports d'Archifiltre](#3-utiliser-les-exports-darchifiltre)    
 3.1 [Le rapport d'audit](#31-le-rapport-daudit)    
 3.2 [Le csv (avec et sans empreintes)](#32-les-csv-avec-et-sans-empreintes)    
-3.3 [ReSIP](#33-resip)    
-3.4 [METS (beta)](#34-mets-beta)     
+3.3 [Excel](#33-excel)
+3.4 [ReSIP](#34-resip)    
+3.5 [METS (beta)](#35-mets-beta)     
 
 ### 4. [Mener une opération d'audit et de collecte](#4-mener-une-opération-daudit-et-de-collecte)    
 4.1 [Je souhaite étudier la structure d'une arborescence](#41-je-souhaite-étudier-la-structure-dune-arborescence)    
@@ -364,7 +366,7 @@ L’export contient exactement les mêmes données que les csv. Il permet d’av
 L’export Excel permet de corriger directement les problèmes d’accentuation que nous pouvons avoir lorsque nous ouvrons un csv avec Excel.     
 
 
-### 3.3 ReSIP
+### 3.4 ReSIP
 
 L’export ReSIP est un export au format csv qui est exploitable par le logiciel [ReSIP](https://www.programmevitam.fr/pages/ressources/resip/) (développé par le programme [VITAM](https://www.programmevitam.fr/)    
 
@@ -381,7 +383,7 @@ Dans cet export est indiqué au format SEDA 2.1
 -	Description
 -	Content.tag
 
-### 3.4 METS (beta)
+### 3.5 METS (beta)
 Le format METS est un format créé par la Digital Library Foundation et maintenu par la Bibliothèque du Congrès. En France, il est principalement utilisé par les bibliothécaires, notamment à la Bibliothèque nationale de France.
 Cet export a la même constitution qu'un SIP (Submission Information Package) selon la norme OAIS (Open Archival Information System). Il est constitué d'un manifeste (= bordereau de versement) et des objets à archiver, le tout sous un format compressé. La différence est que dans le manifeste, les champs renseignés sont différents. Le format METS peut renseigner l'ensemble de ces éléments :
 
