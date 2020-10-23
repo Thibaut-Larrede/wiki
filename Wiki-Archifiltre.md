@@ -1,6 +1,6 @@
 # Bienvenue sur le wiki Archifiltre 📃 
 
-L’objectif d’ArchiFiltre est de proposer à tout utilisateur de fichiers bureautiques un outil de visualisation d’arborescences complètes afin de pouvoir les appréhender rapidement en vue de les décrire, les organiser, les trier et aussi les enrichir en apportant de la contextualisation et de la qualification aux documents.
+L’objectif d’Archifiltre est de proposer à tout utilisateur de fichiers bureautiques un outil de visualisation d’arborescences complètes afin de pouvoir les appréhender rapidement en vue de les décrire, les organiser, les trier et aussi les enrichir en apportant de la contextualisation et de la qualification aux documents.
 
 [[images/0_page-garde.png]]
 
@@ -60,26 +60,36 @@ Ce wiki est adapté pour les versions à partir de la v.3.0. Retrouvez le wiki a
 ### 1.1 Installer Archifiltre    
 
 Vous pouvez télécharger gratuitement l'outil Archifiltre en cliquant sur ce lien : https://archifiltre.fabrique.social.gouv.fr    
-Choisissez la version que vous désirez installer (la dernière version est automatiquement sélectionnée) et choisissez votre explorateur (Windows 32 bits ou 64 bits; Linux ou Mac). Cliquez ensuite sur "Découvrir l'application". Le téléchargement d'Archifiltre va se lancer automatiquement.    
+Cliquez sur le bouton télécharger. Le site déterminera automatiquement votre explorateur (Windows 32 ou 64 bits, Linux ou Mac). Le téléchargement va ensuite se lancer automatiquement. Si vous désirez une autre version pour un besoin particulier, cliquer sur le lien suivant : 
+https://archifiltre.fabrique.social.gouv.fr/telechargements    
+
 Le fichier s'enregistre sous le nom « Archifiltre.exe ». Double-cliquez pour lancer l'exécution de l'outil. Il n'y a pas d'installation à faire, Archifiltre s’exécute immédiatement !    
 
 >**Attention :** Il est possible que votre système d'exploitation ou votre antivirus vous demande si ce programme est sûr, il n'y a pas d'inquiétude à avoir, le logiciel est sans danger, vous pouvez forcer l'installation.
 
 ### 1.2 Paramétrer Archifiltre    
 
-Cliquer sur l’icône « profil » en haut à droite puis sélectionner « paramètres ». Une fenêtre s’ouvre et vous permet de paramétrer la langue de votre choix. Archifiltre est disponible en Français, en Anglais et en Allemand. 
+Cliquer sur le bouton « Paramètres » en bas à gauche. Une fenêtre s’ouvre et vous permet de paramétrer différents éléments.    
 
-[[images/1-2_parametrer.JPG]]
+[[images/1-2_parametrer.JPG]]    
 
+- La langue de votre choix : Archifiltre est disponible en français, en anglais et en allemand.
+- Votre politique de confidentialité : Archifiltre utilise les outils Sentry (remontée des anomalies techniques) et Matomo (remontée des statistiques d'utilisation). Retrouvez plus d'information sur notre F.A.Q (https://archifiltre.fabrique.social.gouv.fr/faq)
 ### 1.3 Charger mon répertoire
 
 Lorsque Archifiltre est lancé, il suffit de réaliser un glisser-déposer pour visualiser votre répertoire.
 
 [[images/1-3_charger.JPG]]
 
-Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour découvrir les nouvelles fonctionnalités de la version en cliquant sur le lien « quoi de neuf ? » ou le « ? » si vous souhaitez revenir sur le wiki.    
+Il également possible de charger un répertoire en passant par une fenêtre de dialogue. Il est également possible de retrouver les répertoires les plus chargés. Cela est juste un raccourci, il faut charger à nouveau le répertoire.    
+
+[[images/1-3_charger-fenetre.jpg]]     
+
+Votre répertoire commence à être chargé dans Archifiltre. Profitez-en pour découvrir les nouvelles fonctionnalités ou des cas d’usage en vous rendant sur le wiki en cliquant sur le bouton « Documentation ».
 
 [[images/1-3_chargement.jpg]]    
+
+Si vous vous êtes trompé·e·s de répertoire, il est possible d’annuler le chargement en cliquant sur le bouton au centre, et en sélectionnant le bon dossier.
 
 Depuis la version V3.0.0, l’équipe Archifiltre a fait le choix de ne plus indexer les fichiers systèmes, les fichiers cachés et les fichiers temporaires des systèmes d’exploitation. Ces fichiers sont bloquant pour les SAE, alourdissent l’analyse d’une arborescence et faussent les calculs d’empreintes. De même, les dossiers vides ne sont plus importés dans Archifiltre.    
 
@@ -88,6 +98,14 @@ Depuis la version V3.0.0, l’équipe Archifiltre a fait le choix de ne plus ind
 Votre ordinateur a planté pendant votre session de travail ? Il possible de restaurer votre travail en relançant Archifiltre et en cliquant sur « Recharger la session précédente ». Vous retrouverez votre travail là où il s'est arrêté.    
 
 [[images/1-3_restaurer.JPG]]    
+
+Votre connexion à un espace serveur s’est coupée pendant le calcul d’empreintes de votre répertoire ? Vous allez recevoir une notification vous indiquant qu’une erreur s’est produite lors du chargement des empreintes.    
+
+[[images/1-3_erreur.jpg]]
+
+Cliquez sur la notification. Vous allez voir la liste de l’ensemble des éléments dont le calcul d’empreinte n’a pas pu se faire. Cliquez sur le bouton « réessayer » en bas à droite pour relancer le calcul d’empreinte. Vous pouvez également générer la liste des erreurs en cliquant sur le bouton « exporter ».
+
+[[images/1-3_reessayer-export.jpg]]     
 
 ### 1.4 Sauvegarder ma session de travail
 
@@ -293,6 +311,16 @@ La deuxième partie de la vue est la liste de l’ensemble des éléments en red
 
 [[images/2-4-2_naviguer-redondances.jpg]]    
 
+### 2.5 L'outil rechercher et filtrer    
+
+[[images/2-5_rechercher.JPG]]   
+
+Lorsque la fenêtre s’ouvre, il est possible de rechercher un fichier ou un dossier en tapant son nom dans la barre de recherche.    
+Il est également possible de ressortir une liste d’éléments en appliquant des filtres : son type, sa taille, un tag.    
+La liste des résultats peut être triée en cliquant sur la colonne « nom », « type », « taille », « dernière modification » ou « chemin ». Elle peut être également exportée au format csv en cliquant sur le bouton « exporter ».    
+Lorsqu’on a identifié un élément, il est possible de cliquer sur l’œil, tout à droite de la ligne. Cela renvoi à l’arborescence et montre où se situe l’élément.     
+Pour une recherche plus fine et/ou l’application d’un plus grand nombre de filtre, il convient de générer le csv de l’arborescence depuis les exports d’Archifiltre. L’export csv a la complétude d’un récolement de l’ensemble des fichiers et dossiers de l’arborescence et contient l’ensemble des enrichissements.     
+
 ## 3. Utiliser les exports d'Archifiltre
 
 ### 3.1 Le rapport d'audit
@@ -328,7 +356,13 @@ L’export csv est un tableur contenant l’ensemble des métadonnées des élé
 -	La redondance (oui/non)
 -	Les tags : 1 colonne par tag différent
 
->**Attention :** Il est possible qu’en ouvrant le csv avec Miicrosoft Excel, les accents ne soient pas lisibles. Pour régler le problème il faut ouvrir Excel, aller dans l’onglet « données », sélectionner « données externes » puis fichier texte. Lorsque la fenêtre de dialogue est ouverte, sélectionner le csv exporté depuis Archifiltre. Une nouvelle fenêtre s’ouvre, pour l’information « origine du fichier », sélectionner « 65001 : Unicode (UTF-8) » (en bas de la liste), puis cliquer sur suivant. Pour l’information séparateurs, sélectionner « point-virgule ». Cliquer sur suivant puis terminer. Le csv est ouvert et lisible dans Excel.
+>**Attention :** Il est possible qu’en ouvrant le csv avec Microsoft Excel, les accents ne soient pas lisibles. Pour régler le problème il faut ouvrir Excel, aller dans l’onglet « données », sélectionner « données externes » puis fichier texte. Lorsque la fenêtre de dialogue est ouverte, sélectionner le csv exporté depuis Archifiltre. Une nouvelle fenêtre s’ouvre, pour l’information « origine du fichier », sélectionner « 65001 : Unicode (UTF-8) » (en bas de la liste), puis cliquer sur suivant. Pour l’information séparateurs, sélectionner « point-virgule ». Cliquer sur suivant puis terminer. Le csv est ouvert et lisible dans Excel.
+
+### 3.3 Excel
+
+L’export contient exactement les mêmes données que les csv. Il permet d’avoir, dans deux onglets différent, un récolement avec toutes les métadonnées et enrichissement, l’autre avec la hiérarchise des éléments de l’arborescence.    
+L’export Excel permet de corriger directement les problèmes d’accentuation que nous pouvons avoir lorsque nous ouvrons un csv avec Excel.     
+
 
 ### 3.3 ReSIP
 
