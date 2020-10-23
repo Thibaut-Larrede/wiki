@@ -62,7 +62,11 @@ Ce wiki est adapté pour les versions à partir de la v.3.0. Retrouvez le wiki a
 ### 1.1 Installer Archifiltre    
 
 Vous pouvez télécharger gratuitement l'outil Archifiltre en cliquant sur ce lien : https://archifiltre.fabrique.social.gouv.fr    
-Cliquez sur le bouton télécharger. Le site déterminera automatiquement votre explorateur (Windows 32 ou 64 bits, Linux ou Mac). Le téléchargement va ensuite se lancer automatiquement. Si vous désirez une autre version pour un besoin particulier, cliquer sur le lien suivant : 
+Cliquez sur le bouton télécharger. Le site déterminera automatiquement votre système d'exploitation (Windows, Linux ou Mac). Le téléchargement va ensuite se lancer automatiquement.     
+
+>**Attention :** Pour Windows, le site Archifiltre va automatiquement télécharger le version 64 bits. Si vous souhaitez avoir la version 32 bits, rendez-vous sur le lien ci-dessous.   
+
+Si vous désirez une autre version pour un besoin particulier, cliquer sur le lien suivant : 
 https://archifiltre.fabrique.social.gouv.fr/telechargements    
 
 Le fichier s'enregistre sous le nom « Archifiltre.exe ». Double-cliquez pour lancer l'exécution de l'outil. Il n'y a pas d'installation à faire, Archifiltre s’exécute immédiatement !    
