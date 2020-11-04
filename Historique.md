@@ -1,3 +1,13 @@
+## v3.1.1
+
+Cette version "patch" apporte plusieurs petites fonctionnalités et correctifs de bugs :
+- Correction d'un bug sur la barre de chargement des empreintes
+- Nouveau design pour le module de chargement des empreintes et exports (en bas à gauche d'interface)
+- Correction d'un bug empêchant la lecture de certains JSON
+- Ajout de l'extension .mpeg dans les formats vidéo reconnus par Archifiltre
+- Enfin, nous vous invitons toujours à remplir notre [questionnaire pour nous donner vos retours](https://bit.ly/315pAd8)
+
+
 ### v3.1.0
 
 Cette version mineure est une évolution de la version 3 sortie cet été. En voici les principales nouveautés :
