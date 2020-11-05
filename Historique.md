@@ -5,6 +5,7 @@ Cette version "patch" apporte plusieurs petites fonctionnalités et correctifs d
 - Nouveau design pour le module de chargement des empreintes et exports (en bas à gauche d'interface)
 - Correction d'un bug empêchant la lecture de certains JSON
 - Ajout de l'extension .mpeg dans les formats vidéo reconnus par Archifiltre
+- Correction d'un bug d'affichage sur le rapport d'audit
 - Enfin, nous vous invitons toujours à remplir notre [questionnaire pour nous donner vos retours](https://bit.ly/315pAd8)
 
 
